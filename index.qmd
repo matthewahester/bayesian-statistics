@@ -72,7 +72,6 @@ submission instructions, and answer keys are **not** posted here — those live 
 by, **Blackboard (the LMS)**, which is authoritative for everything graded and operational.
 
 ::: {.callout-note appearance="simple"}
-**Diagnostic build.** This is a draft instructional site generated to exercise the course-building
-workflow. Topic flow is in place; dates, weights, and final policies are not sealed and are
-authoritative in the LMS.
+**Draft course site.** Topic flow is in place; dates, weights, and final policies are not sealed
+and are authoritative in the LMS.
 :::
