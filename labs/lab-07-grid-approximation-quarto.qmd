@@ -1,0 +1,143 @@
+---
+title: "Lab 7 — Grid approximation in Quarto"
+subtitle: "Build, sample, and verify a posterior on a grid, then render it as a reproducible report"
+page_mode: software_lab_week
+week_contract: software_note_lab
+source_mode: source-informed
+toc: true
+---
+
+> **Purpose.** This lab puts [Week 07](../notes/week-07-simulation-first-computation.qmd) into your
+> hands: you will approximate the bike-proportion posterior on a grid, draw from it, check the simulated
+> mean against the closed-form Beta posterior, and assemble the whole thing as a seeded, reproducible
+> Quarto report. Because this problem is conjugate, you can *verify* every approximation against a known
+> truth — which is the habit the lab is really teaching.
+
+## Goal
+
+Approximate a posterior on a grid, draw from it, compare to the exact Beta, and assemble a reproducible
+Quarto report. Concretely, by the end you will have a single `.qmd` that:
+
+- builds a grid approximation of the bike-proportion posterior,
+- samples posterior draws and summarizes them (mean and 95% credible interval),
+- overlays the grid result on the exact $\text{Beta}(10,18)$ posterior, and
+- renders cleanly to HTML with a session record.
+
+## Setup
+
+Confirm your local toolchain runs before you start: R must be discoverable by Quarto. If a render
+complains it cannot find R, work through the [setup page](../resources/r-vscode-quarto-setup.qmd) first
+(put R's `bin` on PATH, set `QUARTO_R`, or render from a shell that already has R on PATH). Everything
+below is **base R only** — no add-on packages — so once R renders a trivial chunk, you are ready.
+
+Create a new file `lab07.qmd` and copy the steps into it as chunks. Keep each chunk small so a failing
+line is easy to find.
+
+## Steps
+
+### Step 1 — Lay down the grid and the model
+
+The recurring problem: prior $\text{Beta}(2,2)$, data of **8 bikers in 24** surveyed (Binomial), whose
+conjugate posterior is $\text{Beta}(10,18)$. Build the grid and evaluate prior $\times$ likelihood.
+
+```{r}
+#| label: setup-grid
+theta <- seq(0, 1, length.out = 1001)         # 1001-point grid on [0,1]
+prior <- dbeta(theta, 2, 2)                     # Beta(2,2) prior density
+like  <- dbinom(8, size = 24, prob = theta)     # Binomial likelihood: y = 8, n = 24
+unnorm <- like * prior                           # unnormalized posterior = prior x likelihood
+post_grid <- unnorm / sum(unnorm)                # normalize: weights sum to 1
+head(data.frame(theta, post_grid), 3)
+```
+
+### Step 2 — Overlay the grid posterior on the exact Beta
+
+A correct grid approximation should sit on top of the exact $\text{Beta}(10,18)$ curve.
+
+```{r}
+#| label: fig-lab-overlay
+#| fig-cap: "Grid approximation (points) overlaid on the exact Beta(10,18) posterior (curve) for the bike proportion. Agreement confirms the grid is built correctly."
+#| fig-alt: "A smooth density curve for Beta(10,18) peaking just below 0.36, with open circles from the grid approximation lying directly on the curve across the whole range from about 0.15 to 0.65."
+exact <- dbeta(theta, 10, 18)
+grid_density <- post_grid / (theta[2] - theta[1])   # convert weights to density units
+plot(theta, exact, type = "l", lwd = 2,
+     xlab = expression(theta), ylab = "posterior density",
+     main = "Grid vs exact Beta(10,18)")
+points(theta[seq(1, 1001, by = 20)], grid_density[seq(1, 1001, by = 20)],
+       pch = 1, cex = 0.7)
+legend("topright", legend = c("exact Beta(10,18)", "grid approximation"),
+       lty = c(1, NA), pch = c(NA, 1), lwd = c(2, NA), bty = "n")
+```
+
+### Step 3 — Sample posterior draws and summarize
+
+Draw from the grid with probabilities equal to the normalized weights, then summarize like any data.
+**Seed first** so the result reproduces.
+
+```{r}
+#| label: fig-lab-draws
+#| fig-cap: "Histogram of 20,000 grid-sampled posterior draws with the simulated mean (solid) and 95 percent credible interval (dashed)."
+#| fig-alt: "A bell-shaped histogram of posterior draws centered near 0.36 ranging from about 0.2 to 0.55, with a solid vertical line at the simulated mean near 0.357 and two dashed vertical lines marking the credible interval near 0.20 and 0.53."
+set.seed(2026)
+draws <- sample(theta, size = 20000, replace = TRUE, prob = post_grid)
+sim_mean <- mean(draws)
+ci <- quantile(draws, c(0.025, 0.975))
+hist(draws, breaks = 40, freq = FALSE, col = "grey90", border = "white",
+     xlab = expression(theta), main = "20,000 grid-sampled posterior draws")
+abline(v = sim_mean, lwd = 2)
+abline(v = ci, lty = 2)
+c(sim_mean = sim_mean, lower = ci[1], upper = ci[2])
+```
+
+### Step 4 — Add a session record and render
+
+End the report with a session record, then render the whole document.
+
+```{r}
+#| label: lab-session
+sessionInfo()
+```
+
+Render from the terminal (with R on PATH) or VS Code's render button:
+
+```bash
+quarto render lab07.qmd
+```
+
+## Verify
+
+Your approximation is correct if the **simulated mean matches the closed-form posterior mean**. The
+closed form is $\dfrac{\alpha + y}{\alpha + \beta + n} = \dfrac{10}{28} \approx 0.357$. Check it:
+
+```{r}
+#| label: verify-check
+closed_form <- 10/28
+report <- c(closed_form = closed_form, simulated = sim_mean,
+            abs_diff = abs(closed_form - sim_mean))
+report
+stopifnot(abs(closed_form - sim_mean) < 0.01)   # passes when grid + draws agree with the truth
+```
+
+Success criterion: the absolute difference is below 0.01, and the `stopifnot` does not error. If it
+errors, your grid is too coarse, your draw count is too small, or you forgot to normalize — revisit
+Step 1. (As a second check, your 95% **credible interval** should run roughly from about 0.20 to 0.53;
+say "credible interval," never "confidence interval," for a posterior.)
+
+## AI use note
+
+- **Tool.** A general coding assistant in your editor.
+- **Purpose.** Acceptable for scaffolding a chunk, decoding an R error, or drafting a caption — not for
+  deciding what the posterior means.
+- **Verification.** Re-run any AI-suggested code and confirm the verify step still passes
+  (`|closed_form - simulated| < 0.01`) and every random chunk is seeded. Disclose AI use per the course
+  AI policy in the LMS. Unverifiable AI output does not go in a report you submit.
+
+The graded deliverable, its rubric, point values, and due date live in the **LMS** — this lab page does
+not contain any of those. For grading specifics, the LMS (Blackboard) is authoritative.
+
+## See also
+
+- [Week 07 — Simulation-first computation](../notes/week-07-simulation-first-computation.qmd)
+- [R · VS Code · Quarto setup](../resources/r-vscode-quarto-setup.qmd)
+- [Notation glossary](../resources/notation-glossary.qmd)
+- [Syllabus](../syllabus.qmd)

@@ -1,0 +1,18 @@
+---
+title: "Resources"
+subtitle: "Setup, notation, and a Bayes-vs-classical reference"
+page-type: orientation
+toc: true
+---
+
+Reference material that supports the weekly notes and labs. These pages are public, ungraded
+companions; the LMS is authoritative for anything graded.
+
+- [R · VS Code · Quarto setup](r-vscode-quarto-setup.qmd) — install the toolchain, make R discoverable
+  by Quarto, and render your first reproducible report.
+- [Notation glossary](notation-glossary.qmd) — the fixed symbols and conventions the course commits to,
+  so a symbol never means two things.
+- [Bayes vs. classical cheatsheet](bayes-vs-classical-cheatsheet.qmd) — a side-by-side reference for the
+  statements each framework makes and what each one means.
+
+More resources (a package list, a project guide) will be posted in the LMS as the term proceeds.

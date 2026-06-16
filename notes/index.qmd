@@ -1,0 +1,60 @@
+---
+title: "Notes"
+subtitle: "The weekly instructional spine"
+page-type: orientation
+toc: true
+---
+
+These are the course's weekly notes — the place to learn or re-learn the ideas if you missed class.
+Each week develops one stretch of the throughline, works concrete examples, names the mistakes that
+are easy to make, and maps that week's reading. They are **public, ungraded** material; graded work
+lives in the LMS.
+
+## How to read a week
+
+Every week note follows the same shape so you always know where to look:
+
+- **Where we are** — what last week established and what this week adds.
+- **Concept development** — the ideas, built rather than asserted.
+- **Worked examples** — concrete (often recurring) cases worked end to end.
+- **A common mistake** — the trap to avoid, and how to tell you have fallen into it.
+- **Practice** — ungraded checks for understanding (no answer keys here).
+- **Reading guide** — the *Bayes Rules!* (and other open) sections that reinforce the week.
+- **Looking ahead** — the bridge to next week.
+
+A recurring example — estimating an unknown **proportion** (a success rate) — runs through much of
+the term so you can watch one problem grow from a discrete updating table into a full Bayesian model.
+
+## The five parts
+
+**Part I — Foundations (Wk 1–2).** What it means to reason with uncertainty, and discrete Bayes'
+rule through diagnostic testing.
+
+1. [Thinking under uncertainty](week-01-thinking-under-uncertainty.qmd)
+2. [Discrete Bayes & diagnostic reasoning](week-02-discrete-bayes-diagnostic.qmd)
+
+**Part II — Building Bayesian models (Wk 3–7).** From prior/likelihood/posterior to the
+Beta-Binomial model, prior sensitivity, posterior prediction, and simulation.
+
+3. [Prior, likelihood, posterior](week-03-priors-likelihoods-posteriors.qmd)
+4. [The Beta-Binomial model](week-04-beta-binomial.qmd)
+5. [Prior sensitivity & summaries](week-05-prior-sensitivity-summaries.qmd)
+6. [Posterior predictive thinking](week-06-posterior-predictive.qmd)
+7. [Simulation-first computation](week-07-simulation-first-computation.qmd)
+
+**Part III — Synthesis & midterm (Wk 8).**
+
+8. [Midterm synthesis](week-08-midterm-synthesis.qmd)
+
+**Part IV — Regression & model checking (Wk 9–12).**
+
+9. [Bayesian regression I](week-09-bayesian-regression-i.qmd)
+10. [Bayesian regression II](week-10-bayesian-regression-ii.qmd)
+11. [Model checking & comparison](week-11-model-checking-comparison.qmd)
+12. [Bayesian & classical in conversation](week-12-bayesian-classical.qmd)
+
+**Part V — Hierarchy, decisions & project (Wk 13–15).**
+
+13. [Hierarchical models](week-13-hierarchical-models.qmd)
+14. [Decisions & communication](week-14-decisions-communication.qmd)
+15. [Project workshop & synthesis](week-15-project-workshop-synthesis.qmd)

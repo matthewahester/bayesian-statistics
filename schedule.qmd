@@ -1,0 +1,59 @@
+---
+title: "Schedule (topic flow)"
+subtitle: "A 15-week pacing plan — the LMS is authoritative for dates and deadlines"
+toc: true
+---
+
+::: {.callout-important appearance="simple"}
+This is a **pacing plan**, not a calendar. It shows the order and arc of topics. **Dates, deadlines,
+exam windows, and project checkpoints are authoritative in Blackboard (the LMS)** and are not set
+here.
+:::
+
+The term moves in five parts, from "what does it mean to reason with uncertainty?" to fitting,
+checking, and communicating Bayesian models.
+
+## Part I — Foundations of Bayesian reasoning (Weeks 1–2)
+
+| Week | Theme | The throughline |
+|---|---|---|
+| 1 | [Thinking under uncertainty](notes/week-01-thinking-under-uncertainty.qmd) | Probability as a language for uncertainty; what changes when evidence arrives. |
+| 2 | [Discrete Bayes & diagnostic reasoning](notes/week-02-discrete-bayes-diagnostic.qmd) | Conditional probability, base rates, false positives, and updating. |
+
+## Part II — Building Bayesian models and the posterior (Weeks 3–7)
+
+| Week | Theme | The throughline |
+|---|---|---|
+| 3 | [Prior, likelihood, posterior](notes/week-03-priors-likelihoods-posteriors.qmd) | Building a model from assumptions and data; posterior ∝ likelihood × prior. |
+| 4 | [The Beta-Binomial model](notes/week-04-beta-binomial.qmd) | Proportions, conjugacy, posterior simulation, credible intervals. *(Lab 4)* |
+| 5 | [Prior sensitivity & summaries](notes/week-05-prior-sensitivity-summaries.qmd) | How conclusions change when assumptions change. |
+| 6 | [Posterior predictive thinking](notes/week-06-posterior-predictive.qmd) | Prediction, replicated data, and checking fit. |
+| 7 | [Simulation-first computation](notes/week-07-simulation-first-computation.qmd) | Grid approximation, posterior draws, reproducible Quarto. *(Lab 7)* |
+
+## Part III — Synthesis & midterm (Week 8)
+
+| Week | Theme | The throughline |
+|---|---|---|
+| 8 | [Midterm synthesis](notes/week-08-midterm-synthesis.qmd) | Pulling together updating, simple models, summaries, and interpretation. |
+
+## Part IV — Bayesian regression & model checking (Weeks 9–12)
+
+| Week | Theme | The throughline |
+|---|---|---|
+| 9 | [Bayesian regression I](notes/week-09-bayesian-regression-i.qmd) | Modeling a numerical outcome; priors on regression parameters. *(Lab 9)* |
+| 10 | [Bayesian regression II](notes/week-10-bayesian-regression-ii.qmd) | Multiple predictors, binary outcomes, prediction. |
+| 11 | [Model checking & comparison](notes/week-11-model-checking-comparison.qmd) | Posterior predictive checks, predictive performance, model limits. |
+| 12 | [Bayesian & classical in conversation](notes/week-12-bayesian-classical.qmd) | Credible vs. confidence intervals, posterior probabilities vs. p-values. |
+
+## Part V — Hierarchy, decisions & project (Weeks 13–15)
+
+| Week | Theme | The throughline |
+|---|---|---|
+| 13 | [Hierarchical models](notes/week-13-hierarchical-models.qmd) | Complete pooling, no pooling, partial pooling, and shrinkage. *(Lab 13)* |
+| 14 | [Decisions & communication](notes/week-14-decisions-communication.qmd) | Decision thresholds, uncertainty communication, project work. |
+| 15 | [Project workshop & synthesis](notes/week-15-project-workshop-synthesis.qmd) | Final report preparation and course synthesis. |
+
+::: {.callout-note appearance="simple"}
+Holiday weeks, the exam window, and project checkpoints adjust this rhythm; the LMS carries the
+actual calendar. The final exam is cumulative and scheduled in the registrar's final-exam block.
+:::

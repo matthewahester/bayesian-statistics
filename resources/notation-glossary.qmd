@@ -1,0 +1,53 @@
+---
+title: "Notation glossary"
+subtitle: "The symbols and conventions this course commits to"
+page-type: reference
+toc: true
+---
+
+So a symbol never means two things, the course fixes one convention wherever conventions compete.
+These are the choices the weekly notes inherit. (This mirrors the instructor's private notation ledger;
+it is an original reference, not reproduced from any source.)
+
+## Core symbols
+
+| Symbol | Reads as | Convention |
+|---|---|---|
+| $P(A)$ | probability of the **event** $A$ | capital $P$ for events |
+| $f(y)$, $f(\theta)$ | a probability **mass/density** function | lowercase $f$ for pmf/pdf |
+| $\theta$ | the unknown **parameter** | Greek letters for parameters |
+| $y$ | the observed **data** | lowercase Latin for data |
+| $f(\theta)$ | the **prior** | the prior is written $f(\theta)$ |
+| $L(\theta \mid y)$ | the **likelihood** | a *function of* $\theta$ — not a distribution over $\theta$ |
+| $f(\theta \mid y)$ | the **posterior** | the prior updated by the data |
+| $f(y)$ (marginal) | the **evidence** / marginal likelihood | the normalizing constant, never "a likelihood" |
+| $\propto$ | "proportional to" | drops constants that do not depend on $\theta$ |
+
+## The one equation everything rests on
+
+$$
+f(\theta \mid y) \;=\; \frac{L(\theta \mid y)\, f(\theta)}{f(y)} \;\propto\; L(\theta \mid y)\, f(\theta).
+$$
+
+In words: the **posterior** is proportional to the **likelihood** times the **prior**. The evidence
+$f(y)$ is just the constant that makes the posterior integrate to one. When we write $\propto$, we are
+deliberately dropping that constant.
+
+## Model parameterizations we fix
+
+- **Beta** prior: $\text{Beta}(\alpha, \beta)$ in the **shape–shape** parameterization (never mean/precision).
+- **Gamma** prior: $\text{Gamma}(s, r)$ in the **shape–rate** parameterization ($s$ = shape, $r$ = rate; never shape–scale).
+- **Normal**: $N(\mu, \sigma^2)$ in the **mean–variance** parameterization ($\sigma^2$, not $\sigma$, not precision).
+
+## Words we keep distinct
+
+- A **credible interval** is a posterior statement: "given the data, there is a 95% probability the
+  parameter lies in $[L, U]$." We always say *credible* for posteriors.
+- A **confidence interval** is a classical statement about a procedure's long-run coverage. It is *not*
+  a probability about the parameter. We contrast the two carefully in Week 12.
+- A **posterior mean** is one number; it is never "the answer" by itself — always report it with a
+  credible interval.
+
+## Public vs. graded
+
+A public reference page. Graded work and its keys are authoritative in the **LMS (Blackboard)**.

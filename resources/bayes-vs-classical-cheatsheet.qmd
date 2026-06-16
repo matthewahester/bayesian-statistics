@@ -1,0 +1,49 @@
+---
+title: "Bayes vs. classical cheatsheet"
+subtitle: "What each framework claims, and what the claim means"
+page-type: reference
+toc: true
+---
+
+A side-by-side reference for the comparison we develop carefully in Week 12. The goal is not to
+declare a winner — it is to say precisely what each kind of statement means and what it assumes. This
+is original course material.
+
+## The core difference in one line
+
+- **Classical (frequentist):** the parameter $\theta$ is a fixed unknown; probability describes the
+  long-run behavior of *procedures* over hypothetical repeated samples.
+- **Bayesian:** $\theta$ is uncertain and described by a *distribution*; probability describes our
+  *plausibility* for $\theta$ given the data and the prior.
+
+## Side by side
+
+| Question | Classical answer | Bayesian answer |
+|---|---|---|
+| What is $\theta$? | a fixed constant | a quantity with a posterior distribution $f(\theta \mid y)$ |
+| What is random? | the data / the procedure | our uncertainty about $\theta$ (given the data) |
+| Interval | a **confidence interval**: 95% of such intervals cover $\theta$ in the long run | a **credible interval**: 95% posterior probability that $\theta$ is in $[L, U]$ |
+| "Evidence against $H_0$" | a **p-value**: $P(\text{data this extreme} \mid H_0)$ | a posterior probability or Bayes factor about the hypotheses |
+| Prediction | a point/interval from the fitted model | a **posterior predictive** distribution that averages over parameter uncertainty |
+| Role of prior assumptions | implicit (model + procedure choices) | explicit (the prior $f(\theta)$, stated and checkable) |
+
+## The interpretations students most often swap
+
+- A **confidence interval is not** a 95% probability that $\theta$ is inside it. That probability
+  statement is the **credible** interval's, and it requires a prior.
+- A **p-value is not** $P(H_0 \mid \text{data})$. It is $P(\text{data} \mid H_0)$ — a statement about
+  the data under a hypothesis, not about the hypothesis given the data.
+- "The data **prove** $H_1$" overclaims in both frameworks. Data **shift plausibility** / **provide
+  evidence**; they do not prove.
+
+## When the two nearly agree
+
+With a lot of data and a weak prior, the posterior is dominated by the likelihood, and a Bayesian
+credible interval and a classical confidence interval often land in nearly the same place — for very
+different reasons. The numbers can match while the *meaning* of the interval differs. We return to this
+in Weeks 5 and 12.
+
+## Public vs. graded
+
+A public reference page. Graded comparisons and their keys are authoritative in the **LMS
+(Blackboard)**.

@@ -1,0 +1,307 @@
+---
+title: "Week 9 — Bayesian regression I"
+subtitle: "Modeling a numerical outcome: priors on coefficients, posterior over the regression line"
+page_mode: math_derivation_week
+week_contract: math_derivation
+source_mode: source-informed
+readings:
+  - "Bayes Rules! Ch 9 — Simple normal regression — the model structure, priors on coefficients, and the posterior over the line"
+toc: true
+---
+
+## The week question
+
+Up to now our parameter has been a single number — a proportion $p$, a rate $\lambda$, a
+mean $\mu$. But most applied questions relate one quantity to another: *as study hours go up,
+what happens to exam scores?* So this week's question is:
+
+> When the outcome is numerical and we believe it depends on a predictor, how do we put a
+> prior on the **slope and intercept of a line**, and what does the posterior over those
+> coefficients tell us?
+
+## Where we are and why this matters
+
+We have spent the course building one reflex: **posterior $\propto$ likelihood $\times$ prior**.
+The recurring bike-survey case taught us that reflex for a single proportion, and the
+Gamma–Poisson clinic case taught it for a rate. The mechanics never changed — only the parameter and
+the data model did; this week the data model becomes **Normal**.
+
+Bayesian regression is the *same reflex applied to more than one parameter at once*. Instead of
+asking "what is the one number $\theta$?", we ask "what is the pair (or triple) of numbers that
+describe a line, and how is the noise around that line distributed?" We keep prior/likelihood/
+posterior reasoning exactly as before; we just carry coefficients $\beta_0, \beta_1$ and a noise
+scale $\sigma$ through it. This is the bridge from one-parameter inference to *modeling
+relationships*, and it underwrites almost everything applied — prediction, comparison, and the
+hierarchical models that arrive later in the course.
+
+This is a **math-derivation week**: the goal is to write the model down cleanly, name every
+symbol, and see what object the posterior actually is — not to grind algebra. The numbers stay
+simple so the structure is visible.
+
+## Mathematical goal
+
+The mathematical goal this week is to **derive the form of the regression posterior**: starting
+from the data model $y_i \sim N(\beta_0+\beta_1 x_i, \sigma^2)$ and priors on $(\beta_0,\beta_1,\sigma)$,
+write the joint posterior $f(\beta_0,\beta_1,\sigma \mid y) \propto L(\beta_0,\beta_1,\sigma \mid y)\,
+f(\beta_0,\beta_1,\sigma)$ and identify it as a **joint distribution over the coefficients and the
+noise scale** — not a single line. We are after the *object*, not a closed-form solution (none
+exists here in tidy form, which is why later weeks simulate).
+
+## Learning goals
+
+- Write the simple normal regression model $y_i = \beta_0 + \beta_1 x_i + \varepsilon_i$ and
+  state the assumption on the errors.
+- Place priors on the coefficients $\beta_0, \beta_1$ and on the noise standard deviation
+  $\sigma$, and say in words what each prior encodes. *(SLO O9)*
+- Describe the posterior as a **joint distribution over $(\beta_0, \beta_1, \sigma)$**, not a
+  single fitted line.
+- Report a coefficient as a posterior mean (or median) **with a credible interval**, and
+  contrast that with a classical confidence interval. *(SLO O13)*
+- Explain when the prior matters (scarce data) and when the likelihood dominates (abundant data).
+
+## Notation
+
+This week introduces several symbols at once, so we collect them. (The word *notation* anchors
+this ledger; the master list lives in the [notation glossary](../resources/notation-glossary.qmd).)
+
+| Symbol | Meaning |
+|---|---|
+| $y_i$ | the numerical **outcome** for observation $i$ (e.g. an exam score) |
+| $x_i$ | the **predictor** for observation $i$ (e.g. hours studied) |
+| $\beta_0$ | the **intercept** parameter — expected outcome when $x = 0$ |
+| $\beta_1$ | the **slope** parameter — change in expected outcome per one-unit change in $x$ |
+| $\varepsilon_i$ | the **error / noise** for observation $i$ |
+| $\sigma$ | the **noise standard deviation** — spread of points around the line |
+| $\boldsymbol{\beta}$ | shorthand for the parameter bundle $(\beta_0, \beta_1, \sigma)$ |
+| $f(\boldsymbol\beta)$ | the **joint prior** over the coefficients and noise scale |
+| $L(\boldsymbol\beta \mid y)$ | the **likelihood** — a function of $\boldsymbol\beta$ given the data |
+| $f(\boldsymbol\beta \mid y)$ | the **joint posterior** over the coefficients and noise scale |
+
+Notice the parameter is now a **bundle**, but $f$, $L$, and the $\propto$ identity mean exactly
+what they always have.
+
+## Conceptual setup
+
+Let us **recall** and **set up** the pieces before any math. We **assume** we have $n$ pairs
+$(x_i, y_i)$. The structural belief is that the *expected* outcome is a straight-line function of
+the predictor, and that each observed $y_i$ scatters around that line by some random noise:
+
+$$
+y_i = \beta_0 + \beta_1 x_i + \varepsilon_i.
+$$
+
+The standard modeling **assumption** is that the noise is normal with mean zero and constant
+standard deviation:
+
+$$
+\varepsilon_i \sim N(0, \sigma^2), \qquad \text{independently across } i.
+$$
+
+Equivalently — and this is the form we actually use for the likelihood — each outcome is normal,
+centered on the line:
+
+$$
+y_i \mid \beta_0, \beta_1, \sigma \;\sim\; N\!\big(\beta_0 + \beta_1 x_i,\ \sigma^2\big).
+$$
+
+Three modeling commitments are hiding in those two lines, and naming them is half the skill:
+
+- **Linearity** — the *mean* of $y$ moves linearly with $x$. (Individual points need not lie on
+  a line; their average does.)
+- **Constant noise** — the spread $\sigma$ is the same at every $x$ (no fanning out).
+- **Independence** — knowing one observation's noise tells you nothing about another's.
+
+What makes this *Bayesian* rather than ordinary least squares is the next move: we treat
+$\beta_0$, $\beta_1$, and $\sigma$ as **uncertain quantities with priors**, not as fixed numbers
+to be solved for.
+
+## Building the priors
+
+We need a prior on each parameter. The point of a math-derivation week is to see the *shape* of
+that choice, so we keep the standard, well-behaved forms.
+
+- **Intercept and slope.** A normal prior is natural because a coefficient can be any real number:
+  $$
+  \beta_0 \sim N(m_0, s_0^2), \qquad \beta_1 \sim N(m_1, s_1^2).
+  $$
+  The prior mean $m_1$ says where you expect the slope to sit; the prior standard deviation $s_1$
+  says how sure you are. A *wide* (large $s_1$) prior is weakly informative — it lets the data
+  speak. A *tight* prior around zero says "I doubt $x$ matters much; convince me."
+- **Noise scale.** Because $\sigma > 0$, we put a prior on a positive quantity — a common choice
+  is an Exponential (a Gamma with shape 1) or a half-normal on $\sigma$. The exact family matters
+  less this week than the principle: $\sigma$ is itself a parameter we are *learning*, not a
+  knob we set.
+
+Collect these into the **joint prior** $f(\boldsymbol\beta) = f(\beta_0, \beta_1, \sigma)$. If we
+take the parameters as a priori independent (the usual default), the joint prior factors:
+
+$$
+f(\beta_0, \beta_1, \sigma) = f(\beta_0)\, f(\beta_1)\, f(\sigma).
+$$
+
+## The likelihood and the posterior object
+
+The likelihood is the data model read as a **function of the parameters**, with the data fixed.
+Because the observations are independent, it multiplies across the $n$ points:
+
+$$
+L(\beta_0, \beta_1, \sigma \mid y)
+= \prod_{i=1}^{n} \frac{1}{\sqrt{2\pi}\,\sigma}\,
+\exp\!\left(-\,\frac{\big(y_i - (\beta_0 + \beta_1 x_i)\big)^2}{2\sigma^2}\right).
+$$
+
+Read that carefully: it is **not** a distribution over $\beta$ — it is a function that scores how
+well any candidate $(\beta_0, \beta_1, \sigma)$ explains the observed $y$'s. The term inside the
+square, $y_i - (\beta_0 + \beta_1 x_i)$, is the *residual* — the vertical gap between a point and
+the candidate line.
+
+Now apply the one identity the whole course rests on:
+
+$$
+f(\beta_0, \beta_1, \sigma \mid y) \;\propto\; L(\beta_0, \beta_1, \sigma \mid y)\; f(\beta_0, \beta_1, \sigma).
+$$
+
+The proportionality $\propto$ drops the **marginal / evidence** $f(y)$ — the constant that makes
+the posterior integrate to one. We omit it because it does not depend on the parameters; it only
+rescales. The crucial conceptual payoff:
+
+> The posterior is a **joint distribution over $(\beta_0, \beta_1, \sigma)$** — a *cloud* in
+> parameter space, equivalently a **distribution over an entire family of plausible lines**, not
+> a single best-fit line.
+
+Unlike the one-parameter conjugate cases (Beta–Binomial, Gamma–Poisson), this posterior has no
+tidy closed form, so in practice we *simulate* from it (the engine of Week 7's methods and of
+Lab 9). But the logic — multiply likelihood by prior, normalize — is unchanged.
+
+### Worked example — symbolic: study hours → exam score
+
+State the full model for the recurring **study-hours → exam-score** case. Let $x_i$ be hours
+studied and $y_i$ the exam score for student $i$.
+
+**Data model (likelihood ingredient).**
+$$
+y_i \mid \beta_0, \beta_1, \sigma \sim N\!\big(\beta_0 + \beta_1 x_i,\ \sigma^2\big).
+$$
+
+**Priors.** Suppose before seeing data we believe a student who studies zero hours still scores
+somewhere in the 50s, that each extra hour helps by a few points, and that scores scatter by
+roughly 8 points around the line:
+$$
+\beta_0 \sim N(55,\ 10^2), \qquad \beta_1 \sim N(4,\ 2^2), \qquad \sigma \sim \text{Exponential}(1/8).
+$$
+(Read $\beta_1 \sim N(4, 2^2)$ as "about 4 points per hour, but I would not be shocked anywhere
+from roughly 0 to 8.")
+
+**What the posterior is over.** After observing the pairs $(x_i, y_i)$,
+$$
+f(\beta_0, \beta_1, \sigma \mid y) \;\propto\;
+\underbrace{\prod_{i=1}^{n} N\!\big(y_i;\ \beta_0+\beta_1 x_i,\ \sigma^2\big)}_{\text{likelihood}}
+\;\times\;
+\underbrace{f(\beta_0)\,f(\beta_1)\,f(\sigma)}_{\text{joint prior}}.
+$$
+This is a **three-dimensional posterior**. The headline answer to "does studying help?" is the
+**marginal posterior of $\beta_1$** — summarized by its mean *with* a credible interval (e.g. a
+posterior mean of about 4.3 points/hour with a 95% credible interval of roughly $[2.1, 6.4]$).
+Because that interval sits well above zero, we'd report credible evidence of a positive effect.
+
+### Worked example — numeric instance you can re-run
+
+Here is a synthetic data set drawn from a *known* truth so we can see what the data alone say.
+The chunk simulates points, fits the **least-squares line** (the likelihood-dominated estimate,
+i.e. what the Bayesian posterior centers on when priors are weak), and plots both.
+
+```{r}
+#| label: fig-regression-fit
+#| fig-cap: "Synthetic study-hours vs. exam-score data with the least-squares fit. The Bayesian posterior places a *distribution* over such lines; this single line is its likelihood-dominated center."
+#| fig-alt: "Scatterplot of 30 synthetic points, hours studied on the x-axis from about 0 to 10 and exam score on the y-axis from about 45 to 95, with a clear upward trend; a solid straight line is fitted through the cloud showing scores rising with study hours."
+set.seed(909)
+n  <- 30
+x  <- runif(n, 0, 10)                 # hours studied
+y  <- 55 + 4 * x + rnorm(n, 0, 8)     # truth: intercept 55, slope 4, noise sd 8
+fit <- lm(y ~ x)                      # least-squares line
+
+plot(x, y, pch = 19, col = "grey40",
+     xlab = "Hours studied (x)", ylab = "Exam score (y)",
+     main = "Synthetic study-hours -> exam-score (n = 30)")
+abline(fit, lwd = 2)
+legend("topleft", legend = c("data", "least-squares line"),
+       pch = c(19, NA), lty = c(NA, 1), lwd = c(NA, 2),
+       col = c("grey40", "black"), bty = "n")
+
+round(coef(fit), 2)                   # estimated intercept and slope
+```
+
+The printed coefficients land near the true intercept $55$ and slope $4$ — the data, with this
+sample size, mostly determine the line. A Bayesian fit with the weak priors above would return a
+**posterior mean** for the slope close to that least-squares value, **plus a credible interval**
+quantifying how much it could plausibly differ. The single drawn line is best read as the
+*center* of a fan of plausible lines, not the answer.
+
+## A convention warning
+
+Two **conventions** deserve a **caution**.
+
+**First — report coefficients as a distribution summary, never a bare number.** A Bayesian slope
+is reported as a posterior mean (or median) **with a credible interval**, e.g. "4.3 points per
+hour, 95% credible interval $[2.1, 6.4]$." A credible interval says *"given the data and prior,
+there is a 95% probability the slope lies in here"* — a direct probability statement about
+$\beta_1$. Do **not** call it a confidence interval: a classical 95% confidence interval is a
+statement about the long-run coverage of the *procedure*, not a probability about this particular
+$\beta_1$. The numbers can look similar; the meaning does not transfer.
+
+**Second — remember what $\propto$ dropped.** Our posterior was written up to the evidence $f(y)$.
+That constant is essential for the posterior to be a genuine probability distribution, but it does
+not change *which* parameter values are relatively more plausible, so we suppress it while
+reasoning about shape. When data are **scarce**, the prior pulls the posterior noticeably; when
+data are **abundant**, the likelihood dominates and the prior fades. Neither fact is visible if
+you only stare at a point estimate — which is exactly why we always pair it with an interval.
+
+## Practice (ungraded)
+
+Use these to check understanding. No keys are posted here.
+
+1. Write the full simple-regression model for predicting a city's monthly bike-share trips from
+   the average temperature: give the data model and a sensible prior on each of $\beta_0$,
+   $\beta_1$, $\sigma$, and say in one sentence what each prior encodes.
+2. In the study-hours example, the posterior for $\beta_1$ has mean $4.3$ and 95% credible
+   interval $[2.1, 6.4]$. Write the one-sentence interpretation a careful Bayesian would give —
+   and then write the *wrong* confidence-interval-style sentence, so you can tell them apart.
+3. Two analysts fit the same model. One has 8 data points, the other has 800. Whose posterior
+   slope should sit closer to its prior mean, and why?
+4. Explain in your own words why the likelihood $L(\beta_0,\beta_1,\sigma \mid y)$ is **not** a
+   probability distribution over the coefficients.
+5. Re-run the numeric chunk with `set.seed(2024)` and a noise sd of `16` instead of `8`. Does the
+   least-squares slope land as close to the true value of 4? What does that suggest about the
+   width of a credible interval when noise is large?
+
+## Formula-verification status
+
+These formulas are prepared as evidence but **NOT yet human/source verified** (`verified: false`);
+see the notation ledger. The course math gate is blocked pending **sign-off**. In particular, the
+model statement, the factored joint prior, the Gaussian likelihood product, and the
+posterior-proportionality identity are recorded here as candidate formulas awaiting verification;
+treat the numeric slope/interval values as illustrative until that sign-off is complete.
+
+## Reading guide
+
+- **Bayes Rules! Ch 9 (Simple normal regression)** supports this week section by section: the model statement $y_i = eta_0 + eta_1 x_i + arepsilon_i$, the priors on the coefficients, and the idea that the posterior is a *distribution over lines*. Read it after working the study-hours → exam-score example here to meet the same structure in the text's voice; it deepens the prior-choice discussion.
+
+## Public vs. graded
+
+This page is a public, ungraded study note: **no answer keys are posted here**, and the practice
+items above are for self-checking only. For anything graded — homework prompts, point values,
+rubrics, due dates, and solutions — **the LMS (Blackboard) is authoritative**. Where this note and
+the LMS ever appear to disagree about a graded specific, the LMS wins.
+
+## Looking ahead
+
+Next week, **Week 10 — Bayesian regression II**, we move from *writing* the model to *using* it:
+checking the modeling assumptions, generating posterior predictions for new students, and
+beginning to compare competing models. See [Week 10](../notes/week-10-bayesian-regression-ii.qmd).
+
+## See also
+
+- [Lab 9 — Bayesian regression](../labs/lab-09-bayesian-regression.qmd)
+- [Notation glossary](../resources/notation-glossary.qmd)
+- [Bayes vs. classical cheat sheet](../resources/bayes-vs-classical-cheatsheet.qmd)
+- [Syllabus](../syllabus.qmd)

@@ -1,0 +1,40 @@
+---
+title: "Labs"
+subtitle: "The reproducible computation strand (R + Quarto)"
+page-type: orientation
+toc: true
+---
+
+The labs are where Bayesian ideas become reproducible computation. Each lab is a hands-on Quarto
+(`.qmd`) walkthrough you run in **local R + VS Code + Quarto**: you build something, *render* it, and
+*verify* the output. The graded version of each lab — its prompt, rubric, points, and due date — lives
+in the LMS; these public pages are the **reading/reference companion** so you can practice the workflow.
+
+## How a lab works
+
+Every lab follows the same loop, the habit we build all term:
+
+1. **Goal** — what you will have produced (a rendered report, a figure, a posterior summary).
+2. **Setup** — the starting state; the [setup page](../resources/r-vscode-quarto-setup.qmd) covers install.
+3. **Steps** — a real, runnable sequence with code you can read and adapt.
+4. **Verify** — the "did it actually work?" check (re-render, sanity-check the numbers).
+5. **AI Use Note** — *Tool / Purpose / Verification* whenever you used an assistant.
+
+The code shown in these labs is **runnable as written** (seeds and synthetic data are specified). On
+this build the figures are generated with base-R graphics so they reproduce anywhere R is installed.
+
+## The labs
+
+- [Lab 4 — Beta-Binomial simulation](lab-04-beta-binomial-simulation.qmd) — simulate and summarize a
+  Beta posterior for a proportion; read a credible interval. (Accompanies Week 4.)
+- [Lab 7 — Grid approximation in Quarto](lab-07-grid-approximation-quarto.qmd) — approximate a
+  posterior on a grid, draw from it, and build a reproducible report. (Accompanies Week 7.)
+- [Lab 9 — Bayesian regression](lab-09-bayesian-regression.qmd) — fit and interpret a simple Bayesian
+  regression; read coefficient uncertainty. (Accompanies Week 9.)
+- [Lab 13 — Partial pooling](lab-13-partial-pooling.qmd) — compare no-pooling, complete-pooling, and
+  partial-pooling estimates and see shrinkage. (Accompanies Week 13.)
+
+## Public vs. graded
+
+These lab pages are public, ungraded walkthroughs. The graded lab deliverables, their rubrics,
+points, and due dates are authoritative in the **LMS (Blackboard)**.

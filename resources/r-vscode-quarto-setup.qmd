@@ -1,0 +1,74 @@
+---
+title: "R · VS Code · Quarto setup"
+subtitle: "Get the reproducible toolchain running locally"
+page-type: reference
+toc: true
+---
+
+This course runs on a **local** toolchain so your work is reproducible: **R** computes, **VS Code**
+edits, and **Quarto** turns a `.qmd` file (code + math + prose) into a clean HTML or PDF report. You do
+not need prior programming experience — we build the habit from a low floor. This page is an original
+study companion; it does not reproduce any vendor documentation. The authoritative package list and
+any campus-specific steps are posted in the LMS.
+
+## What to install
+
+1. **R** (the language). Install the current release for your operating system.
+2. **VS Code** (the editor) plus its **R** extension and **Quarto** extension.
+3. **Quarto** (the publishing system).
+4. A few R packages for Bayesian work (the exact list is posted in the LMS; install them from the R
+   console with `install.packages(...)`).
+
+## Make R discoverable by Quarto (the common snag)
+
+Quarto runs your R code when it renders a `.qmd`. For that, Quarto must be able to *find* R. Most
+installers put R on your system `PATH` automatically; if a render complains that it cannot find R, you
+have three fixes (any one works):
+
+- put R's `bin` directory on your `PATH`, or
+- set the `QUARTO_R` environment variable to your R (or `Rscript`) location, or
+- launch your render from a shell whose `PATH` already includes R's `bin`.
+
+> **Why this matters.** "It rendered" depends on the runtime being present. If a figure silently goes
+> missing, the first thing to check is whether R was discoverable when you rendered.
+
+## Your first reproducible report
+
+Create `hello.qmd` and render it. A minimal document:
+
+````markdown
+---
+title: "Hello, Bayes"
+format: html
+---
+
+We can do arithmetic and show the result reproducibly:
+
+```{r}
+set.seed(1)
+x <- rbeta(10000, 8, 16)   # draws from a Beta(8, 16) posterior
+c(mean = mean(x), lower = quantile(x, 0.025), upper = quantile(x, 0.975))
+```
+````
+
+Render it (in VS Code use the Quarto **Render** button, or run `quarto render hello.qmd`). You should
+get an HTML page showing the posterior mean and a 95% interval. Re-render after any change — the
+render *is* the check.
+
+## Reproducibility habits we keep all term
+
+- **Seed your randomness** (`set.seed(...)`) so simulations reproduce.
+- **Keep code, output, and interpretation together** in one `.qmd`.
+- **Record your environment** when results matter (`sessionInfo()` at the end of a report).
+- **Verify, don't trust** — read the numbers and the figure; a clean render is not a correct result.
+
+## AI Use Note (when you use an assistant)
+
+If you use an AI assistant to debug code or explain an error, include a short note on your work:
+**Tool** (which assistant) · **Purpose** (what you asked) · **Verification** (how you checked it — you
+re-ran it, you read the docs, you tested an edge case). The verification line is the load-bearing one.
+
+## Public vs. graded
+
+This is a public setup companion. Graded submissions, due dates, and the official package list are
+authoritative in the **LMS (Blackboard)**.

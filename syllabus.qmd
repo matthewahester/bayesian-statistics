@@ -1,0 +1,112 @@
+---
+title: "Syllabus (public companion)"
+subtitle: "Orientation and course shape — the LMS is authoritative for graded specifics"
+toc: true
+---
+
+::: {.callout-important appearance="simple"}
+This is a **public companion** to the syllabus. It describes the course's purpose, shape, and rhythm.
+It is **not** the contract of record: official dates, grading weights, policies, and submission
+details live in **Blackboard (the LMS)**, which governs. Where this page and the LMS differ, the LMS
+wins.
+:::
+
+## Course description
+
+This course introduces Bayesian statistics as a coherent framework for reasoning under uncertainty,
+updating uncertainty with data, and using models to predict and decide. It is applied and
+computational, but not a software-training course or a formula-memorization course. We move from
+discrete Bayes' rule and diagnostic reasoning to priors, likelihoods, posteriors, posterior
+prediction, simple conjugate models, simulation-based summaries, Bayesian regression, model checking,
+and introductory hierarchical ideas. Markov chain Monte Carlo appears as a computational tool when
+useful; MCMC theory is not the center of the term.
+
+## Who it is for
+
+A mathematically serious undergraduate audience that has completed an introductory/applied statistics
+course **and** an undergraduate probability course (or instructor permission). You should arrive
+having seen conditional probability, independence, random variables, expectation and variance, common
+distributions, sampling variability, confidence intervals, p-values, and simple linear regression. No
+prior course in mathematical statistics is assumed; no prior programming course is assumed.
+
+## Learning outcomes
+
+By the end of the course a student who has done the work should be able to:
+
+1. Explain Bayesian reasoning as updating uncertainty in light of evidence.
+2. Use Bayes' rule in discrete settings and connect it to Bayesian modeling.
+3. Identify, write, and interpret the prior, likelihood, posterior, and posterior predictive
+   distributions in an applied model.
+4. Work with simple models (Beta-Binomial, Gamma-Poisson, Normal) at an undergraduate level.
+5. Use probability notation and simulation to summarize posterior uncertainty.
+6. Calculate and interpret posterior probabilities, posterior means/medians, credible intervals, and
+   predictive intervals.
+7. Evaluate how prior choices affect posterior conclusions and explain prior sensitivity plainly.
+8. Use posterior predictive thinking to check whether a model is adequate.
+9. Fit and interpret basic Bayesian regression for numerical and binary outcomes.
+10. Describe introductory hierarchical/multilevel ideas such as partial pooling and shrinkage.
+11. Distinguish parameter, predictive, model, and decision uncertainty.
+12. Compare Bayesian and classical summaries responsibly.
+13. Create reproducible work with local R, VS Code, and Quarto.
+14. Communicate Bayesian results to a non-technical audience with appropriate caution.
+
+## Weekly rhythm
+
+A lecture-format course meeting three times per week (Mon/Wed/Fri, 50 minutes). Most non-exam weeks
+follow a predictable shape: a **concept day** with a short exit ticket, a **computation/application
+day** with a short exit ticket, and a **quiz/application day** with a short Friday quiz followed by an
+applied case or project work. Doing the small weekly work is the most reliable path through the bigger
+assessments.
+
+## Assessment shape (indicative — not a contract)
+
+Assessment is built from small, frequent evidence plus a few larger pieces. The **categories and
+their approximate emphasis** are below; the **authoritative weights, dates, drop rules, and grading
+details are in the LMS**, and are described here only to orient you to the shape of the work.
+
+| Category | What it is | Rough emphasis |
+|---|---|---|
+| Exit tickets | brief in-class concept/interpretation checks (most Mon/Wed) | small |
+| Weekly quizzes | short Friday quizzes on a new scenario | small |
+| Homework | roughly biweekly; conceptual + modeling + reproducible Quarto/R work | the largest single category |
+| Midterm exam | concept-and-computation, mid-term | moderate |
+| Project | a final-third applied Bayesian analysis with a reproducible report | moderate |
+| Final exam | cumulative; emphasizes synthesis and interpretation | moderate |
+
+Low scores in the small categories are dropped per the LMS policy. Nothing on this page sets a weight,
+a due date, or a grade.
+
+## Software and reproducibility
+
+Local **R**, **VS Code**, and **Quarto**; selected R packages for Bayesian modeling, visualization,
+and posterior simulation (final list posted in the LMS). Reproducibility is part of the statistical
+work: code, output, graphics, and written interpretation should support each other. See the
+[setup page](resources/r-vscode-quarto-setup.qmd).
+
+## AI use (summary)
+
+AI assistants may be used as **study tools** (concept explanations, practice problems, debugging,
+checking understanding) but may **not** produce submitted work, and are prohibited during quizzes and
+exams unless explicitly allowed. When you use an AI assistant on a graded assignment, include a brief
+**AI Use Note**: *Tool · Purpose · Verification* — the verification line is load-bearing. The
+authoritative AI policy is in the LMS.
+
+## Materials
+
+- Primary open text: **[*Bayes Rules!*](https://www.bayesrulesbook.com/)** (Johnson, Ott, Dogucu;
+  CC BY-NC-SA 4.0), used freely online.
+- Supplemental open/library readings as announced.
+- A computer able to run the course software (personal, lab, or MAC fallback).
+- **Blackboard Ultra** for submissions, the gradebook, announcements, and dates.
+
+## Where things live
+
+- **This site** — public notes, labs, and resources (the instructional spine).
+- **Blackboard** — submissions, gradebook, official dates, graded prompts, keys, and rubrics
+  (authoritative).
+- **Local software** — R, VS Code, Quarto, and instructor-provided files for reproducible work.
+
+::: {.callout-note appearance="simple"}
+The dated, graded, official syllabus of record is in the LMS. This page is an orientation companion
+and may be updated for clarity.
+:::

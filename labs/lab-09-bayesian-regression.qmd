@@ -1,0 +1,177 @@
+---
+title: "Lab 9 — Bayesian regression"
+subtitle: "Fit a line to synthetic study-hours/exam-score data and read coefficients with their uncertainty"
+page_mode: software_lab_week
+week_contract: software_note_lab
+source_mode: source-informed
+toc: true
+---
+
+> **Purpose.** This lab is the hands-on companion to
+> [Week 09 — Bayesian regression I](../notes/week-09-bayesian-regression-i.qmd). There you wrote
+> the model $y_i = \beta_0 + \beta_1 x_i + \varepsilon_i$ and saw that the posterior is a
+> distribution over the coefficients. Here you *produce* a fitted line from synthetic data, read
+> the slope and intercept, and — using simulation — turn the single line into a sense of the
+> uncertainty around it.
+
+## Goal
+
+Fit a simple regression to synthetic study-hours/exam-score data, and read coefficient estimates
+with their uncertainty. By the end you will have (1) a scatterplot with a fitted line, (2)
+numeric estimates of intercept and slope, and (3) an interval around the slope, all reproduced
+from a seeded, re-runnable `.qmd`.
+
+## Setup
+
+First, make sure your local toolchain is ready: R, VS Code, and Quarto, following the
+[R + VS Code + Quarto setup page](../resources/r-vscode-quarto-setup.qmd). Then, create a new file
+named `lab-09.qmd`, paste the chunks below in order, and render. Every chunk uses **base R only**
+— no add-on packages — so it runs on a clean install. Seeds are fixed so your numbers match the
+text.
+
+## Steps
+
+### Step 1 — Simulate the data
+
+We invent a known truth — intercept $55$, slope $4$, noise sd $8$ — then draw 30 students. Keeping
+the truth known lets you later check that your estimates recover it.
+
+```{r}
+#| label: lab09-simulate
+set.seed(909)
+n <- 30
+x <- runif(n, 0, 10)                 # hours studied
+y <- 55 + 4 * x + rnorm(n, 0, 8)     # exam score, with noise
+head(round(cbind(hours = x, score = y), 1))
+```
+
+### Step 2 — Plot and fit the line
+
+Fit the least-squares line with `lm()`. As Week 9 explained, this single line is the
+**likelihood-dominated center** of the Bayesian posterior when priors are weak.
+
+```{r}
+#| label: fig-lab09-scatter
+#| fig-cap: "Synthetic study-hours vs. exam-score data with the least-squares fit overlaid."
+#| fig-alt: "Scatterplot of 30 grey points, hours studied on the x-axis from 0 to 10 and exam score on the y-axis, rising to the right; a solid black line passes through the cloud capturing the upward trend."
+fit <- lm(y ~ x)
+plot(x, y, pch = 19, col = "grey40",
+     xlab = "Hours studied (x)", ylab = "Exam score (y)",
+     main = "Lab 9: fitted regression line")
+abline(fit, lwd = 2)
+legend("topleft", legend = c("data", "fitted line"),
+       pch = c(19, NA), lty = c(NA, 1), lwd = c(NA, 2),
+       col = c("grey40", "black"), bty = "n")
+coef(fit)
+```
+
+### Step 3 — Read the coefficients and a classical interval
+
+`lm()` gives a point estimate per coefficient and a standard error. We can build a quick interval
+for the slope to anchor intuition. (A full Bayesian credible interval comes from the posterior in
+Step 4; here we just read what the data alone say.)
+
+```{r}
+#| label: lab09-coef-interval
+round(coef(fit), 3)                   # intercept (b0) and slope (b1)
+round(confint(fit, "x", level = 0.95), 3)   # classical 95% interval for the slope
+```
+
+### Step 4 — Approximate the slope's uncertainty by simulation
+
+To *see* "a distribution over lines" without add-on packages, we use a simple resampling loop:
+repeatedly resample the rows (with replacement), refit, and collect the slope. The spread of these
+slopes mimics the posterior spread when the prior is weak — the simulation idea you met in Week 7,
+now applied to a coefficient.
+
+```{r}
+#| label: fig-lab09-slope-dist
+#| fig-cap: "Distribution of the fitted slope across 2000 resamples of the data; the spread visualizes coefficient uncertainty."
+#| fig-alt: "Histogram of resampled slope estimates, roughly bell-shaped and centered near 4, with most mass between about 2 and 6, illustrating uncertainty in the slope."
+set.seed(909)
+B <- 2000
+slopes <- numeric(B)
+for (b in 1:B) {
+  idx <- sample(n, n, replace = TRUE)
+  slopes[b] <- coef(lm(y[idx] ~ x[idx]))[2]
+}
+hist(slopes, breaks = 30, col = "grey80", border = "white",
+     xlab = "resampled slope estimate", main = "Lab 9: slope uncertainty")
+abline(v = mean(slopes), lwd = 2)
+legend("topright", legend = "mean of resampled slopes",
+       lty = 1, lwd = 2, bty = "n")
+
+c(mean_slope = mean(slopes),
+  lower      = quantile(slopes, 0.025),
+  upper      = quantile(slopes, 0.975))
+```
+
+Report the slope the way Week 9 insists: a **center with an interval**, e.g. "about 4 points per
+hour, with a 95% interval of roughly $[\,\text{lower},\ \text{upper}\,]$."
+
+### Illustrative — the same fit with the course packages
+
+The block below is **illustrative only — it runs with the course packages** (`rstanarm`,
+`bayesrules`) and is **not executed here**. It shows the genuine Bayesian fit you would run once
+those packages are installed; it returns a posterior over the coefficients directly.
+
+```r
+# illustrative — runs with the course packages, not executed in this lab
+library(rstanarm)
+model <- stan_glm(
+  y ~ x,
+  data    = data.frame(x = x, y = y),
+  family  = gaussian,
+  prior_intercept = normal(55, 10),
+  prior           = normal(4, 2),
+  prior_aux       = exponential(1 / 8),
+  seed    = 909
+)
+posterior_interval(model, prob = 0.95)   # credible intervals for b0 and b1
+```
+
+## Verify
+
+Your work is on track if **all three** hold:
+
+1. The fitted intercept and slope from Step 2 are near the *true* values **55** and **4** (within
+   a point or two), confirming the data recover the truth.
+2. In Step 4, the **mean of the resampled slopes** sits close to the `lm()` slope from Step 2 —
+   the simulation center matches the closed-form least-squares estimate. (Concrete success
+   criterion: `abs(mean(slopes) - coef(fit)[2]) < 0.3`.)
+3. The 2.5%–97.5% resample interval for the slope **excludes 0**, matching the conclusion that
+   study hours have a credible positive effect.
+
+If any check fails, see the next section.
+
+## When it breaks
+
+- **`could not find function "lm"`** or a blank plot — you likely ran the chunk before R finished
+  loading; **fix** by rendering the whole `.qmd` top to bottom so chunks execute in order.
+- **Numbers don't match the text** — confirm the `set.seed(909)` line ran *in the same chunk*
+  before the random draw; a missing or moved seed is the most common **error** here. **Troubleshoot**
+  by re-rendering from a clean session.
+- **`object 'fit' not found` in Step 4** — Step 2 did not run; chunks share state only when
+  executed in sequence. Render the full document, not a single chunk.
+- **If `confint()` fails**, your `lm` object is missing; re-run Step 2 first.
+
+## AI use note
+
+| Tool | Purpose | Verification |
+|---|---|---|
+| LLM assistant (e.g. Claude) | Explain an R error message or suggest a base-R plotting tweak | Re-render the chunk yourself; confirm the figure and printed numbers match the Verify criteria before trusting any AI-suggested edit. |
+
+Disclose AI assistance per the syllabus. AI may help you *understand* code; the runnable result and
+its interpretation must be your own and must pass the Verify checks.
+
+## See also
+
+- [Week 09 — Bayesian regression I](../notes/week-09-bayesian-regression-i.qmd)
+- [R + VS Code + Quarto setup](../resources/r-vscode-quarto-setup.qmd)
+- [Notation glossary](../resources/notation-glossary.qmd)
+
+---
+
+*The graded deliverable, its rubric, point values, and due date live in the LMS (Blackboard),
+which is authoritative. None of those are posted here; this lab is the public, ungraded practice
+path.*

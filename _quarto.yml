@@ -1,0 +1,136 @@
+# Bayesian Statistics — public Quarto course site (assembled undergraduate course materials).
+# Sibling of matthewhester.com; intended to live at /bayesian-statistics/ under that domain.
+# Layout/theme aligned to the matthewhester.com course family (cosmo + styles.css, dark navbar,
+# floating sidebar, right-side TOC, MathML math). site-url set for the combined deploy; this
+# repo does not self-deploy (no CI here — the hub workflow assembles the courses).
+# Boundary: this is the PUBLIC surface. Private build state (_state/), source governance
+# (source_text/), assessment shadows (assessment_shadow/), assignment specs (specs/),
+# run reports (run_reports/), and accessibility evidence (accessibility/) are NOT rendered.
+project:
+  type: website
+  output-dir: _site
+  # RENDER ALLOW-LIST (docs/08 §2 boundary hazard; docs/26 §6). Fails safe — only the public
+  # sections below render into _site/. Every private dir (_state/ underscore-skipped, plus
+  # source_text/, assessment_shadow/, specs/, run_reports/, accessibility/) is excluded.
+  # NOTE: a bare "*.qmd" matches RECURSIVELY in Quarto 1.8.26 and leaks nested private .qmd
+  # (e.g. specs/*.qmd) into _site/. List the three public root pages explicitly instead, and
+  # negate the private dir as belt-and-suspenders (docs/08 §2, docs/26 §6).
+  render:
+    - index.qmd
+    - syllabus.qmd
+    - schedule.qmd
+    - notes/*.qmd
+    - labs/*.qmd
+    - resources/*.qmd
+    - "!specs/"
+
+website:
+  title: "Bayesian Statistics"
+  site-url: https://matthewhester.com/bayesian-statistics/
+  description: |
+    Public-facing course materials for Bayesian Statistics — an assembled
+    undergraduate course site (notes, labs, and resources) curated by Matt Hester.
+  open-graph: true
+  navbar:
+    pinned: true
+    background: dark            # black top bar — the family signature
+    logo: assets/icon.png
+    logo-alt: "Bayesian Statistics — a teal crystal-cluster course mark"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: syllabus.qmd
+        text: Syllabus
+      - href: schedule.qmd
+        text: Schedule
+  sidebar:
+    style: floating
+    collapse-level: 2
+    contents:
+      - section: "Notes"
+        href: notes/index.qmd
+        contents:
+          - href: notes/index.qmd
+            text: "Notes overview"
+          - section: "Part I — Foundations (Wk 1–2)"
+            contents:
+              - href: notes/week-01-thinking-under-uncertainty.qmd
+                text: "1 — Thinking under uncertainty"
+              - href: notes/week-02-discrete-bayes-diagnostic.qmd
+                text: "2 — Discrete Bayes & diagnostics"
+          - section: "Part II — Building Bayesian models (Wk 3–7)"
+            contents:
+              - href: notes/week-03-priors-likelihoods-posteriors.qmd
+                text: "3 — Prior, likelihood, posterior"
+              - href: notes/week-04-beta-binomial.qmd
+                text: "4 — The Beta-Binomial model"
+              - href: notes/week-05-prior-sensitivity-summaries.qmd
+                text: "5 — Prior sensitivity & summaries"
+              - href: notes/week-06-posterior-predictive.qmd
+                text: "6 — Posterior predictive thinking"
+              - href: notes/week-07-simulation-first-computation.qmd
+                text: "7 — Simulation-first computation"
+          - section: "Part III — Synthesis & midterm (Wk 8)"
+            contents:
+              - href: notes/week-08-midterm-synthesis.qmd
+                text: "8 — Midterm synthesis"
+          - section: "Part IV — Regression & model checking (Wk 9–12)"
+            contents:
+              - href: notes/week-09-bayesian-regression-i.qmd
+                text: "9 — Bayesian regression I"
+              - href: notes/week-10-bayesian-regression-ii.qmd
+                text: "10 — Bayesian regression II"
+              - href: notes/week-11-model-checking-comparison.qmd
+                text: "11 — Model checking & comparison"
+              - href: notes/week-12-bayesian-classical.qmd
+                text: "12 — Bayesian & classical in conversation"
+          - section: "Part V — Hierarchy, decisions & project (Wk 13–15)"
+            contents:
+              - href: notes/week-13-hierarchical-models.qmd
+                text: "13 — Hierarchical models"
+              - href: notes/week-14-decisions-communication.qmd
+                text: "14 — Decisions & communication"
+              - href: notes/week-15-project-workshop-synthesis.qmd
+                text: "15 — Project workshop & synthesis"
+      - section: "Labs"
+        href: labs/index.qmd
+        contents:
+          - href: labs/index.qmd
+            text: "Labs overview"
+          - href: labs/lab-04-beta-binomial-simulation.qmd
+            text: "Lab 4 — Beta-Binomial simulation"
+          - href: labs/lab-07-grid-approximation-quarto.qmd
+            text: "Lab 7 — Grid approximation in Quarto"
+          - href: labs/lab-09-bayesian-regression.qmd
+            text: "Lab 9 — Bayesian regression"
+          - href: labs/lab-13-partial-pooling.qmd
+            text: "Lab 13 — Partial pooling"
+      - section: "Resources"
+        href: resources/index.qmd
+        contents:
+          - href: resources/index.qmd
+            text: "Resources overview"
+          - href: resources/r-vscode-quarto-setup.qmd
+            text: "R · VS Code · Quarto setup"
+          - href: resources/notation-glossary.qmd
+            text: "Notation glossary"
+          - href: resources/bayes-vs-classical-cheatsheet.qmd
+            text: "Bayes vs. classical cheatsheet"
+  page-footer:
+    left: "© 2026 Matt Hester · Bayesian Statistics"
+    center: "[Matt Hester · matthewhester.com](https://matthewhester.com/)"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-location: right
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    fontsize: 1.05em
+    mainfont: "Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
+    monofont: "JetBrains Mono, Consolas, Menlo, monospace"
+# Math renders as MathML/MathJax (accessible text), never as images (docs/05 P7; docs/08 §4).
