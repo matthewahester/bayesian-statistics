@@ -1,10 +1,15 @@
 ---
-title: "Bayesian Statistics"
-subtitle: "Probability, modeling, computation, and evidence"
+pagetitle: "Bayesian Statistics"
 toc: false
 ---
 
-![](assets/hero.png){.course-hero-img fig-alt="Course identity banner for Bayesian Statistics — a teal crystal cluster surrounded by Bayesian graphics: Bayes' theorem, a prior-to-posterior update, a posterior predictive band, a 95% credible interval, and an MCMC trace, with the course title."}
+![](assets/hero-web.webp){.course-hero-img fig-alt="Course identity banner for Bayesian Statistics — a teal crystal cluster surrounded by Bayesian graphics: Bayes' theorem, a prior-to-posterior update, a posterior predictive band, a 95% credible interval, and an MCMC trace, with the course title."}
+
+# Bayesian Statistics {.course-landing-title}
+
+::: {.course-landing-subtitle}
+Probability, modeling, computation, and evidence
+:::
 
 > **A first course in reasoning with uncertainty.** We treat probability as the language of
 > uncertainty: before data we describe what is plausible, after data we update that plausibility
