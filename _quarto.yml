@@ -24,6 +24,9 @@ project:
     - resources/*.qmd
     - "!specs/"
 
+  resources:
+    - assets/hero-web.webp
+    - assets/hero-web-800.webp
 website:
   title: "Bayesian Statistics"
   site-url: https://matthewhester.com/bayesian-statistics/
