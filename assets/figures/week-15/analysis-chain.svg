@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="1000" height="620" role="img">
+  <title>The nine moves of a Bayesian analysis, with the water utility case at each move</title>
+  <desc>Nine labelled boxes in three rows, each naming one move of a Bayesian analysis and the object the water utility case produced at that move, joined by arrows.</desc>
+  <rect x="0" y="0" width="1000" height="620" fill="#ffffff"/>
+  <text x="500" y="34" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2933" text-anchor="middle" font-weight="bold">One analysis, nine moves: the water utility case end to end</text>
+  <text x="500" y="56" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="middle">Each box names the move; the smaller text names what this case produced there.</text>
+  <rect x="26" y="92" width="292" height="132" fill="#eef2f6" rx="7" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="40" y="116" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#1f2933" text-anchor="start" font-weight="bold">1. The question</text>
+  <text x="40" y="138" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">How does daily use respond to</text>
+  <text x="40" y="152" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">temperature, and how often does a</text>
+  <text x="40" y="166" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">weekday exceed 5.0 million gallons?</text>
+  <line x1="324" y1="158" x2="341" y2="158" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="348,158 341,154.85 341,161.15" fill="#5b6672"/>
+  <rect x="354" y="92" width="292" height="132" fill="#eef2f6" rx="7" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="368" y="116" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#1f2933" text-anchor="start" font-weight="bold">2. The prior</text>
+  <text x="368" y="138" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">Weakly informative on the slope: a</text>
+  <text x="368" y="152" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">change of a tenth of a million gallons</text>
+  <text x="368" y="166" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">per degree would be surprising.</text>
+  <line x1="652" y1="158" x2="669" y2="158" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="676,158 669,154.85 669,161.15" fill="#5b6672"/>
+  <rect x="682" y="92" width="292" height="132" fill="#eef2f6" rx="7" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="696" y="116" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#1f2933" text-anchor="start" font-weight="bold">3. The likelihood</text>
+  <text x="696" y="138" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">Daily use is normal around a line in</text>
+  <text x="696" y="152" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">centred temperature, with an</text>
+  <text x="696" y="166" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">observation-level sigma.</text>
+  <line x1="828" y1="224" x2="828" y2="244" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="828" y1="244" x2="172" y2="244" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="172" y1="244" x2="172" y2="249" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="172,256 175.15,249 168.85,249" fill="#5b6672"/>
+  <rect x="26" y="262" width="292" height="132" fill="#dbe6ef" rx="7" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="40" y="286" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#1f2933" text-anchor="start" font-weight="bold">4. The posterior</text>
+  <text x="40" y="308" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">Slope 0.0724 per degree, 95 percent</text>
+  <text x="40" y="322" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">credible interval 0.0556 to 0.0892,</text>
+  <text x="40" y="336" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">residual sd 0.2957.</text>
+  <line x1="324" y1="328" x2="341" y2="328" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="348,328 341,324.85 341,331.15" fill="#5b6672"/>
+  <rect x="354" y="262" width="292" height="132" fill="#dbe6ef" rx="7" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="368" y="286" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#1f2933" text-anchor="start" font-weight="bold">5. The prediction</text>
+  <text x="368" y="308" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">A weekday at 90 degrees: predicted mean</text>
+  <text x="368" y="322" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">use 4.853 million gallons under the</text>
+  <text x="368" y="336" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">fuller model.</text>
+  <line x1="652" y1="328" x2="669" y2="328" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="676,328 669,324.85 669,331.15" fill="#5b6672"/>
+  <rect x="682" y="262" width="292" height="132" fill="#f3e3d6" rx="7" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="696" y="286" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#1f2933" text-anchor="start" font-weight="bold">6. The checks</text>
+  <text x="696" y="308" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">Mean residual zero overall, but plus</text>
+  <text x="696" y="322" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">0.1726 on weekdays and minus 0.4028 on</text>
+  <text x="696" y="336" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">weekend days.</text>
+  <line x1="828" y1="394" x2="828" y2="414" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="828" y1="414" x2="172" y2="414" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="172" y1="414" x2="172" y2="419" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="172,426 175.15,419 168.85,419" fill="#5b6672"/>
+  <rect x="26" y="432" width="292" height="132" fill="#f3e3d6" rx="7" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="40" y="456" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#1f2933" text-anchor="start" font-weight="bold">7. The comparison</text>
+  <text x="40" y="478" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">Leave-one-out root mean square error</text>
+  <text x="40" y="492" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">0.3153 with temperature alone, 0.1066</text>
+  <text x="40" y="506" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">once weekend joins.</text>
+  <line x1="324" y1="498" x2="341" y2="498" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="348,498 341,494.85 341,501.15" fill="#5b6672"/>
+  <rect x="354" y="432" width="292" height="132" fill="#f3e3d6" rx="7" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="368" y="456" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#1f2933" text-anchor="start" font-weight="bold">8. The sensitivity</text>
+  <text x="368" y="478" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">Vary the prior and refit. On the seed</text>
+  <text x="368" y="492" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">lot a defensible prior moved 0.9670 to</text>
+  <text x="368" y="506" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">0.5000.</text>
+  <line x1="652" y1="498" x2="669" y2="498" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="676,498 669,494.85 669,501.15" fill="#5b6672"/>
+  <rect x="682" y="432" width="292" height="132" fill="#e4efe6" rx="7" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="696" y="456" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#1f2933" text-anchor="start" font-weight="bold">9. The bounded claim</text>
+  <text x="696" y="478" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">Under this model, P(use above 5.0) is</text>
+  <text x="696" y="492" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">0.0828 at 90 degrees. The threshold is a</text>
+  <text x="696" y="506" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">judgment.</text>
+  <text x="26" y="596" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="start">Moves 6, 7 and 8 are the ones a first project skips. They are what turns a fitted model into evidence.</text>
+</svg>

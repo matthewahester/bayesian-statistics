@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 460" width="980" height="460" role="img">
+  <title>Uncertainty about a rate against uncertainty about one hour</title>
+  <desc>Left: the Gamma posterior for the call rate with its 95 percent interval. Right: the predictive distribution for the count in one new hour, which is far wider.</desc>
+  <rect x="0" y="0" width="980" height="460" fill="#ffffff"/>
+  <text x="490" y="30" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2933" text-anchor="middle" font-weight="bold">Case C: the rate is pinned down far better than any single hour</text>
+  <rect x="70" y="86" width="380" height="250" fill="none" stroke="#c9d1d9" stroke-width="1.2"/>
+  <line x1="70" y1="336" x2="70" y2="340" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="70" y="353" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">2</text>
+  <line x1="124.286" y1="336" x2="124.286" y2="340" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="124.286" y="353" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">3</text>
+  <line x1="178.571" y1="336" x2="178.571" y2="340" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="178.571" y="353" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">4</text>
+  <line x1="232.857" y1="336" x2="232.857" y2="340" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="232.857" y="353" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">5</text>
+  <line x1="287.143" y1="336" x2="287.143" y2="340" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="287.143" y="353" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">6</text>
+  <line x1="341.429" y1="336" x2="341.429" y2="340" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="341.429" y="353" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">7</text>
+  <line x1="395.714" y1="336" x2="395.714" y2="340" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="395.714" y="353" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">8</text>
+  <line x1="450" y1="336" x2="450" y2="340" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="450" y="353" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">9</text>
+  <line x1="66" y1="336" x2="70" y2="336" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="62" y="339.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0</text>
+  <line x1="66" y1="255.355" x2="70" y2="255.355" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="62" y="259.155" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.2</text>
+  <line x1="66" y1="174.71" x2="70" y2="174.71" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="62" y="178.51" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.4</text>
+  <line x1="66" y1="94.065" x2="70" y2="94.065" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="62" y="97.865" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.6</text>
+  <text x="260" y="374" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">calls per hour</text>
+  <text x="260" y="72" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">Posterior for the rate lambda</text>
+  <polygon points="163.538,336 163.538,293.682 165,289.981 166.462,286.084 167.923,281.99 169.385,277.704 170.846,273.23 172.308,268.574 173.769,263.743 175.231,258.745 176.692,253.59 178.154,248.29 179.615,242.857 181.077,237.304 182.538,231.647 184,225.902 185.462,220.086 186.923,214.216 188.385,208.313 189.846,202.395 191.308,196.483 192.769,190.598 194.231,184.76 195.692,178.992 197.154,173.314 198.615,167.748 200.077,162.315 201.538,157.036 203,151.931 204.462,147.02 205.923,142.321 207.385,137.853 208.846,133.632 210.308,129.674 211.769,125.994 213.231,122.605 214.692,119.519 216.154,116.746 217.615,114.296 219.077,112.175 220.538,110.391 222,108.946 223.462,107.844 224.923,107.086 226.385,106.672 227.846,106.599 229.308,106.864 230.769,107.463 232.231,108.388 233.692,109.633 235.154,111.189 236.615,113.046 238.077,115.193 239.538,117.618 241,120.309 242.462,123.252 243.923,126.432 245.385,129.836 246.846,133.447 248.308,137.25 249.769,141.23 251.231,145.371 252.692,149.656 254.154,154.069 255.615,158.594 257.077,163.216 258.538,167.919 260,172.688 261.462,177.507 262.923,182.363 264.385,187.242 265.846,192.13 267.308,197.015 268.769,201.883 270.231,206.725 271.692,211.528 273.154,216.283 274.615,220.981 276.077,225.612 277.538,230.168 279,234.643 280.462,239.029 281.923,243.321 283.385,247.513 284.846,251.6 286.308,255.58 287.769,259.447 289.231,263.201 290.692,266.837 292.154,270.356 293.615,273.755 295.077,277.034 296.538,280.192 298,283.231 299.462,286.15 300.923,288.951 302.385,291.635 303.846,294.204 305.308,296.659 306.769,299.002 308.231,301.236 309.692,303.364 311.154,305.388 312.615,307.311 312.615,336" fill="#dbe6ef"/>
+  <polyline points="70,336 71.462,336 72.923,336 74.385,336 75.846,336 77.308,336 78.769,335.999 80.231,335.999 81.692,335.999 83.154,335.998 84.615,335.997 86.077,335.997 87.538,335.995 89,335.994 90.462,335.992 91.923,335.989 93.385,335.985 94.846,335.981 96.308,335.975 97.769,335.968 99.231,335.958 100.692,335.946 102.154,335.932 103.615,335.914 105.077,335.891 106.538,335.863 108,335.829 109.462,335.788 110.923,335.738 112.385,335.677 113.846,335.605 115.308,335.518 116.769,335.415 118.231,335.293 119.692,335.148 121.154,334.979 122.615,334.782 124.077,334.551 125.538,334.284 127,333.976 128.462,333.622 129.923,333.216 131.385,332.752 132.846,332.225 134.308,331.629 135.769,330.955 137.231,330.198 138.692,329.35 140.154,328.403 141.615,327.349 143.077,326.182 144.538,324.892 146,323.472 147.462,321.913 148.923,320.208 150.385,318.35 151.846,316.331 153.308,314.144 154.769,311.783 156.231,309.242 157.692,306.515 159.154,303.599 160.615,300.49 162.077,297.185 163.538,293.682 165,289.981 166.462,286.084 167.923,281.99 169.385,277.704 170.846,273.23 172.308,268.574 173.769,263.743 175.231,258.745 176.692,253.59 178.154,248.29 179.615,242.857 181.077,237.304 182.538,231.647 184,225.902 185.462,220.086 186.923,214.216 188.385,208.313 189.846,202.395 191.308,196.483 192.769,190.598 194.231,184.76 195.692,178.992 197.154,173.314 198.615,167.748 200.077,162.315 201.538,157.036 203,151.931 204.462,147.02 205.923,142.321 207.385,137.853 208.846,133.632 210.308,129.674 211.769,125.994 213.231,122.605 214.692,119.519 216.154,116.746 217.615,114.296 219.077,112.175 220.538,110.391 222,108.946 223.462,107.844 224.923,107.086 226.385,106.672 227.846,106.599 229.308,106.864 230.769,107.463 232.231,108.388 233.692,109.633 235.154,111.189 236.615,113.046 238.077,115.193 239.538,117.618 241,120.309 242.462,123.252 243.923,126.432 245.385,129.836 246.846,133.447 248.308,137.25 249.769,141.23 251.231,145.371 252.692,149.656 254.154,154.069 255.615,158.594 257.077,163.216 258.538,167.919 260,172.688 261.462,177.507 262.923,182.363 264.385,187.242 265.846,192.13 267.308,197.015 268.769,201.883 270.231,206.725 271.692,211.528 273.154,216.283 274.615,220.981 276.077,225.612 277.538,230.168 279,234.643 280.462,239.029 281.923,243.321 283.385,247.513 284.846,251.6 286.308,255.58 287.769,259.447 289.231,263.201 290.692,266.837 292.154,270.356 293.615,273.755 295.077,277.034 296.538,280.192 298,283.231 299.462,286.15 300.923,288.951 302.385,291.635 303.846,294.204 305.308,296.659 306.769,299.002 308.231,301.236 309.692,303.364 311.154,305.388 312.615,307.311 314.077,309.136 315.538,310.867 317,312.505 318.462,314.055 319.923,315.519 321.385,316.901 322.846,318.204 324.308,319.432 325.769,320.587 327.231,321.673 328.692,322.693 330.154,323.65 331.615,324.547 333.077,325.386 334.538,326.172 336,326.907 337.462,327.592 338.923,328.232 340.385,328.829 341.846,329.384 343.308,329.901 344.769,330.381 346.231,330.828 347.692,331.242 349.154,331.626 350.615,331.982 352.077,332.311 353.538,332.616 355,332.898 356.462,333.158 357.923,333.398 359.385,333.62 360.846,333.824 362.308,334.011 363.769,334.184 365.231,334.343 366.692,334.489 368.154,334.623 369.615,334.746 371.077,334.859 372.538,334.962 374,335.056 375.462,335.142 376.923,335.221 378.385,335.293 379.846,335.359 381.308,335.419 382.769,335.474 384.231,335.524 385.692,335.569 387.154,335.611 388.615,335.648 390.077,335.682 391.538,335.713 393,335.741 394.462,335.767 395.923,335.79 397.385,335.811 398.846,335.83 400.308,335.847 401.769,335.862 403.231,335.876 404.692,335.889 406.154,335.9 407.615,335.91 409.077,335.92 410.538,335.928 412,335.935 413.462,335.942 414.923,335.948 416.385,335.954 417.846,335.959 419.308,335.963 420.769,335.967 422.231,335.971 423.692,335.974 425.154,335.977 426.615,335.979 428.077,335.981 429.538,335.983 431,335.985 432.462,335.987 433.923,335.988 435.385,335.99 436.846,335.991 438.308,335.992 439.769,335.993 441.231,335.994 442.692,335.994 444.154,335.995 445.615,335.996 447.077,335.996 448.538,335.996 450,335.997" fill="none" stroke="#3f7a52" stroke-width="1.9" stroke-linejoin="round"/>
+  <text x="235.571" y="215.032" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="middle">95 percent</text>
+  <text x="235.571" y="247.29" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="middle">3.711 to 6.478</text>
+  <text x="260" y="315.839" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#3f7a52" text-anchor="middle" font-weight="bold">sd 0.7071</text>
+  <rect x="540" y="86" width="380" height="250" fill="none" stroke="#c9d1d9" stroke-width="1.2"/>
+  <line x1="554.074" y1="336" x2="554.074" y2="340" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="554.074" y="353" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0</text>
+  <line x1="624.444" y1="336" x2="624.444" y2="340" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="624.444" y="353" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">3</text>
+  <line x1="694.815" y1="336" x2="694.815" y2="340" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="694.815" y="353" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">6</text>
+  <line x1="765.185" y1="336" x2="765.185" y2="340" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="765.185" y="353" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">9</text>
+  <line x1="835.556" y1="336" x2="835.556" y2="340" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="835.556" y="353" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">12</text>
+  <line x1="905.926" y1="336" x2="905.926" y2="340" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="905.926" y="353" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">15</text>
+  <line x1="536" y1="336" x2="540" y2="336" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="532" y="339.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0</text>
+  <line x1="536" y1="273.5" x2="540" y2="273.5" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="532" y="277.3" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.05</text>
+  <line x1="536" y1="211" x2="540" y2="211" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="532" y="214.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.1</text>
+  <line x1="536" y1="148.5" x2="540" y2="148.5" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="532" y="152.3" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.15</text>
+  <text x="730" y="374" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">calls in the hour</text>
+  <text x="730" y="72" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">Predicting the count in one new hour</text>
+  <rect x="567.444" y="287.599" width="20.173" height="48.401" fill="#cfe0ee" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="590.901" y="223.798" width="20.173" height="112.202" fill="#cfe0ee" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="614.358" y="159.197" width="20.173" height="176.803" fill="#cfe0ee" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="637.815" y="123.033" width="20.173" height="212.967" fill="#cfe0ee" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="661.272" y="126.905" width="20.173" height="209.095" fill="#cfe0ee" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="684.728" y="161.754" width="20.173" height="174.246" fill="#cfe0ee" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="708.185" y="209.276" width="20.173" height="126.724" fill="#cfe0ee" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="731.642" y="253.917" width="20.173" height="82.083" fill="#cfe0ee" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="755.099" y="287.911" width="20.173" height="48.089" fill="#cfe0ee" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="778.556" y="310.207" width="20.173" height="25.793" fill="#cfe0ee" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="543.988" y="325.352" width="20.173" height="10.648" fill="#f0f3f6" stroke="#5b6672" stroke-width="1"/>
+  <rect x="802.012" y="323.21" width="20.173" height="12.79" fill="#f0f3f6" stroke="#5b6672" stroke-width="1"/>
+  <rect x="825.469" y="330.089" width="20.173" height="5.911" fill="#f0f3f6" stroke="#5b6672" stroke-width="1"/>
+  <rect x="848.926" y="333.437" width="20.173" height="2.563" fill="#f0f3f6" stroke="#5b6672" stroke-width="1"/>
+  <rect x="872.383" y="334.952" width="20.173" height="1.048" fill="#f0f3f6" stroke="#5b6672" stroke-width="1"/>
+  <rect x="895.84" y="335.593" width="20.173" height="0.407" fill="#f0f3f6" stroke="#5b6672" stroke-width="1"/>
+  <text x="746.42" y="113.5" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="middle">95 percent</text>
+  <text x="746.42" y="136" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="middle">1 to 10 calls</text>
+  <text x="769.877" y="192.25" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2f6f9f" text-anchor="middle" font-weight="bold">sd 2.345</text>
+  <text x="70" y="400" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">The predictive standard deviation is about 3.3 times the posterior standard deviation, because a new hour carries the Poisson scatter on top of what is still unknown about lambda.</text>
+  <text x="70" y="424" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">Both pictures come from the same fitted model. They answer different questions, and only one of them is about the parameter.</text>
+</svg>

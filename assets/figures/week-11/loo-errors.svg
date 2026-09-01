@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 466" width="770" height="466" role="img">
+  <title>Leave-one-out held-out errors for both models</title>
+  <desc>Twenty held-out prediction errors for each model on one axis. Model 1's errors spread from about minus 0.51 to plus 0.42 with a root mean square of 0.3153; Model 2's cluster near zero with a root mean square of 0.1066.</desc>
+  <rect x="0" y="0" width="770" height="466" fill="#ffffff"/>
+  <text x="36" y="30" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2933" text-anchor="start" font-weight="bold">Predicting a day the model never saw</text>
+  <text x="36" y="50" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">Each mark is one of the twenty days, left out, then predicted from the other nineteen.</text>
+  <line x1="203.714" y1="324" x2="203.714" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="203.714" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">-0.6</text>
+  <line x1="275.143" y1="324" x2="275.143" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="275.143" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">-0.4</text>
+  <line x1="346.571" y1="324" x2="346.571" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="346.571" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">-0.2</text>
+  <line x1="418" y1="324" x2="418" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="418" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0</text>
+  <line x1="489.429" y1="324" x2="489.429" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="489.429" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.2</text>
+  <line x1="560.857" y1="324" x2="560.857" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="560.857" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.4</text>
+  <line x1="632.286" y1="324" x2="632.286" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="632.286" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.6</text>
+  <text x="418" y="362" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">held-out prediction error, million gallons</text>
+  <rect x="305.393" y="135.6" width="225.214" height="60" fill="#eef2f6"/>
+  <line x1="168" y1="165.6" x2="668" y2="165.6" stroke="#c9d1d9" stroke-width="1.2" stroke-linecap="round"/>
+  <circle cx="567.579" cy="165.6" r="4.2" fill="#6b5b95"/>
+  <rect x="282.031" y="161.2" width="8.8" height="8.8" fill="#c2622d"/>
+  <circle cx="522.643" cy="165.6" r="4.2" fill="#6b5b95"/>
+  <circle cx="497.312" cy="165.6" r="4.2" fill="#6b5b95"/>
+  <rect x="264.043" y="161.2" width="8.8" height="8.8" fill="#c2622d"/>
+  <circle cx="499.423" cy="165.6" r="4.2" fill="#6b5b95"/>
+  <circle cx="420.686" cy="165.6" r="4.2" fill="#6b5b95"/>
+  <rect x="260.723" y="161.2" width="8.8" height="8.8" fill="#c2622d"/>
+  <circle cx="482.784" cy="165.6" r="4.2" fill="#6b5b95"/>
+  <circle cx="402.87" cy="165.6" r="4.2" fill="#6b5b95"/>
+  <rect x="258.287" y="161.2" width="8.8" height="8.8" fill="#c2622d"/>
+  <circle cx="495.318" cy="165.6" r="4.2" fill="#6b5b95"/>
+  <circle cx="403.75" cy="165.6" r="4.2" fill="#6b5b95"/>
+  <circle cx="505.761" cy="165.6" r="4.2" fill="#6b5b95"/>
+  <rect x="231.795" y="161.2" width="8.8" height="8.8" fill="#c2622d"/>
+  <circle cx="482.173" cy="165.6" r="4.2" fill="#6b5b95"/>
+  <circle cx="517.852" cy="165.6" r="4.2" fill="#6b5b95"/>
+  <rect x="234.194" y="161.2" width="8.8" height="8.8" fill="#c2622d"/>
+  <circle cx="524.686" cy="165.6" r="4.2" fill="#6b5b95"/>
+  <circle cx="523.472" cy="165.6" r="4.2" fill="#6b5b95"/>
+  <line x1="418" y1="131.6" x2="418" y2="199.6" stroke="#1f2933" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <rect x="379.929" y="236.8" width="76.143" height="60" fill="#eef2f6"/>
+  <line x1="168" y1="266.8" x2="668" y2="266.8" stroke="#c9d1d9" stroke-width="1.2" stroke-linecap="round"/>
+  <circle cx="465.399" cy="266.8" r="4.2" fill="#3f7a52"/>
+  <rect x="450.151" y="262.4" width="8.8" height="8.8" fill="#c2622d"/>
+  <circle cx="441.224" cy="266.8" r="4.2" fill="#3f7a52"/>
+  <circle cx="420.022" cy="266.8" r="4.2" fill="#3f7a52"/>
+  <rect x="415.4" y="262.4" width="8.8" height="8.8" fill="#c2622d"/>
+  <circle cx="428.052" cy="266.8" r="4.2" fill="#3f7a52"/>
+  <circle cx="350.348" cy="266.8" r="4.2" fill="#3f7a52"/>
+  <rect x="411.377" y="262.4" width="8.8" height="8.8" fill="#c2622d"/>
+  <circle cx="416.535" cy="266.8" r="4.2" fill="#3f7a52"/>
+  <circle cx="335.831" cy="266.8" r="4.2" fill="#3f7a52"/>
+  <rect x="411.604" y="262.4" width="8.8" height="8.8" fill="#c2622d"/>
+  <circle cx="432.168" cy="266.8" r="4.2" fill="#3f7a52"/>
+  <circle cx="339.365" cy="266.8" r="4.2" fill="#3f7a52"/>
+  <circle cx="444.137" cy="266.8" r="4.2" fill="#3f7a52"/>
+  <rect x="389.619" y="262.4" width="8.8" height="8.8" fill="#c2622d"/>
+  <circle cx="420.959" cy="266.8" r="4.2" fill="#3f7a52"/>
+  <circle cx="457.781" cy="266.8" r="4.2" fill="#3f7a52"/>
+  <rect x="407.31" y="262.4" width="8.8" height="8.8" fill="#c2622d"/>
+  <circle cx="464.545" cy="266.8" r="4.2" fill="#3f7a52"/>
+  <circle cx="462.527" cy="266.8" r="4.2" fill="#3f7a52"/>
+  <line x1="418" y1="232.8" x2="418" y2="300.8" stroke="#1f2933" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <text x="158" y="162.6" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6b5b95" text-anchor="end" font-weight="bold">Model 1</text>
+  <text x="158" y="179.6" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">temperature only</text>
+  <text x="158" y="263.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3f7a52" text-anchor="end" font-weight="bold">Model 2</text>
+  <text x="158" y="280.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">plus weekend</text>
+  <text x="542.607" y="141.6" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#6b5b95" text-anchor="start">root mean square 0.3153</text>
+  <text x="468.071" y="242.8" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#3f7a52" text-anchor="start">root mean square 0.1066</text>
+  <text x="36" y="410" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">Shaded bands are plus or minus each model's root mean square error. Orange squares are the six weekend days: under Model 1 they are among the worst misses, and under Model 2 they are not.</text>
+</svg>

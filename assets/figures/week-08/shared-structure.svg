@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 400" width="980" height="400" role="img">
+  <title>The six moves every unit of this course has made</title>
+  <desc>A left-to-right chain of six boxes naming the moves of a Bayesian analysis, with the Meridian seed lot carried underneath as one worked strip.</desc>
+  <rect x="0" y="0" width="980" height="400" fill="#ffffff"/>
+  <text x="490" y="32" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2933" text-anchor="middle" font-weight="bold">One shape, six moves</text>
+  <text x="490" y="54" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="middle">Weeks 1 to 7 changed the family, not the moves.</text>
+  <rect x="30" y="92" width="134" height="76" fill="#eef2f6" rx="7" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="97" y="118" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">Move 1</text>
+  <text x="97" y="138" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="middle" font-weight="bold">Name the unknown</text>
+  <text x="97" y="188" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">what you do not know</text>
+  <line x1="167" y1="130" x2="175" y2="130" stroke="#5b6672" stroke-width="1.3" stroke-linecap="round"/>
+  <polygon points="181,130 175,127.3 175,132.7" fill="#5b6672"/>
+  <rect x="184" y="92" width="134" height="76" fill="#eef2f6" rx="7" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="251" y="118" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">Move 2</text>
+  <text x="251" y="138" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="middle" font-weight="bold">State a prior</text>
+  <text x="251" y="188" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">before the data</text>
+  <line x1="321" y1="130" x2="329" y2="130" stroke="#5b6672" stroke-width="1.3" stroke-linecap="round"/>
+  <polygon points="335,130 329,127.3 329,132.7" fill="#5b6672"/>
+  <rect x="338" y="92" width="134" height="76" fill="#eef2f6" rx="7" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="405" y="118" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">Move 3</text>
+  <text x="405" y="138" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="middle" font-weight="bold">Write a</text>
+  <text x="405" y="152" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="middle" font-weight="bold">likelihood</text>
+  <text x="405" y="188" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">how data arise</text>
+  <line x1="475" y1="130" x2="483" y2="130" stroke="#5b6672" stroke-width="1.3" stroke-linecap="round"/>
+  <polygon points="489,130 483,127.3 483,132.7" fill="#5b6672"/>
+  <rect x="492" y="92" width="134" height="76" fill="#eef2f6" rx="7" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="559" y="118" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">Move 4</text>
+  <text x="559" y="138" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="middle" font-weight="bold">Form the</text>
+  <text x="559" y="152" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="middle" font-weight="bold">posterior</text>
+  <text x="559" y="188" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">prior times likelihood</text>
+  <line x1="629" y1="130" x2="637" y2="130" stroke="#5b6672" stroke-width="1.3" stroke-linecap="round"/>
+  <polygon points="643,130 637,127.3 637,132.7" fill="#5b6672"/>
+  <rect x="646" y="92" width="134" height="76" fill="#eef2f6" rx="7" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="713" y="118" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">Move 5</text>
+  <text x="713" y="138" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="middle" font-weight="bold">Summarize for</text>
+  <text x="713" y="152" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="middle" font-weight="bold">the question</text>
+  <text x="713" y="188" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">interval or probability</text>
+  <line x1="783" y1="130" x2="791" y2="130" stroke="#5b6672" stroke-width="1.3" stroke-linecap="round"/>
+  <polygon points="797,130 791,127.3 791,132.7" fill="#5b6672"/>
+  <rect x="800" y="92" width="134" height="76" fill="#eef2f6" rx="7" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="867" y="118" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">Move 6</text>
+  <text x="867" y="138" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="middle" font-weight="bold">Predict new data</text>
+  <text x="867" y="188" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">posterior predictive</text>
+  <text x="30" y="250" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="start" font-weight="bold">The Meridian seed lot, the same six moves</text>
+  <rect x="30" y="264" width="134" height="52" fill="#f7fbfd" rx="6" stroke="#c9d1d9" stroke-width="1"/>
+  <text x="97" y="288" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2f6f9f" text-anchor="middle">germination rate</text>
+  <text x="97" y="302" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2f6f9f" text-anchor="middle">pi</text>
+  <rect x="184" y="264" width="134" height="52" fill="#f7fbfd" rx="6" stroke="#c9d1d9" stroke-width="1"/>
+  <text x="251" y="288" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2f6f9f" text-anchor="middle">Beta(2, 2)</text>
+  <rect x="338" y="264" width="134" height="52" fill="#f7fbfd" rx="6" stroke="#c9d1d9" stroke-width="1"/>
+  <text x="405" y="288" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2f6f9f" text-anchor="middle">26 of 40</text>
+  <text x="405" y="302" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2f6f9f" text-anchor="middle">germinate</text>
+  <rect x="492" y="264" width="134" height="52" fill="#f7fbfd" rx="6" stroke="#c9d1d9" stroke-width="1"/>
+  <text x="559" y="288" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2f6f9f" text-anchor="middle">Beta(28, 16)</text>
+  <rect x="646" y="264" width="134" height="52" fill="#f7fbfd" rx="6" stroke="#c9d1d9" stroke-width="1"/>
+  <text x="713" y="288" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2f6f9f" text-anchor="middle">mean 0.6364</text>
+  <rect x="800" y="264" width="134" height="52" fill="#f7fbfd" rx="6" stroke="#c9d1d9" stroke-width="1"/>
+  <text x="867" y="288" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2f6f9f" text-anchor="middle">next tray of 40</text>
+  <text x="867" y="302" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2f6f9f" text-anchor="middle">seeds</text>
+  <text x="30" y="350" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">Move 5 is where the question you were asked decides what you report; move 6 is about a future observation, not about the parameter.</text>
+  <text x="30" y="370" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">Case A replaces the density by a table of counts, but the six moves are identical there too.</text>
+</svg>

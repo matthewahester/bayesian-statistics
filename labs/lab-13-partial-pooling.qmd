@@ -8,7 +8,7 @@ toc: true
 ---
 
 > **Purpose.** This lab is the hands-on companion to
-> [Week 13 — Hierarchical models](../notes/week-13-hierarchical-models.qmd). There you wrote the
+> [Week 13 — Hierarchical models](../notes/week-13.qmd). There you wrote the
 > two-level model and the partial-pooling formula
 > $\hat\theta_j^{\text{PP}} = \lambda_j\,\bar y_j + (1-\lambda_j)\,\mu$. Here you *produce* the three
 > estimates — no pooling, complete pooling, partial pooling — from seeded synthetic section data,
@@ -198,7 +198,7 @@ its interpretation must be your own and must pass the Verify checks.
 
 ## See also
 
-- [Week 13 — Hierarchical models](../notes/week-13-hierarchical-models.qmd)
+- [Week 13 — Hierarchical models](../notes/week-13.qmd)
 - [R + VS Code + Quarto setup](../resources/r-vscode-quarto-setup.qmd)
 - [Notation glossary](../resources/notation-glossary.qmd)
 

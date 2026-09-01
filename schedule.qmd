@@ -17,41 +17,41 @@ checking, and communicating Bayesian models.
 
 | Week | Theme | The throughline |
 |---|---|---|
-| 1 | [Thinking under uncertainty](notes/week-01-thinking-under-uncertainty.qmd) | Probability as a language for uncertainty; what changes when evidence arrives. |
-| 2 | [Discrete Bayes & diagnostic reasoning](notes/week-02-discrete-bayes-diagnostic.qmd) | Conditional probability, base rates, false positives, and updating. |
+| 1 | [Thinking under uncertainty](notes/week-01.qmd) | Probability as a language for uncertainty; what changes when evidence arrives. |
+| 2 | [Discrete Bayes & diagnostic reasoning](notes/week-02.qmd) | Conditional probability, base rates, false positives, and updating. |
 
 ## Part II — Building Bayesian models and the posterior (Weeks 3–7)
 
 | Week | Theme | The throughline |
 |---|---|---|
-| 3 | [Prior, likelihood, posterior](notes/week-03-priors-likelihoods-posteriors.qmd) | Building a model from assumptions and data; posterior ∝ likelihood × prior. |
-| 4 | [The Beta-Binomial model](notes/week-04-beta-binomial.qmd) | Proportions, conjugacy, posterior simulation, credible intervals. *(Lab 4)* |
-| 5 | [Prior sensitivity & summaries](notes/week-05-prior-sensitivity-summaries.qmd) | How conclusions change when assumptions change. |
-| 6 | [Posterior predictive thinking](notes/week-06-posterior-predictive.qmd) | Prediction, replicated data, and checking fit. |
-| 7 | [Simulation-first computation](notes/week-07-simulation-first-computation.qmd) | Grid approximation, posterior draws, reproducible Quarto. *(Lab 7)* |
+| 3 | [Prior, likelihood, posterior](notes/week-03.qmd) | Building a model from assumptions and data; posterior ∝ likelihood × prior. |
+| 4 | [The Beta-Binomial model](notes/week-04.qmd) | Proportions, conjugacy, posterior simulation, credible intervals. *(Lab 4)* |
+| 5 | [Prior sensitivity & summaries](notes/week-05.qmd) | How conclusions change when assumptions change. |
+| 6 | [Beyond proportions, and posterior prediction](notes/week-06.qmd) | Counts and means, prediction, replicated data, and checking fit. |
+| 7 | [Simulation-first computation](notes/week-07.qmd) | Grid approximation, posterior draws, reproducible Quarto. *(Lab 7)* |
 
 ## Part III — Synthesis & midterm (Week 8)
 
 | Week | Theme | The throughline |
 |---|---|---|
-| 8 | [Midterm synthesis](notes/week-08-midterm-synthesis.qmd) | Pulling together updating, simple models, summaries, and interpretation. |
+| 8 | [Midterm synthesis](notes/week-08.qmd) | Pulling together updating, simple models, summaries, and interpretation. |
 
 ## Part IV — Bayesian regression & model checking (Weeks 9–12)
 
 | Week | Theme | The throughline |
 |---|---|---|
-| 9 | [Bayesian regression I](notes/week-09-bayesian-regression-i.qmd) | Modeling a numerical outcome; priors on regression parameters. *(Lab 9)* |
-| 10 | [Bayesian regression II](notes/week-10-bayesian-regression-ii.qmd) | Multiple predictors, binary outcomes, prediction. |
-| 11 | [Model checking & comparison](notes/week-11-model-checking-comparison.qmd) | Posterior predictive checks, predictive performance, model limits. |
-| 12 | [Bayesian & classical in conversation](notes/week-12-bayesian-classical.qmd) | Credible vs. confidence intervals, posterior probabilities vs. p-values. |
+| 9 | [Bayesian regression I](notes/week-09.qmd) | Modeling a numerical outcome; priors on regression parameters. *(Lab 9)* |
+| 10 | [Bayesian regression II](notes/week-10.qmd) | Multiple predictors, binary outcomes, prediction. |
+| 11 | [Model checking & comparison](notes/week-11.qmd) | Posterior predictive checks, predictive performance, model limits. |
+| 12 | [Bayesian & classical in conversation](notes/week-12.qmd) | Credible vs. confidence intervals, posterior probabilities vs. p-values. |
 
 ## Part V — Hierarchy, decisions & project (Weeks 13–15)
 
 | Week | Theme | The throughline |
 |---|---|---|
-| 13 | [Hierarchical models](notes/week-13-hierarchical-models.qmd) | Complete pooling, no pooling, partial pooling, and shrinkage. *(Lab 13)* |
-| 14 | [Decisions & communication](notes/week-14-decisions-communication.qmd) | Decision thresholds, uncertainty communication, project work. |
-| 15 | [Project workshop & synthesis](notes/week-15-project-workshop-synthesis.qmd) | Final report preparation and course synthesis. |
+| 13 | [Hierarchical models](notes/week-13.qmd) | Complete pooling, no pooling, partial pooling, and shrinkage. *(Lab 13)* |
+| 14 | [Decisions & communication](notes/week-14.qmd) | Decision thresholds, uncertainty communication, project work. |
+| 15 | [Course synthesis & the shape of a report](notes/week-15.qmd) | The whole course as one argument, and what a Bayesian report must state. |
 
 ::: {.callout-note appearance="simple"}
 Holiday weeks, the exam window, and project checkpoints adjust this rhythm; the LMS carries the

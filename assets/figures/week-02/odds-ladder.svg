@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" role="img">
+  <title>Sequential updating in odds form</title>
+  <desc>A left to right chain of probabilities: 0.4 percent before testing, 7.3 percent after one positive, 60.7 percent after a second positive, with a downward branch to 0.17 percent when the second result is negative instead.</desc>
+  <rect x="0" y="0" width="900" height="400" fill="#ffffff"/>
+  <text x="450" y="28" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2933" text-anchor="middle" font-weight="bold">Prior odds times likelihood ratio equals posterior odds</text>
+  <rect x="24" y="92" width="190" height="74" fill="#eef2f6" rx="6" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="119" y="125" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">0.4 percent</text>
+  <text x="119" y="142" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">before any test</text>
+  <rect x="302" y="92" width="190" height="74" fill="#dbe6ef" rx="6" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="397" y="125" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">7.3 percent</text>
+  <text x="397" y="142" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">after one positive</text>
+  <rect x="580" y="92" width="190" height="74" fill="#dbe6ef" rx="6" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="675" y="125" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">60.7 percent</text>
+  <text x="675" y="142" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">after two positives</text>
+  <rect x="580" y="252" width="190" height="74" fill="#f3e3d6" rx="6" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="675" y="285" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">0.17 percent</text>
+  <text x="675" y="302" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">positive then negative</text>
+  <line x1="214" y1="129" x2="295" y2="129" stroke="#2f6f9f" stroke-width="1.6" stroke-linecap="round"/>
+  <polygon points="302,129 295,125.85 295,132.15" fill="#2f6f9f"/>
+  <line x1="492" y1="129" x2="573" y2="129" stroke="#2f6f9f" stroke-width="1.6" stroke-linecap="round"/>
+  <polygon points="580,129 573,125.85 573,132.15" fill="#2f6f9f"/>
+  <line x1="492" y1="152" x2="575.992" y2="272.261" stroke="#c2622d" stroke-width="1.6" stroke-linecap="round"/>
+  <polygon points="580,278 578.574,270.457 573.409,274.065" fill="#c2622d"/>
+  <text x="258" y="112" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#2f6f9f" text-anchor="middle">times 19.6</text>
+  <text x="536" y="112" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#2f6f9f" text-anchor="middle">times 19.6</text>
+  <text x="486" y="234" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#c2622d" text-anchor="end">times 0.0211</text>
+  <text x="24" y="202" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="start">Odds, not probabilities, are what multiply:</text>
+  <text x="24" y="224" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">0.004016 times 19.6 is 0.078715, and 0.078715 times</text>
+  <text x="24" y="241" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">19.6 is 1.5428. Turning 1.5428 back into a</text>
+  <text x="24" y="258" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">probability gives 1.5428 divided by 2.5428, which is</text>
+  <text x="24" y="275" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">0.6067.</text>
+  <text x="24" y="300" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">A negative second result multiplies the odds by</text>
+  <text x="24" y="317" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">0.0211 instead, and lands the patient below where</text>
+  <text x="24" y="334" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">they started.</text>
+  <text x="24" y="380" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">The second positive is worth another factor of 19.6 only if the two runs are independent.</text>
+</svg>

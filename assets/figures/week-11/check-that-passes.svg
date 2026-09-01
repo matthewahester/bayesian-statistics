@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 452" width="770" height="452" role="img">
+  <title>Reference distribution for the largest single day</title>
+  <desc>A histogram of the largest daily water use across ten thousand replicated data sets, centred near 5.36, with the observed largest day of 5.44 sitting well inside the bulk of the histogram.</desc>
+  <rect x="0" y="0" width="770" height="452" fill="#ffffff"/>
+  <text x="36" y="30" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2933" text-anchor="start" font-weight="bold">A check that passes, on the same model that just failed one</text>
+  <text x="36" y="50" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">Test quantity: the largest single day's use among the twenty days.</text>
+  <line x1="118" y1="358" x2="680" y2="358" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="118" y1="100" x2="118" y2="358" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="118" y1="358" x2="680" y2="358" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="118" y1="244.842" x2="680" y2="244.842" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="118" y1="131.684" x2="680" y2="131.684" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="144.762" y1="358" x2="144.762" y2="362" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="144.762" y="375" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">4.6</text>
+  <line x1="251.81" y1="358" x2="251.81" y2="362" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="251.81" y="375" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">5</text>
+  <line x1="358.857" y1="358" x2="358.857" y2="362" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="358.857" y="375" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">5.4</text>
+  <line x1="465.905" y1="358" x2="465.905" y2="362" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="465.905" y="375" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">5.8</text>
+  <line x1="572.952" y1="358" x2="572.952" y2="362" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="572.952" y="375" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">6.2</text>
+  <line x1="680" y1="358" x2="680" y2="362" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="680" y="375" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">6.6</text>
+  <line x1="114" y1="358" x2="118" y2="358" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="110" y="361.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0</text>
+  <line x1="114" y1="244.842" x2="118" y2="244.842" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="110" y="248.642" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">621</text>
+  <line x1="114" y1="131.684" x2="118" y2="131.684" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="110" y="135.484" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">1242</text>
+  <text x="399" y="396" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">largest daily use in a replicated data set, million gallons</text>
+  <text x="110" y="88" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="end">replicated data sets</text>
+  <rect x="118" y="357.636" width="20.071" height="0.364" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="138.071" y="357.271" width="20.071" height="0.729" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="158.143" y="356.36" width="20.071" height="1.64" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="178.214" y="351.622" width="20.071" height="6.378" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="198.286" y="346.52" width="20.071" height="11.48" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="218.357" y="322.467" width="20.071" height="35.533" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="238.429" y="294.041" width="20.071" height="63.959" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="258.5" y="246.482" width="20.071" height="111.518" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="278.571" y="198.194" width="20.071" height="159.806" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="298.643" y="159.381" width="20.071" height="198.619" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="318.714" y="140.795" width="20.071" height="217.205" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="338.786" y="131.684" width="20.071" height="226.316" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="358.857" y="155.919" width="20.071" height="202.081" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="378.929" y="191.999" width="20.071" height="166.001" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="399" y="231.176" width="20.071" height="126.824" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="419.071" y="259.237" width="20.071" height="98.763" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="439.143" y="288.575" width="20.071" height="69.425" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="459.214" y="314.45" width="20.071" height="43.55" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="479.286" y="328.116" width="20.071" height="29.884" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="499.357" y="339.596" width="20.071" height="18.404" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="519.429" y="344.334" width="20.071" height="13.666" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="539.5" y="349.253" width="20.071" height="8.747" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="559.571" y="353.08" width="20.071" height="4.92" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="579.643" y="355.813" width="20.071" height="2.187" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="599.714" y="356.178" width="20.071" height="1.822" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="619.786" y="357.271" width="20.071" height="0.729" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="639.857" y="356.724" width="20.071" height="1.276" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="659.929" y="357.818" width="20.071" height="0.182" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <line x1="369.562" y1="100" x2="369.562" y2="358" stroke="#3f7a52" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 4"/>
+  <text x="379.562" y="122" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#3f7a52" text-anchor="start" font-weight="bold">observed 5.44</text>
+  <text x="36" y="418" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">About 37 percent of replicates had a largest day at least this big, so this test quantity finds nothing wrong. Model 1 is still missing the weekend.</text>
+</svg>

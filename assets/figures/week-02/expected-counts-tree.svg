@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480" role="img">
+  <title>Expected counts among 100,000 people screened</title>
+  <desc>A branching count diagram splitting 100,000 screened people into 400 with the condition and 99,600 without, then each of those into positive and negative test results, with the two positive branches totalling 5,372.</desc>
+  <rect x="0" y="0" width="900" height="480" fill="#ffffff"/>
+  <text x="450" y="26" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2933" text-anchor="middle" font-weight="bold">Of 100,000 people screened, who tests positive?</text>
+  <rect x="24" y="200" width="150" height="62" fill="#eef2f6" rx="6" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="99" y="227" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">100,000</text>
+  <text x="99" y="244" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">people screened</text>
+  <rect x="258" y="96" width="178" height="62" fill="#f3e3d6" rx="6" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="347" y="123" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">Condition present</text>
+  <text x="347" y="140" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">400 people</text>
+  <rect x="258" y="306" width="178" height="62" fill="#eef2f6" rx="6" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="347" y="333" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">Condition absent</text>
+  <text x="347" y="350" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">99,600 people</text>
+  <line x1="174" y1="222" x2="253.195" y2="138.091" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="258,133 250.905,135.929 255.486,140.253" fill="#5b6672"/>
+  <line x1="174" y1="240" x2="253.252" y2="325.856" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="258,331 255.567,323.72 250.937,327.993" fill="#5b6672"/>
+  <text x="210" y="150" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="middle">0.004</text>
+  <text x="210" y="322" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="middle">0.996</text>
+  <rect x="516" y="44" width="196" height="56" fill="#dbe6ef" rx="6" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="614" y="76.5" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle">Positive: 392</text>
+  <rect x="516" y="152" width="196" height="56" fill="#ffffff" rx="6" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="614" y="184.5" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle">Negative: 8</text>
+  <rect x="516" y="258" width="196" height="56" fill="#dbe6ef" rx="6" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="614" y="290.5" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle">Positive: 4,980</text>
+  <rect x="516" y="366" width="196" height="56" fill="#ffffff" rx="6" stroke="#c9d1d9" stroke-width="1.2"/>
+  <text x="614" y="398.5" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle">Negative: 94,620</text>
+  <line x1="436" y1="116" x2="509.866" y2="75.373" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="516,72 508.348,72.613 511.385,78.134" fill="#5b6672"/>
+  <line x1="436" y1="140" x2="509.739" y2="176.87" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="516,180 511.148,174.052 508.33,179.687" fill="#5b6672"/>
+  <line x1="436" y1="326" x2="509.739" y2="289.13" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="516,286 508.33,286.313 511.148,291.948" fill="#5b6672"/>
+  <line x1="436" y1="348" x2="509.932" y2="390.511" stroke="#5b6672" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="516,394 511.502,387.78 508.361,393.241" fill="#5b6672"/>
+  <text x="472" y="74" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="middle">0.98</text>
+  <text x="472" y="178" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="middle">0.02</text>
+  <text x="472" y="268" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="middle">0.05</text>
+  <text x="472" y="390" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="middle">0.95</text>
+  <line x1="724" y1="72" x2="748" y2="72" stroke="#2f6f9f" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="724" y1="286" x2="748" y2="286" stroke="#2f6f9f" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="748" y1="72" x2="748" y2="286" stroke="#2f6f9f" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="748" y1="179" x2="769" y2="179" stroke="#2f6f9f" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="776,179 769,175.85 769,182.15" fill="#2f6f9f"/>
+  <text x="786" y="158" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2f6f9f" text-anchor="start" font-weight="bold">5,372 positive</text>
+  <text x="786" y="176" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2f6f9f" text-anchor="start">results in all</text>
+  <text x="786" y="204" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="start">392 of them are</text>
+  <text x="786" y="221" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="start">true positives:</text>
+  <text x="786" y="243" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="start" font-weight="bold">7.3 percent</text>
+  <text x="24" y="458" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">Every count is exact: 400 times 0.98 is 392, and 99,600 times 0.05 is 4,980.</text>
+</svg>

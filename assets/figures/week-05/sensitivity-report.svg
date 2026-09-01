@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 516" width="900" height="516" role="img">
+  <title>Sensitivity report at two sample sizes</title>
+  <desc>Posterior means with 95 percent credible intervals under four priors, first for a forty-seed tray and then for a four-hundred-seed lot with the same proportion.</desc>
+  <rect x="0" y="0" width="900" height="516" fill="#ffffff"/>
+  <line x1="214" y1="220" x2="214" y2="224" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="214" y="237" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.3</text>
+  <line x1="289.333" y1="220" x2="289.333" y2="224" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="289.333" y="237" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.4</text>
+  <line x1="364.667" y1="220" x2="364.667" y2="224" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="364.667" y="237" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.5</text>
+  <line x1="440" y1="220" x2="440" y2="224" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="440" y="237" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.6</text>
+  <line x1="515.333" y1="220" x2="515.333" y2="224" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="515.333" y="237" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.7</text>
+  <line x1="590.667" y1="220" x2="590.667" y2="224" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="590.667" y="237" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.8</text>
+  <line x1="666" y1="220" x2="666" y2="224" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="666" y="237" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.9</text>
+  <text x="440" y="60" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">Forty seeds, 26 germinated</text>
+  <line x1="364.667" y1="74" x2="364.667" y2="220" stroke="#a33a3a" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="6 4"/>
+  <text x="700" y="62" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="start">posterior</text>
+  <text x="800" y="62" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="start">chance pi</text>
+  <text x="800" y="76" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="start">is above 0.5</text>
+  <line x1="360.186" y1="100" x2="574.675" y2="100" stroke="#2f6f9f" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="360.186" y1="94" x2="360.186" y2="106" stroke="#2f6f9f" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="574.675" y1="94" x2="574.675" y2="106" stroke="#2f6f9f" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="472.318,95.5 476.818,100 472.318,104.5 467.818,100" fill="#2f6f9f"/>
+  <text x="204" y="104" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="end">Beta(1, 1) flat</text>
+  <text x="700" y="104" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">0.6429</text>
+  <text x="800" y="104" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">0.9702</text>
+  <line x1="357.686" y1="132" x2="568.254" y2="132" stroke="#3f7a52" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="357.686" y1="126" x2="357.686" y2="138" stroke="#3f7a52" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="568.254" y1="126" x2="568.254" y2="138" stroke="#3f7a52" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="467.421,127.5 471.921,132 467.421,136.5 462.921,132" fill="#3f7a52"/>
+  <text x="204" y="136" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="end">Beta(2, 2) mild</text>
+  <text x="700" y="136" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">0.6364</text>
+  <text x="800" y="136" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">0.9670</text>
+  <line x1="424.353" y1="164" x2="596.802" y2="164" stroke="#c2622d" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="424.353" y1="158" x2="424.353" y2="170" stroke="#c2622d" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="596.802" y1="158" x2="596.802" y2="170" stroke="#c2622d" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="515.333,159.5 519.833,164 515.333,168.5 510.833,164" fill="#c2622d"/>
+  <text x="204" y="168" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="end">Beta(16, 4) optimistic</text>
+  <text x="700" y="168" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">0.7000</text>
+  <text x="800" y="168" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">0.9992</text>
+  <line x1="270.487" y1="196" x2="458.846" y2="196" stroke="#6b5b95" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="270.487" y1="190" x2="270.487" y2="202" stroke="#6b5b95" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="458.846" y1="190" x2="458.846" y2="202" stroke="#6b5b95" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="364.667,191.5 369.167,196 364.667,200.5 360.167,196" fill="#6b5b95"/>
+  <text x="204" y="200" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="end">Beta(4, 16) skeptical</text>
+  <text x="700" y="200" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">0.5000</text>
+  <text x="800" y="200" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">0.5000</text>
+  <line x1="214" y1="424" x2="214" y2="428" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="214" y="441" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.3</text>
+  <line x1="289.333" y1="424" x2="289.333" y2="428" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="289.333" y="441" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.4</text>
+  <line x1="364.667" y1="424" x2="364.667" y2="428" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="364.667" y="441" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.5</text>
+  <line x1="440" y1="424" x2="440" y2="428" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="440" y="441" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.6</text>
+  <line x1="515.333" y1="424" x2="515.333" y2="428" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="515.333" y="441" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.7</text>
+  <line x1="590.667" y1="424" x2="590.667" y2="428" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="590.667" y="441" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.8</text>
+  <line x1="666" y1="424" x2="666" y2="428" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="666" y="441" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.9</text>
+  <text x="440" y="462" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">germination rate pi</text>
+  <text x="440" y="286" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">A different lot: four hundred seeds, 260 germinated</text>
+  <line x1="364.667" y1="300" x2="364.667" y2="424" stroke="#a33a3a" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="6 4"/>
+  <text x="700" y="292" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="start">posterior</text>
+  <line x1="441.498" y1="322" x2="511.651" y2="322" stroke="#2f6f9f" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="441.498" y1="316" x2="441.498" y2="328" stroke="#2f6f9f" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="511.651" y1="316" x2="511.651" y2="328" stroke="#2f6f9f" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="477.104,317.5 481.604,322 477.104,326.5 472.604,322" fill="#2f6f9f"/>
+  <text x="204" y="326" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="end">Beta(1, 1) flat</text>
+  <text x="700" y="326" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">0.6493</text>
+  <line x1="441.016" y1="349" x2="511.03" y2="349" stroke="#3f7a52" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="441.016" y1="343" x2="441.016" y2="355" stroke="#3f7a52" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="511.03" y1="343" x2="511.03" y2="355" stroke="#3f7a52" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="476.548,344.5 481.048,349 476.548,353.5 472.048,349" fill="#3f7a52"/>
+  <text x="204" y="353" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="end">Beta(2, 2) mild</text>
+  <text x="700" y="353" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">0.6485</text>
+  <line x1="448.377" y1="376" x2="516.65" y2="376" stroke="#c2622d" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="448.377" y1="370" x2="448.377" y2="382" stroke="#c2622d" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="516.65" y1="370" x2="516.65" y2="382" stroke="#c2622d" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="483.048,371.5 487.548,376 483.048,380.5 478.548,376" fill="#c2622d"/>
+  <text x="204" y="380" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="end">Beta(16, 4) optimistic</text>
+  <text x="700" y="380" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">0.6571</text>
+  <line x1="426.336" y1="403" x2="495.838" y2="403" stroke="#6b5b95" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="426.336" y1="397" x2="426.336" y2="409" stroke="#6b5b95" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="495.838" y1="397" x2="495.838" y2="409" stroke="#6b5b95" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="461.524,398.5 466.024,403 461.524,407.5 457.024,403" fill="#6b5b95"/>
+  <text x="204" y="407" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="end">Beta(4, 16) skeptical</text>
+  <text x="700" y="407" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">0.6286</text>
+  <rect x="214" y="74" width="452" height="146" fill="none" stroke="#c9d1d9" stroke-width="1"/>
+  <rect x="214" y="300" width="452" height="124" fill="none" stroke="#c9d1d9" stroke-width="1"/>
+  <text x="66" y="478" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">Top: on forty seeds the prior decides the conclusion. Bottom: on ten times the data, with the same sample proportion,</text>
+  <text x="66" y="495" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">the same four priors agree to within 0.03. The dashed line marks 0.5.</text>
+</svg>

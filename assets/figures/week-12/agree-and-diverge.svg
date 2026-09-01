@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 600" width="940" height="600" role="img">
+  <title>Where the two intervals agree and where they part</title>
+  <desc>Top: for the water utility slope the 95 percent credible interval and the 95 percent confidence interval nearly coincide. Bottom: for forty seeds the confidence interval stays put while the credible interval moves with the prior.</desc>
+  <rect x="0" y="0" width="940" height="600" fill="#ffffff"/>
+  <rect x="170" y="66" width="590" height="108" fill="none" stroke="#c9d1d9" stroke-width="1.2"/>
+  <line x1="223.636" y1="174" x2="223.636" y2="178" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="223.636" y="191" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.05</text>
+  <line x1="330.909" y1="174" x2="330.909" y2="178" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="330.909" y="191" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.06</text>
+  <line x1="438.182" y1="174" x2="438.182" y2="178" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="438.182" y="191" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.07</text>
+  <line x1="545.455" y1="174" x2="545.455" y2="178" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="545.455" y="191" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.08</text>
+  <line x1="652.727" y1="174" x2="652.727" y2="178" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="652.727" y="191" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.09</text>
+  <line x1="760" y1="174" x2="760" y2="178" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="760" y="191" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.10</text>
+  <text x="465" y="212" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">slope beta-1, million gallons per degree</text>
+  <text x="465" y="52" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">Twenty summer days, weak prior: near coincidence</text>
+  <line x1="283.709" y1="100.2" x2="644.145" y2="100.2" stroke="#2f6f9f" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="283.709" y1="94.2" x2="283.709" y2="106.2" stroke="#2f6f9f" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="644.145" y1="94.2" x2="644.145" y2="106.2" stroke="#2f6f9f" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="463.927,96.2 467.927,100.2 463.927,104.2 459.927,100.2" fill="#2f6f9f"/>
+  <text x="164" y="104.2" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#2f6f9f" text-anchor="end">credible</text>
+  <text x="463.927" y="89.2" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#2f6f9f" text-anchor="middle">0.0556 to 0.0892</text>
+  <line x1="270.836" y1="143.4" x2="657.018" y2="143.4" stroke="#c2622d" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="270.836" y1="137.4" x2="270.836" y2="149.4" stroke="#c2622d" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="657.018" y1="137.4" x2="657.018" y2="149.4" stroke="#c2622d" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="463.927,139.4 467.927,143.4 463.927,147.4 459.927,143.4" fill="#c2622d"/>
+  <text x="164" y="147.4" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#c2622d" text-anchor="end">confidence</text>
+  <text x="463.927" y="163.4" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#c2622d" text-anchor="middle">0.0544 to 0.0904</text>
+  <rect x="170" y="268" width="590" height="176" fill="none" stroke="#c9d1d9" stroke-width="1.2"/>
+  <line x1="170" y1="444" x2="170" y2="448" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="170" y="461" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.3</text>
+  <line x1="277.273" y1="444" x2="277.273" y2="448" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="277.273" y="461" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.4</text>
+  <line x1="384.545" y1="444" x2="384.545" y2="448" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="384.545" y="461" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.5</text>
+  <line x1="491.818" y1="444" x2="491.818" y2="448" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="491.818" y="461" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.6</text>
+  <line x1="599.091" y1="444" x2="599.091" y2="448" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="599.091" y="461" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.7</text>
+  <line x1="706.364" y1="444" x2="706.364" y2="448" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="706.364" y="461" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.8</text>
+  <text x="465" y="482" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">germination rate pi</text>
+  <text x="465" y="254" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">Forty seeds: the confidence interval cannot move, the credible interval can</text>
+  <line x1="384.545" y1="268" x2="384.545" y2="444" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <line x1="386.905" y1="296.16" x2="704.004" y2="296.16" stroke="#c2622d" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="386.905" y1="290.16" x2="386.905" y2="302.16" stroke="#c2622d" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="704.004" y1="290.16" x2="704.004" y2="302.16" stroke="#c2622d" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="545.455,292.16 549.455,296.16 545.455,300.16 541.455,296.16" fill="#c2622d"/>
+  <text x="164" y="300.16" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#c2622d" text-anchor="end">confidence, no prior</text>
+  <text x="714.004" y="300.16" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">centre 0.6500</text>
+  <line x1="378.216" y1="334.88" x2="683.622" y2="334.88" stroke="#3f7a52" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="378.216" y1="328.88" x2="378.216" y2="340.88" stroke="#3f7a52" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="683.622" y1="328.88" x2="683.622" y2="340.88" stroke="#3f7a52" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="537.838,330.88 541.838,334.88 537.838,338.88 533.838,334.88" fill="#3f7a52"/>
+  <text x="164" y="338.88" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#3f7a52" text-anchor="end">credible, Beta(1, 1)</text>
+  <text x="693.622" y="338.88" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">mean 0.6429</text>
+  <line x1="374.569" y1="373.6" x2="674.396" y2="373.6" stroke="#2f6f9f" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="374.569" y1="367.6" x2="374.569" y2="379.6" stroke="#2f6f9f" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="674.396" y1="367.6" x2="674.396" y2="379.6" stroke="#2f6f9f" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="530.865,369.6 534.865,373.6 530.865,377.6 526.865,373.6" fill="#2f6f9f"/>
+  <text x="164" y="377.6" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#2f6f9f" text-anchor="end">credible, Beta(2, 2)</text>
+  <text x="684.396" y="377.6" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">mean 0.6364</text>
+  <line x1="250.455" y1="412.32" x2="518.636" y2="412.32" stroke="#a33a3a" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="250.455" y1="406.32" x2="250.455" y2="418.32" stroke="#a33a3a" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="518.636" y1="406.32" x2="518.636" y2="418.32" stroke="#a33a3a" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="384.545,408.32 388.545,412.32 384.545,416.32 380.545,412.32" fill="#a33a3a"/>
+  <text x="164" y="416.32" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#a33a3a" text-anchor="end">credible, Beta(4, 16)</text>
+  <text x="528.636" y="416.32" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">mean 0.5000</text>
+  <line x1="170" y1="506" x2="890" y2="506" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="170" y="528" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="start">Agreement is earned by a weak prior and enough data, never guaranteed. The skeptical prior is worth</text>
+  <text x="170" y="545" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="start">twenty observations and drags the credible interval down by about a quarter of the axis, from a mean</text>
+  <text x="170" y="562" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="start">of 0.6364 to one of 0.5000. All four bars still overlap between 0.5022 and 0.6250: the reports</text>
+  <text x="170" y="579" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="start">disagree about a conclusion, not about the whole range of plausible rates.</text>
+</svg>

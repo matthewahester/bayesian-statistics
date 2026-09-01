@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 470" width="770" height="470" role="img">
+  <title>Model 1 residuals by day type</title>
+  <desc>Residuals from the temperature-only model plotted against fitted water use. The overall mean residual is exactly zero, but the fourteen weekdays average plus 0.1726 and the six weekend days average minus 0.4028.</desc>
+  <rect x="0" y="0" width="770" height="470" fill="#ffffff"/>
+  <text x="36" y="30" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2933" text-anchor="start" font-weight="bold">The check that cannot fail, beside the check that can</text>
+  <text x="36" y="50" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">Model 1 residuals, observed use minus fitted use, in million gallons.</text>
+  <line x1="128" y1="372" x2="620" y2="372" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="128" y1="96" x2="128" y2="372" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="128" y1="366.889" x2="620" y2="366.889" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="128" y1="315.778" x2="620" y2="315.778" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="128" y1="264.667" x2="620" y2="264.667" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="128" y1="213.556" x2="620" y2="213.556" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="128" y1="162.444" x2="620" y2="162.444" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="128" y1="111.333" x2="620" y2="111.333" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="145.263" y1="372" x2="145.263" y2="376" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="145.263" y="389" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">3</text>
+  <line x1="231.579" y1="372" x2="231.579" y2="376" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="231.579" y="389" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">3.5</text>
+  <line x1="317.895" y1="372" x2="317.895" y2="376" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="317.895" y="389" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">4</text>
+  <line x1="404.211" y1="372" x2="404.211" y2="376" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="404.211" y="389" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">4.5</text>
+  <line x1="490.526" y1="372" x2="490.526" y2="376" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="490.526" y="389" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">5</text>
+  <line x1="576.842" y1="372" x2="576.842" y2="376" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="576.842" y="389" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">5.5</text>
+  <line x1="124" y1="366.889" x2="128" y2="366.889" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="120" y="370.689" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">-0.6</text>
+  <line x1="124" y1="315.778" x2="128" y2="315.778" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="120" y="319.578" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">-0.4</text>
+  <line x1="124" y1="264.667" x2="128" y2="264.667" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="120" y="268.467" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">-0.2</text>
+  <line x1="124" y1="213.556" x2="128" y2="213.556" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="120" y="217.356" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0</text>
+  <line x1="124" y1="162.444" x2="128" y2="162.444" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="120" y="166.244" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.2</text>
+  <line x1="124" y1="111.333" x2="128" y2="111.333" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="120" y="115.133" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.4</text>
+  <text x="374" y="410" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">fitted use, million gallons</text>
+  <text x="120" y="84" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="end">residual</text>
+  <line x1="128" y1="213.556" x2="620" y2="213.556" stroke="#1f2933" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="626" y="217.556" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="start">zero</text>
+  <line x1="136.632" y1="169.439" x2="576.842" y2="169.439" stroke="#2f6f9f" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="7 4"/>
+  <line x1="136.632" y1="316.493" x2="576.842" y2="316.493" stroke="#c2622d" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="7 4"/>
+  <circle cx="162.718" cy="134.617" r="4" fill="#2f6f9f"/>
+  <rect x="196.038" y="285.626" width="8.4" height="8.4" fill="#c2622d"/>
+  <circle cx="237.757" cy="148.59" r="4" fill="#2f6f9f"/>
+  <circle cx="262.77" cy="162.618" r="4" fill="#2f6f9f"/>
+  <rect x="283.583" y="307.89" width="8.4" height="8.4" fill="#c2622d"/>
+  <circle cx="300.289" cy="159.382" r="4" fill="#2f6f9f"/>
+  <circle cx="325.302" cy="211.743" r="4" fill="#2f6f9f"/>
+  <rect x="333.608" y="312.946" width="8.4" height="8.4" fill="#c2622d"/>
+  <circle cx="350.315" cy="169.549" r="4" fill="#2f6f9f"/>
+  <circle cx="362.821" cy="223.84" r="4" fill="#2f6f9f"/>
+  <rect x="371.128" y="314.821" width="8.4" height="8.4" fill="#c2622d"/>
+  <circle cx="387.834" cy="161.201" r="4" fill="#2f6f9f"/>
+  <circle cx="400.34" cy="223.16" r="4" fill="#2f6f9f"/>
+  <circle cx="412.847" cy="154.785" r="4" fill="#2f6f9f"/>
+  <rect x="421.153" y="330.099" width="8.4" height="8.4" fill="#c2622d"/>
+  <circle cx="437.86" cy="171.368" r="4" fill="#2f6f9f"/>
+  <circle cx="462.873" cy="149.618" r="4" fill="#2f6f9f"/>
+  <rect x="471.179" y="322.377" width="8.4" height="8.4" fill="#c2622d"/>
+  <circle cx="500.392" cy="148.938" r="4" fill="#2f6f9f"/>
+  <circle cx="525.405" cy="152.744" r="4" fill="#2f6f9f"/>
+  <text x="146" y="159.439" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#2f6f9f" text-anchor="start">weekday mean residual, plus 0.1726</text>
+  <text x="146" y="334.493" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#c2622d" text-anchor="start">weekend mean residual, minus 0.4028</text>
+  <line x1="597.558" y1="316.493" x2="597.558" y2="176.439" stroke="#a33a3a" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="597.558,169.439 594.408,176.439 600.708,176.439" fill="#a33a3a"/>
+  <line x1="597.558" y1="169.439" x2="597.558" y2="309.493" stroke="#a33a3a" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="597.558,316.493 600.708,309.493 594.408,309.493" fill="#a33a3a"/>
+  <text x="589.558" y="246.966" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#a33a3a" text-anchor="end">gap 0.5754</text>
+  <text x="36" y="436" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">All twenty residuals average exactly zero because fitting forces it. Split by day type they do not, and Model 1 has no way to produce that split.</text>
+</svg>

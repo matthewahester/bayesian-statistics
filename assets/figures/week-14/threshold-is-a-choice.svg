@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 490" width="880" height="490" role="img">
+  <title>The acting temperature as a function of the cost ratio</title>
+  <desc>A falling curve showing the weekday temperature at which the utility would stage extra capacity, drawn against the ratio of the cost of being caught short to the cost of staging capacity that is not needed.</desc>
+  <rect x="0" y="0" width="880" height="490" fill="#ffffff"/>
+  <text x="38" y="30" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2933" text-anchor="start" font-weight="bold">Change the costs and the decision moves, on identical data</text>
+  <text x="38" y="50" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">The break-even probability is the staging cost divided by the shortfall cost, so the</text>
+  <text x="38" y="66" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">ratio on the horizontal axis fixes the temperature on the vertical one.</text>
+  <line x1="150" y1="380" x2="630" y2="380" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="150" y1="114" x2="150" y2="380" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="150" y1="338" x2="630" y2="338" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="150" y1="268" x2="630" y2="268" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="150" y1="198" x2="630" y2="198" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="150" y1="128" x2="630" y2="128" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="162.973" y1="380" x2="162.973" y2="384" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="162.973" y="397" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">2</text>
+  <line x1="240.811" y1="380" x2="240.811" y2="384" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="240.811" y="397" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">5</text>
+  <line x1="305.676" y1="380" x2="305.676" y2="384" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="305.676" y="397" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">7.5</text>
+  <line x1="370.541" y1="380" x2="370.541" y2="384" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="370.541" y="397" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">10</text>
+  <line x1="500.27" y1="380" x2="500.27" y2="384" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="500.27" y="397" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">15</text>
+  <line x1="630" y1="380" x2="630" y2="384" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="630" y="397" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">20</text>
+  <line x1="146" y1="338" x2="150" y2="338" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="142" y="341.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">90</text>
+  <line x1="146" y1="268" x2="150" y2="268" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="142" y="271.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">91</text>
+  <line x1="146" y1="198" x2="150" y2="198" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="142" y="201.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">92</text>
+  <line x1="146" y1="128" x2="150" y2="128" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="142" y="131.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">93</text>
+  <text x="390" y="418" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">cost of being caught short, divided by cost of unneeded staging</text>
+  <text x="142" y="102" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="end">acting temperature</text>
+  <polyline points="150,144.164 152.4,155.292 154.8,164.885 157.2,173.307 159.6,180.806 162,187.557 164.4,193.691 166.8,199.306 169.2,204.48 171.6,209.273 174,213.735 176.4,217.906 178.8,221.82 181.2,225.505 183.6,228.984 186,232.278 188.4,235.405 190.8,238.379 193.2,241.214 195.6,243.921 198,246.511 200.4,248.993 202.8,251.375 205.2,253.664 207.6,255.866 210,257.988 212.4,260.035 214.8,262.011 217.2,263.922 219.6,265.77 222,267.559 224.4,269.294 226.8,270.976 229.2,272.609 231.6,274.196 234,275.738 236.4,277.238 238.8,278.699 241.2,280.121 243.6,281.507 246,282.859 248.4,284.177 250.8,285.464 253.2,286.721 255.6,287.949 258,289.15 260.4,290.324 262.8,291.472 265.2,292.596 267.6,293.697 270,294.775 272.4,295.831 274.8,296.866 277.2,297.881 279.6,298.876 282,299.853 284.4,300.812 286.8,301.753 289.2,302.677 291.6,303.584 294,304.476 296.4,305.353 298.8,306.214 301.2,307.062 303.6,307.895 306,308.715 308.4,309.521 310.8,310.315 313.2,311.097 315.6,311.866 318,312.624 320.4,313.37 322.8,314.106 325.2,314.83 327.6,315.544 330,316.248 332.4,316.942 334.8,317.627 337.2,318.302 339.6,318.968 342,319.625 344.4,320.273 346.8,320.913 349.2,321.544 351.6,322.167 354,322.783 356.4,323.39 358.8,323.99 361.2,324.583 363.6,325.169 366,325.747 368.4,326.319 370.8,326.884 373.2,327.442 375.6,327.994 378,328.539 380.4,329.079 382.8,329.612 385.2,330.139 387.6,330.661 390,331.177 392.4,331.687 394.8,332.192 397.2,332.691 399.6,333.186 402,333.675 404.4,334.159 406.8,334.638 409.2,335.112 411.6,335.582 414,336.047 416.4,336.507 418.8,336.963 421.2,337.414 423.6,337.861 426,338.304 428.4,338.743 430.8,339.177 433.2,339.607 435.6,340.034 438,340.456 440.4,340.875 442.8,341.29 445.2,341.701 447.6,342.109 450,342.513 452.4,342.913 454.8,343.31 457.2,343.704 459.6,344.094 462,344.481 464.4,344.864 466.8,345.245 469.2,345.622 471.6,345.996 474,346.367 476.4,346.736 478.8,347.101 481.2,347.463 483.6,347.822 486,348.179 488.4,348.532 490.8,348.883 493.2,349.231 495.6,349.577 498,349.92 500.4,350.26 502.8,350.598 505.2,350.933 507.6,351.266 510,351.596 512.4,351.924 514.8,352.25 517.2,352.573 519.6,352.893 522,353.212 524.4,353.528 526.8,353.842 529.2,354.154 531.6,354.463 534,354.771 536.4,355.076 538.8,355.38 541.2,355.681 543.6,355.98 546,356.277 548.4,356.572 550.8,356.865 553.2,357.157 555.6,357.446 558,357.733 560.4,358.019 562.8,358.303 565.2,358.584 567.6,358.865 570,359.143 572.4,359.419 574.8,359.694 577.2,359.967 579.6,360.239 582,360.509 584.4,360.777 586.8,361.043 589.2,361.308 591.6,361.571 594,361.833 596.4,362.093 598.8,362.351 601.2,362.608 603.6,362.864 606,363.118 608.4,363.37 610.8,363.621 613.2,363.871 615.6,364.119 618,364.366 620.4,364.611 622.8,364.855 625.2,365.097 627.6,365.339 630,365.578" fill="none" stroke="#2f6f9f" stroke-width="2.3" stroke-linejoin="round"/>
+  <circle cx="162.973" cy="190.112" r="5.4" fill="#a33a3a"/>
+  <text x="174.973" y="174.112" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="start">a 2 to 1 ratio: acting at one half, 92.11 degrees</text>
+  <circle cx="305.676" cy="308.605" r="5.4" fill="#a33a3a"/>
+  <text x="317.676" y="332.605" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="start">the stated costs: acting at 0.1333, 90.42 degrees</text>
+  <text x="648" y="150" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">Acting when the</text>
+  <text x="648" y="166" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">probability passes one</text>
+  <text x="648" y="182" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">half is not a neutral</text>
+  <text x="648" y="198" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">default. It is the claim</text>
+  <text x="648" y="214" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">that being caught short</text>
+  <text x="648" y="230" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">costs exactly twice what</text>
+  <text x="648" y="246" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">an unnecessary crew</text>
+  <text x="648" y="262" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">costs.</text>
+  <text x="38" y="466" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">Every temperature on this curve rests on the same posterior. The horizontal axis</text>
+  <text x="38" y="482" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">carries no statistics at all.</text>
+</svg>

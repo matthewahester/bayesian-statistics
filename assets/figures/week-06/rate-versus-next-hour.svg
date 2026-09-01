@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" width="760" height="600" role="img">
+  <title>The rate and the next hour on one scale</title>
+  <desc>Two stacked panels over calls per hour: the narrow Gamma(50, 10) posterior for the rate with its interval 3.71 to 6.48, and the much wider negative binomial predictive for one new hour with its interval 1 to 10 calls.</desc>
+  <rect x="0" y="0" width="760" height="600" fill="#ffffff"/>
+  <text x="380" y="28" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2933" text-anchor="middle" font-weight="bold">Two questions, two widths</text>
+  <line x1="90" y1="242" x2="668" y2="242" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="90" y1="74" x2="90" y2="242" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="90" y1="242" x2="90" y2="246" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="90" y="259" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0</text>
+  <line x1="178.923" y1="242" x2="178.923" y2="246" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="178.923" y="259" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">2</text>
+  <line x1="267.846" y1="242" x2="267.846" y2="246" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="267.846" y="259" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">4</text>
+  <line x1="356.769" y1="242" x2="356.769" y2="246" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="356.769" y="259" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">6</text>
+  <line x1="445.692" y1="242" x2="445.692" y2="246" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="445.692" y="259" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">8</text>
+  <line x1="534.615" y1="242" x2="534.615" y2="246" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="534.615" y="259" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">10</text>
+  <line x1="623.538" y1="242" x2="623.538" y2="246" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="623.538" y="259" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">12</text>
+  <line x1="86" y1="242" x2="90" y2="242" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="82" y="245.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0</text>
+  <line x1="86" y1="186" x2="90" y2="186" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="82" y="189.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.2</text>
+  <line x1="86" y1="130" x2="90" y2="130" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="82" y="133.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.4</text>
+  <line x1="86" y1="74" x2="90" y2="74" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="82" y="77.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.6</text>
+  <text x="82" y="62" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="end">density</text>
+  <text x="379" y="60" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">What is the rate?  Posterior for lambda</text>
+  <polygon points="256.207,242 256.207,211.187 258.013,207.141 259.819,202.786 261.625,198.131 263.431,193.189 265.237,187.979 267.043,182.523 268.849,176.848 270.656,170.988 272.462,164.979 274.268,158.862 276.074,152.681 277.88,146.481 279.686,140.313 281.492,134.227 283.298,128.273 285.104,122.503 286.911,116.966 288.717,111.71 290.523,106.782 292.329,102.225 294.135,98.077 295.941,94.373 297.747,91.144 299.553,88.414 301.359,86.202 303.166,84.524 304.972,83.386 306.778,82.791 308.584,82.737 310.39,83.215 312.196,84.212 314.002,85.709 315.808,87.685 317.614,90.112 319.421,92.962 321.227,96.201 323.033,99.796 324.839,103.711 326.645,107.906 328.451,112.345 330.257,116.989 332.063,121.8 333.869,126.74 335.676,131.774 337.482,136.868 339.288,141.987 341.094,147.101 342.9,152.182 344.706,157.203 346.512,162.14 348.318,166.972 350.124,171.681 351.931,176.249 353.737,180.664 355.543,184.914 357.349,188.989 359.155,192.884 360.961,196.592 362.767,200.112 364.573,203.442 366.379,206.583 368.186,209.536 369.992,212.304 371.798,214.891 373.604,217.302 375.41,219.544 377.216,221.623 377.216,242" fill="#dbe6ef"/>
+  <polyline points="90.044,242 91.851,242 93.657,242 95.463,242 97.269,242 99.075,242 100.881,242 102.687,242 104.493,242 106.299,242 108.106,242 109.912,242 111.718,242 113.524,242 115.33,242 117.136,242 118.942,242 120.748,242 122.554,242 124.361,242 126.167,242 127.973,242 129.779,242 131.585,242 133.391,242 135.197,242 137.003,242 138.809,242 140.616,242 142.422,242 144.228,242 146.034,242 147.84,242 149.646,242 151.452,242 153.258,242 155.064,242 156.871,242 158.677,242 160.483,242 162.289,242 164.095,242 165.901,242 167.707,242 169.513,242 171.319,242 173.126,242 174.932,242 176.738,242 178.544,242 180.35,242 182.156,242 183.962,242 185.768,242 187.574,241.999 189.381,241.999 191.187,241.998 192.993,241.997 194.799,241.995 196.605,241.993 198.411,241.989 200.217,241.984 202.023,241.976 203.829,241.965 205.636,241.949 207.442,241.927 209.248,241.898 211.054,241.858 212.86,241.804 214.666,241.733 216.472,241.64 218.278,241.52 220.084,241.366 221.891,241.169 223.697,240.923 225.503,240.615 227.309,240.234 229.115,239.769 230.921,239.203 232.727,238.523 234.533,237.71 236.339,236.749 238.146,235.619 239.952,234.303 241.758,232.78 243.564,231.034 245.37,229.044 247.176,226.795 248.982,224.27 250.788,221.456 252.594,218.342 254.401,214.92 256.207,211.187 258.013,207.141 259.819,202.786 261.625,198.131 263.431,193.189 265.237,187.979 267.043,182.523 268.849,176.848 270.656,170.988 272.462,164.979 274.268,158.862 276.074,152.681 277.88,146.481 279.686,140.313 281.492,134.227 283.298,128.273 285.104,122.503 286.911,116.966 288.717,111.71 290.523,106.782 292.329,102.225 294.135,98.077 295.941,94.373 297.747,91.144 299.553,88.414 301.359,86.202 303.166,84.524 304.972,83.386 306.778,82.791 308.584,82.737 310.39,83.215 312.196,84.212 314.002,85.709 315.808,87.685 317.614,90.112 319.421,92.962 321.227,96.201 323.033,99.796 324.839,103.711 326.645,107.906 328.451,112.345 330.257,116.989 332.063,121.8 333.869,126.74 335.676,131.774 337.482,136.868 339.288,141.987 341.094,147.101 342.9,152.182 344.706,157.203 346.512,162.14 348.318,166.972 350.124,171.681 351.931,176.249 353.737,180.664 355.543,184.914 357.349,188.989 359.155,192.884 360.961,196.592 362.767,200.112 364.573,203.442 366.379,206.583 368.186,209.536 369.992,212.304 371.798,214.891 373.604,217.302 375.41,219.544 377.216,221.623 379.022,223.544 380.828,225.317 382.634,226.947 384.441,228.444 386.247,229.814 388.053,231.066 389.859,232.207 391.665,233.244 393.471,234.185 395.277,235.038 397.083,235.807 398.889,236.501 400.696,237.126 402.502,237.687 404.308,238.189 406.114,238.638 407.92,239.039 409.726,239.397 411.532,239.715 413.338,239.997 415.144,240.247 416.951,240.468 418.757,240.663 420.563,240.835 422.369,240.986 424.175,241.119 425.981,241.236 427.787,241.338 429.593,241.427 431.399,241.505 433.206,241.573 435.012,241.632 436.818,241.684 438.624,241.728 440.43,241.767 442.236,241.8 444.042,241.829 445.848,241.854 447.654,241.875 449.461,241.894 451.267,241.909 453.073,241.923 454.879,241.935 456.685,241.944 458.491,241.953 460.297,241.96 462.103,241.966 463.909,241.972 465.716,241.976 467.522,241.98 469.328,241.983 471.134,241.986 472.94,241.988 474.746,241.99 476.552,241.992 478.358,241.993 480.164,241.994 481.971,241.995 483.777,241.996 485.583,241.997 487.389,241.997 489.195,241.998 491.001,241.998 492.807,241.998 494.613,241.999 496.419,241.999 498.226,241.999 500.032,241.999 501.838,241.999 503.644,241.999 505.45,242 507.256,242 509.062,242 510.868,242 512.674,242 514.481,242 516.287,242 518.093,242 519.899,242 521.705,242 523.511,242 525.317,242 527.123,242 528.929,242 530.736,242 532.542,242 534.348,242 536.154,242 537.96,242 539.766,242 541.572,242 543.378,242 545.184,242 546.991,242 548.797,242 550.603,242 552.409,242 554.215,242 556.021,242 557.827,242 559.633,242 561.439,242 563.246,242 565.052,242 566.858,242 568.664,242 570.47,242 572.276,242 574.082,242 575.888,242 577.694,242 579.501,242 581.307,242 583.113,242 584.919,242 586.725,242 588.531,242 590.337,242 592.143,242 593.949,242 595.756,242 597.562,242 599.368,242 601.174,242 602.98,242 604.786,242 606.592,242 608.398,242 610.204,242 612.011,242 613.817,242 615.623,242 617.429,242 619.235,242 621.041,242 622.847,242 624.653,242 626.459,242 628.266,242 630.072,242 631.878,242 633.684,242 635.49,242 637.296,242 639.102,242 640.908,242 642.714,242 644.521,242 646.327,242 648.133,242 649.939,242 651.745,242 653.551,242 655.357,242 657.163,242 658.969,242 660.776,242 662.582,242 664.388,242 666.194,242 668,242" fill="none" stroke="#2f6f9f" stroke-width="2.6" stroke-linejoin="round"/>
+  <line x1="254.997" y1="242" x2="254.997" y2="85.2" stroke="#2f6f9f" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 4"/>
+  <line x1="378.022" y1="242" x2="378.022" y2="85.2" stroke="#2f6f9f" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 4"/>
+  <text x="316.309" y="158" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="middle" font-weight="bold">95 percent</text>
+  <text x="316.309" y="176.2" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="middle">3.71 to 6.48</text>
+  <text x="543.508" y="124.4" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#2f6f9f" text-anchor="middle">standard deviation 0.707</text>
+  <line x1="90" y1="490" x2="668" y2="490" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="90" y1="322" x2="90" y2="490" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="90" y1="490" x2="90" y2="494" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="90" y="507" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0</text>
+  <line x1="178.923" y1="490" x2="178.923" y2="494" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="178.923" y="507" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">2</text>
+  <line x1="267.846" y1="490" x2="267.846" y2="494" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="267.846" y="507" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">4</text>
+  <line x1="356.769" y1="490" x2="356.769" y2="494" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="356.769" y="507" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">6</text>
+  <line x1="445.692" y1="490" x2="445.692" y2="494" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="445.692" y="507" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">8</text>
+  <line x1="534.615" y1="490" x2="534.615" y2="494" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="534.615" y="507" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">10</text>
+  <line x1="623.538" y1="490" x2="623.538" y2="494" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="623.538" y="507" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">12</text>
+  <line x1="86" y1="490" x2="90" y2="490" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="82" y="493.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0</text>
+  <line x1="86" y1="448" x2="90" y2="448" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="82" y="451.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.05</text>
+  <line x1="86" y1="406" x2="90" y2="406" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="82" y="409.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.1</text>
+  <line x1="86" y1="364" x2="90" y2="364" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="82" y="367.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.15</text>
+  <line x1="86" y1="322" x2="90" y2="322" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="82" y="325.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.2</text>
+  <text x="379" y="528" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">calls per hour</text>
+  <text x="82" y="310" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="end">probability</text>
+  <text x="379" y="308" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">How many calls next hour?  Posterior predictive for a count</text>
+  <rect x="71.771" y="482.844" width="36.458" height="7.156" fill="#c9d1d9" fill-opacity="1"/>
+  <rect x="116.232" y="457.475" width="36.458" height="32.525" fill="#c2622d" fill-opacity="0.85"/>
+  <rect x="160.694" y="414.6" width="36.458" height="75.4" fill="#c2622d" fill-opacity="0.85"/>
+  <rect x="205.155" y="371.188" width="36.458" height="118.812" fill="#c2622d" fill-opacity="0.85"/>
+  <rect x="249.617" y="346.886" width="36.458" height="143.114" fill="#c2622d" fill-opacity="0.85"/>
+  <rect x="294.078" y="349.488" width="36.458" height="140.512" fill="#c2622d" fill-opacity="0.85"/>
+  <rect x="338.54" y="372.907" width="36.458" height="117.093" fill="#c2622d" fill-opacity="0.85"/>
+  <rect x="383.002" y="404.841" width="36.458" height="85.159" fill="#c2622d" fill-opacity="0.85"/>
+  <rect x="427.463" y="434.84" width="36.458" height="55.16" fill="#c2622d" fill-opacity="0.85"/>
+  <rect x="471.925" y="457.684" width="36.458" height="32.316" fill="#a33a3a" fill-opacity="0.8"/>
+  <rect x="516.386" y="472.667" width="36.458" height="17.333" fill="#a33a3a" fill-opacity="0.8"/>
+  <rect x="560.848" y="481.405" width="36.458" height="8.595" fill="#a33a3a" fill-opacity="0.8"/>
+  <rect x="605.309" y="486.028" width="36.458" height="3.972" fill="#a33a3a" fill-opacity="0.8"/>
+  <rect x="649.771" y="488.278" width="36.458" height="1.722" fill="#a33a3a" fill-opacity="0.8"/>
+  <line x1="112.231" y1="490" x2="112.231" y2="334.6" stroke="#c2622d" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 4"/>
+  <line x1="556.846" y1="490" x2="556.846" y2="334.6" stroke="#c2622d" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 4"/>
+  <text x="334.538" y="328.72" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#c2622d" text-anchor="middle" font-weight="bold">central 95 percent:  1 to 10 calls</text>
+  <text x="610.2" y="406" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#a33a3a" text-anchor="middle">9 or more:</text>
+  <text x="610.2" y="421.12" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#a33a3a" text-anchor="middle" font-weight="bold">0.0775</text>
+  <text x="587.969" y="359.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">standard</text>
+  <text x="587.969" y="374.92" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">deviation 2.345</text>
+  <text x="74" y="546" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">Same centre, 5.0 calls per hour. The predictive spread is about 3.3 times the posterior</text>
+  <text x="74" y="564" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">spread, because a new hour carries Poisson variation on top of what is still unknown</text>
+  <text x="74" y="582" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">about lambda.</text>
+</svg>

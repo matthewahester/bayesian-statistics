@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 470" width="820" height="470" role="img">
+  <title>Three ways to estimate eight zone means</title>
+  <desc>One gallons axis carrying three rows of estimates: complete pooling puts every zone at 78.94 gallons, no pooling spreads the eight survey averages from 58.0 to 92.1, and partial pooling lies between, from 68.0 to 87.4.</desc>
+  <rect x="0" y="0" width="820" height="470" fill="#ffffff"/>
+  <text x="38" y="30" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2933" text-anchor="start" font-weight="bold">Complete pooling, no pooling, and the compromise between them</text>
+  <text x="38" y="51" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">Eight zones surveyed by one water utility. Each mark is one zone's estimated mean household use, in gallons per day.</text>
+  <line x1="200" y1="358" x2="760" y2="358" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="200" y1="108" x2="200" y2="358" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="213.333" y1="358" x2="213.333" y2="362" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="213.333" y="375" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">55</text>
+  <line x1="280" y1="358" x2="280" y2="362" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="280" y="375" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">60</text>
+  <line x1="346.667" y1="358" x2="346.667" y2="362" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="346.667" y="375" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">65</text>
+  <line x1="413.333" y1="358" x2="413.333" y2="362" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="413.333" y="375" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">70</text>
+  <line x1="480" y1="358" x2="480" y2="362" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="480" y="375" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">75</text>
+  <line x1="546.667" y1="358" x2="546.667" y2="362" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="546.667" y="375" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">80</text>
+  <line x1="613.333" y1="358" x2="613.333" y2="362" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="613.333" y="375" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">85</text>
+  <line x1="680" y1="358" x2="680" y2="362" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="680" y="375" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">90</text>
+  <line x1="746.667" y1="358" x2="746.667" y2="362" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="746.667" y="375" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">95</text>
+  <text x="480" y="396" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">estimated mean household use, gallons per day</text>
+  <line x1="520" y1="108" x2="520" y2="358" stroke="#5b6672" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <text x="520" y="102.143" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="middle">population mean mu = 78</text>
+  <text x="186" y="166.071" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="end" font-weight="bold">complete pooling</text>
+  <line x1="200" y1="161.571" x2="760" y2="161.571" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="186" y="237.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="end" font-weight="bold">no pooling</text>
+  <line x1="200" y1="233" x2="760" y2="233" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="186" y="308.929" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="end" font-weight="bold">partial pooling</text>
+  <line x1="200" y1="304.429" x2="760" y2="304.429" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="532.48" cy="161.571" r="7" fill="#3f7a52"/>
+  <text x="546.48" y="149.571" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="start">all eight zones get 78.94</text>
+  <circle cx="525.333" cy="233" r="5.2" fill="#c2622d"/>
+  <circle cx="524.961" cy="304.429" r="5.2" fill="#2f6f9f"/>
+  <circle cx="708" cy="233" r="5.2" fill="#c2622d"/>
+  <circle cx="645.333" cy="304.429" r="5.2" fill="#2f6f9f"/>
+  <circle cx="417.333" cy="233" r="5.2" fill="#c2622d"/>
+  <circle cx="429.991" cy="304.429" r="5.2" fill="#2f6f9f"/>
+  <circle cx="253.333" cy="233" r="5.2" fill="#c2622d"/>
+  <circle cx="386.667" cy="304.429" r="5.2" fill="#2f6f9f"/>
+  <circle cx="568" cy="233" r="5.2" fill="#c2622d"/>
+  <circle cx="566.027" cy="304.429" r="5.2" fill="#2f6f9f"/>
+  <circle cx="372" cy="233" r="5.2" fill="#c2622d"/>
+  <circle cx="405.3" cy="304.429" r="5.2" fill="#2f6f9f"/>
+  <circle cx="656" cy="233" r="5.2" fill="#c2622d"/>
+  <circle cx="634.143" cy="304.429" r="5.2" fill="#2f6f9f"/>
+  <circle cx="473.333" cy="233" r="5.2" fill="#c2622d"/>
+  <circle cx="493.333" cy="304.429" r="5.2" fill="#2f6f9f"/>
+  <text x="253.333" y="219" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">Dunmore 58.0</text>
+  <text x="708" y="219" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">Brightmoor 92.1</text>
+  <text x="386.667" y="290.429" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">Dunmore 68.0</text>
+  <text x="645.333" y="290.429" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">Brightmoor 87.4</text>
+  <text x="38" y="408" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">Complete pooling is precise about a number that describes no zone. No pooling lets nine households in Dunmore set that zone's estimate by themselves.</text>
+  <text x="38" y="428" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">Partial pooling keeps the ordering of the zones and shortens the range from 34.1 gallons to 19.4.</text>
+</svg>

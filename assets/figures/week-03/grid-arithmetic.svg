@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 370" width="880" height="370" role="img">
+  <title>The five-candidate update as arithmetic</title>
+  <desc>A table of five candidate germination rates with prior probability, likelihood, their product, and the normalized posterior probability.</desc>
+  <rect x="0" y="0" width="880" height="370" fill="#ffffff"/>
+  <text x="440" y="32" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2933" text-anchor="middle" font-weight="bold">Every posterior in this course is this table</text>
+  <text x="440" y="54" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="middle">Five candidate rates, Beta(2, 2) prior weights, 26 of 40 germinated</text>
+  <rect x="40" y="80" width="820" height="27" fill="#eef2f6"/>
+  <text x="49" y="97.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="start" font-weight="bold">candidate rate pi</text>
+  <text x="326" y="97.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="end" font-weight="bold">prior</text>
+  <text x="541" y="97.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="end" font-weight="bold">p(26 of 40 given pi)</text>
+  <text x="706" y="97.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="end" font-weight="bold">product</text>
+  <text x="851" y="97.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="end" font-weight="bold">posterior</text>
+  <line x1="40" y1="80" x2="860" y2="80" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="49" y="124.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="start">0.40</text>
+  <text x="326" y="124.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.2182</text>
+  <text x="541" y="124.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.000819</text>
+  <text x="706" y="124.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.000179</text>
+  <text x="851" y="124.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.0036</text>
+  <line x1="40" y1="107" x2="860" y2="107" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <rect x="40" y="134" width="820" height="27" fill="#eef2f6"/>
+  <text x="49" y="151.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="start">0.50</text>
+  <text x="326" y="151.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.2273</text>
+  <text x="541" y="151.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.021107</text>
+  <text x="706" y="151.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.004797</text>
+  <text x="851" y="151.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.0965</text>
+  <line x1="40" y1="134" x2="860" y2="134" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="49" y="178.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="start">0.60</text>
+  <text x="326" y="178.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.2182</text>
+  <text x="541" y="178.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.106265</text>
+  <text x="706" y="178.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.023185</text>
+  <text x="851" y="178.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.4663</text>
+  <line x1="40" y1="161" x2="860" y2="161" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <rect x="40" y="188" width="820" height="27" fill="#eef2f6"/>
+  <text x="49" y="205.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="start">0.70</text>
+  <text x="326" y="205.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.1909</text>
+  <text x="541" y="205.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.104199</text>
+  <text x="706" y="205.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.019893</text>
+  <text x="851" y="205.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.4001</text>
+  <line x1="40" y1="188" x2="860" y2="188" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="49" y="232.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="start">0.80</text>
+  <text x="326" y="232.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.1455</text>
+  <text x="541" y="232.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.011492</text>
+  <text x="706" y="232.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.001671</text>
+  <text x="851" y="232.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.0336</text>
+  <line x1="40" y1="215" x2="860" y2="215" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <rect x="40" y="242" width="820" height="27" fill="#eef2f6"/>
+  <text x="49" y="259.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="start">total</text>
+  <text x="326" y="259.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">1.0000</text>
+  <text x="541" y="259.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">not a total</text>
+  <text x="706" y="259.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">0.049725</text>
+  <text x="851" y="259.8" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="end">1.0000</text>
+  <line x1="40" y1="242" x2="860" y2="242" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="40" y1="269" x2="860" y2="269" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="215" y1="80" x2="215" y2="269" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="335" y1="80" x2="335" y2="269" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="550" y1="80" x2="550" y2="269" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="715" y1="80" x2="715" y2="269" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="40" y1="80" x2="40" y2="269" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="860" y1="80" x2="860" y2="269" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="40" y="320" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">Each product is prior times likelihood. Dividing that column by its own total, 0.049725, produces the posterior column.</text>
+  <text x="40" y="340" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">The likelihood column has no total worth taking: it is not a probability distribution over the rate.</text>
+</svg>

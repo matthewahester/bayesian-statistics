@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 450" width="950" height="450" role="img">
+  <title>Prior predictive check on the restricted prior</title>
+  <desc>Bars give the number of loose caps in forty bottles that the restricted prior expects, concentrated between zero and four. Circles give the same distribution under the open prior. The observed nine sits far out in the right tail of both.</desc>
+  <rect x="0" y="0" width="950" height="450" fill="#ffffff"/>
+  <text x="30" y="30" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2933" text-anchor="start" font-weight="bold">Would this prior have expected the data we then saw?</text>
+  <rect x="75" y="100" width="700" height="235" fill="none" stroke="#c9d1d9" stroke-width="1.2"/>
+  <line x1="75" y1="335" x2="775" y2="335" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="75" y1="256.667" x2="775" y2="256.667" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="75" y1="178.333" x2="775" y2="178.333" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="75" y1="100" x2="775" y2="100" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="104.878" y1="335" x2="104.878" y2="339" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="104.878" y="352" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0</text>
+  <line x1="232.927" y1="335" x2="232.927" y2="339" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="232.927" y="352" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">3</text>
+  <line x1="360.976" y1="335" x2="360.976" y2="339" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="360.976" y="352" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">6</text>
+  <line x1="489.024" y1="335" x2="489.024" y2="339" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="489.024" y="352" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">9</text>
+  <line x1="617.073" y1="335" x2="617.073" y2="339" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="617.073" y="352" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">12</text>
+  <line x1="745.122" y1="335" x2="745.122" y2="339" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="745.122" y="352" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">15</text>
+  <line x1="71" y1="335" x2="75" y2="335" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="67" y="338.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0</text>
+  <line x1="71" y1="256.667" x2="75" y2="256.667" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="67" y="260.467" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.1</text>
+  <line x1="71" y1="178.333" x2="75" y2="178.333" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="67" y="182.133" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.2</text>
+  <line x1="71" y1="100" x2="75" y2="100" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="67" y="103.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.3</text>
+  <text x="425" y="373" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">loose caps in forty bottles, predicted before inspecting</text>
+  <rect x="91.646" y="165.188" width="26.463" height="169.812" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="134.329" y="129.587" width="26.463" height="205.413" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="177.012" y="175.124" width="26.463" height="159.876" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="219.695" y="228.101" width="26.463" height="106.899" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="262.378" y="269.039" width="26.463" height="65.961" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="305.061" y="296.873" width="26.463" height="38.127" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="347.744" y="314.545" width="26.463" height="20.455" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="390.427" y="325.026" width="26.463" height="9.974" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="433.11" y="330.658" width="26.463" height="4.342" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="475.793" y="333.327" width="26.463" height="1.673" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="518.476" y="334.431" width="26.463" height="0.569" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="561.159" y="334.829" width="26.463" height="0.171" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="603.841" y="334.954" width="26.463" height="0.046" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="646.524" y="334.989" width="26.463" height="0.011" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="689.207" y="334.998" width="26.463" height="0.002" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <rect x="731.89" y="335" width="26.463" height="0" fill="#dbe6ef" stroke="#2f6f9f" stroke-width="1"/>
+  <polyline points="104.878,187.667 147.561,154.329 190.244,191.163 232.927,235.21 275.61,269.129 318.293,291.56 360.976,305.203 403.659,313.283 446.341,318.462 489.024,322.471 531.707,326.014 574.39,329.09 617.073,331.487 659.756,333.122 702.439,334.097 745.122,334.609" fill="none" stroke="#c2622d" stroke-width="1.7" stroke-linejoin="round" stroke-dasharray="5 4"/>
+  <circle cx="104.878" cy="187.667" r="2.8" fill="#c2622d"/>
+  <circle cx="147.561" cy="154.329" r="2.8" fill="#c2622d"/>
+  <circle cx="190.244" cy="191.163" r="2.8" fill="#c2622d"/>
+  <circle cx="232.927" cy="235.21" r="2.8" fill="#c2622d"/>
+  <circle cx="275.61" cy="269.129" r="2.8" fill="#c2622d"/>
+  <circle cx="318.293" cy="291.56" r="2.8" fill="#c2622d"/>
+  <circle cx="360.976" cy="305.203" r="2.8" fill="#c2622d"/>
+  <circle cx="403.659" cy="313.283" r="2.8" fill="#c2622d"/>
+  <circle cx="446.341" cy="318.462" r="2.8" fill="#c2622d"/>
+  <circle cx="489.024" cy="322.471" r="2.8" fill="#c2622d"/>
+  <circle cx="531.707" cy="326.014" r="2.8" fill="#c2622d"/>
+  <circle cx="574.39" cy="329.09" r="2.8" fill="#c2622d"/>
+  <circle cx="617.073" cy="331.487" r="2.8" fill="#c2622d"/>
+  <circle cx="659.756" cy="333.122" r="2.8" fill="#c2622d"/>
+  <circle cx="702.439" cy="334.097" r="2.8" fill="#c2622d"/>
+  <circle cx="745.122" cy="334.609" r="2.8" fill="#c2622d"/>
+  <line x1="489.024" y1="100" x2="489.024" y2="335" stroke="#a33a3a" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 3"/>
+  <text x="489.024" y="92" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#a33a3a" text-anchor="middle" font-weight="bold">observed: nine</text>
+  <text x="520" y="140" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#2f6f9f" text-anchor="start">restricted prior (bars)</text>
+  <text x="520" y="158" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#c2622d" text-anchor="start">open prior (dashed line)</text>
+  <text x="75" y="393" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">Under the restricted prior, nine or more loose caps had probability 0.0032, about three chances in a</text>
+  <text x="75" y="408" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">thousand. Under the open prior it was 0.0438. The posterior from the restricted prior still looked</text>
+  <text x="75" y="423" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">tidy and confident, so the posterior was never going to raise the alarm. This picture did.</text>
+</svg>

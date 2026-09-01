@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 500" width="820" height="500" role="img">
+  <title>Exceedance probability against temperature</title>
+  <desc>The probability that a weekday exceeds 5.0 million gallons, drawn against the day's maximum temperature, with the four pinned values marked and two candidate decision thresholds drawn as horizontal lines.</desc>
+  <rect x="0" y="0" width="820" height="500" fill="#ffffff"/>
+  <text x="38" y="30" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2933" text-anchor="start" font-weight="bold">The probability of exceeding 5.0 million gallons on a weekday</text>
+  <text x="38" y="50" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">Model 2, weekday. Each marked value is a tail area past 5.0 of a normal density centred on</text>
+  <text x="38" y="66" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">that day's predicted mean, with the full predictive spread, about 0.106.</text>
+  <line x1="150" y1="396" x2="660" y2="396" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="150" y1="110" x2="150" y2="396" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="150" y1="396" x2="660" y2="396" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="150" y1="327.25" x2="660" y2="327.25" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="150" y1="258.5" x2="660" y2="258.5" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="150" y1="189.75" x2="660" y2="189.75" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="150" y1="121" x2="660" y2="121" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="219.545" y1="396" x2="219.545" y2="400" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="219.545" y="413" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">86</text>
+  <line x1="312.273" y1="396" x2="312.273" y2="400" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="312.273" y="413" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">88</text>
+  <line x1="405" y1="396" x2="405" y2="400" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="405" y="413" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">90</text>
+  <line x1="497.727" y1="396" x2="497.727" y2="400" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="497.727" y="413" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">92</text>
+  <line x1="590.455" y1="396" x2="590.455" y2="400" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="590.455" y="413" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">94</text>
+  <line x1="146" y1="396" x2="150" y2="396" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="142" y="399.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0</text>
+  <line x1="146" y1="327.25" x2="150" y2="327.25" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="142" y="331.05" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.25</text>
+  <line x1="146" y1="258.5" x2="150" y2="258.5" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="142" y="262.3" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.50</text>
+  <line x1="146" y1="189.75" x2="150" y2="189.75" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="142" y="193.55" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.75</text>
+  <line x1="146" y1="121" x2="150" y2="121" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="142" y="124.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">1.00</text>
+  <text x="405" y="434" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">daily maximum temperature, degrees Fahrenheit</text>
+  <text x="142" y="98" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="end">chance above 5.0</text>
+  <polyline points="150,396 152.318,396 154.636,396 156.955,396 159.273,396 161.591,396 163.909,396 166.227,396 168.545,396 170.864,396 173.182,396 175.5,396 177.818,396 180.136,395.999 182.455,395.999 184.773,395.999 187.091,395.999 189.409,395.999 191.727,395.999 194.045,395.999 196.364,395.998 198.682,395.998 201,395.998 203.318,395.998 205.636,395.997 207.955,395.997 210.273,395.996 212.591,395.996 214.909,395.995 217.227,395.994 219.545,395.993 221.864,395.992 224.182,395.991 226.5,395.99 228.818,395.988 231.136,395.986 233.455,395.984 235.773,395.982 238.091,395.979 240.409,395.976 242.727,395.973 245.045,395.969 247.364,395.965 249.682,395.96 252,395.954 254.318,395.948 256.636,395.941 258.955,395.933 261.273,395.924 263.591,395.914 265.909,395.903 268.227,395.891 270.545,395.877 272.864,395.861 275.182,395.843 277.5,395.824 279.818,395.802 282.136,395.778 284.455,395.751 286.773,395.721 289.091,395.688 291.409,395.652 293.727,395.611 296.045,395.566 298.364,395.517 300.682,395.462 303,395.402 305.318,395.336 307.636,395.264 309.955,395.184 312.273,395.097 314.591,395.001 316.909,394.897 319.227,394.783 321.545,394.658 323.864,394.522 326.182,394.374 328.5,394.213 330.818,394.039 333.136,393.849 335.455,393.644 337.773,393.421 340.091,393.181 342.409,392.921 344.727,392.64 347.045,392.338 349.364,392.013 351.682,391.663 354,391.287 356.318,390.884 358.636,390.452 360.955,389.99 363.273,389.496 365.591,388.968 367.909,388.405 370.227,387.805 372.545,387.166 374.864,386.487 377.182,385.766 379.5,385.001 381.818,384.19 384.136,383.332 386.455,382.425 388.773,381.468 391.091,380.458 393.409,379.393 395.727,378.273 398.045,377.096 400.364,375.859 402.682,374.562 405,373.204 407.318,371.781 409.636,370.295 411.955,368.742 414.273,367.123 416.591,365.436 418.909,363.68 421.227,361.855 423.545,359.959 425.864,357.993 428.182,355.956 430.5,353.848 432.818,351.668 435.136,349.417 437.455,347.095 439.773,344.703 442.091,342.24 444.409,339.708 446.727,337.108 449.045,334.44 451.364,331.707 453.682,328.908 456,326.047 458.318,323.124 460.636,320.142 462.955,317.103 465.273,314.009 467.591,310.862 469.909,307.665 472.227,304.421 474.545,301.133 476.864,297.803 479.182,294.435 481.5,291.032 483.818,287.598 486.136,284.135 488.455,280.647 490.773,277.138 493.091,273.611 495.409,270.071 497.727,266.52 500.045,262.963 502.364,259.403 504.682,255.845 507,252.291 509.318,248.746 511.636,245.213 513.955,241.696 516.273,238.199 518.591,234.725 520.909,231.278 523.227,227.86 525.545,224.475 527.864,221.127 530.182,217.819 532.5,214.552 534.818,211.331 537.136,208.158 539.455,205.034 541.773,201.964 544.091,198.948 546.409,195.989 548.727,193.089 551.045,190.249 553.364,187.472 555.682,184.758 558,182.108 560.318,179.524 562.636,177.007 564.955,174.558 567.273,172.176 569.591,169.863 571.909,167.618 574.227,165.443 576.545,163.336 578.864,161.298 581.182,159.328 583.5,157.426 585.818,155.591 588.136,153.824 590.455,152.122 592.773,150.485 595.091,148.913 597.409,147.403 599.727,145.956 602.045,144.569 604.364,143.242 606.682,141.974 609,140.761 611.318,139.605 613.636,138.502 615.955,137.451 618.273,136.452 620.591,135.501 622.909,134.599 625.227,133.742 627.545,132.93 629.864,132.161 632.182,131.433 634.5,130.745 636.818,130.096 639.136,129.482 641.455,128.904 643.773,128.36 646.091,127.848 648.409,127.366 650.727,126.913 653.045,126.489 655.364,126.091 657.682,125.718 660,125.369" fill="none" stroke="#2f6f9f" stroke-width="2.3" stroke-linejoin="round"/>
+  <line x1="150" y1="258.5" x2="660" y2="258.5" stroke="#5b6672" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <text x="159.273" y="250.5" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">acting at one half</text>
+  <line x1="150" y1="359.333" x2="660" y2="359.333" stroke="#3f7a52" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="6 3"/>
+  <text x="159.273" y="351.333" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#3f7a52" text-anchor="start">break-even 0.1333 from the stated costs</text>
+  <line x1="424.473" y1="396" x2="424.473" y2="121" stroke="#5b6672" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <text x="424.473" y="113" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="middle">90.42</text>
+  <line x1="502.827" y1="396" x2="502.827" y2="121" stroke="#5b6672" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <text x="502.827" y="113" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="middle">92.11</text>
+  <circle cx="312.273" cy="395.092" r="4.6" fill="#1f2933"/>
+  <text x="304.273" y="383.092" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="end">0.0033</text>
+  <circle cx="405" cy="373.23" r="4.6" fill="#1f2933"/>
+  <text x="397" y="361.23" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="end">0.0828</text>
+  <circle cx="497.727" cy="266.475" r="4.6" fill="#1f2933"/>
+  <text x="489.727" y="254.475" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="end">0.4710</text>
+  <circle cx="590.455" cy="152.075" r="4.6" fill="#1f2933"/>
+  <text x="582.455" y="140.075" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#1f2933" text-anchor="end">0.8870</text>
+  <rect x="682" y="130" width="116" height="100" fill="#eef2f6" rx="6" stroke="#c9d1d9" stroke-width="1.1"/>
+  <text x="740" y="152" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="bold">under the costs</text>
+  <text x="740" y="172" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">88: do not act</text>
+  <text x="740" y="190" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">90: do not act</text>
+  <text x="740" y="208" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">92: act</text>
+  <text x="740" y="226" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">94: act</text>
+  <text x="465.273" y="95" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="middle">the two temperatures at which the two rules act</text>
+  <text x="38" y="478" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">Between 90.42 and 92.11 degrees the two rules disagree, and nothing in the data settles it.</text>
+</svg>

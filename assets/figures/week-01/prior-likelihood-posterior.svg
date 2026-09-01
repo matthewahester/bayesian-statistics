@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 440" width="1010" height="440" role="img">
+  <title>Prior times likelihood gives posterior</title>
+  <desc>Three bar panels over four candidate loose-cap rates. The prior favours small rates, the scaled likelihood from four loose caps in forty bottles peaks at 0.10, and the posterior is a compromise with most weight on 0.05 and 0.10.</desc>
+  <rect x="0" y="0" width="1010" height="440" fill="#ffffff"/>
+  <text x="30" y="30" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2933" text-anchor="start" font-weight="bold">Four loose caps in forty bottles, worked over four candidate rates</text>
+  <rect x="70" y="100" width="240" height="210" fill="none" stroke="#c9d1d9" stroke-width="1.2"/>
+  <line x1="70" y1="310" x2="310" y2="310" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="70" y1="214.545" x2="310" y2="214.545" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="70" y1="119.091" x2="310" y2="119.091" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="100" y1="310" x2="100" y2="314" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="100" y="327" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.02</text>
+  <line x1="160" y1="310" x2="160" y2="314" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="160" y="327" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.05</text>
+  <line x1="220" y1="310" x2="220" y2="314" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="220" y="327" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.10</text>
+  <line x1="280" y1="310" x2="280" y2="314" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="280" y="327" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.20</text>
+  <line x1="66" y1="310" x2="70" y2="310" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="62" y="313.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0</text>
+  <line x1="66" y1="214.545" x2="70" y2="214.545" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="62" y="218.345" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.2</text>
+  <line x1="66" y1="119.091" x2="70" y2="119.091" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="62" y="122.891" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.4</text>
+  <text x="190" y="348" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">candidate loose-cap rate</text>
+  <text x="190" y="86" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">PRIOR</text>
+  <rect x="83.2" y="166.818" width="33.6" height="143.182" fill="#c2622d"/>
+  <text x="100" y="158.818" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">0.30</text>
+  <rect x="143.2" y="119.091" width="33.6" height="190.909" fill="#c2622d"/>
+  <text x="160" y="111.091" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">0.40</text>
+  <rect x="203.2" y="214.545" width="33.6" height="95.455" fill="#c2622d"/>
+  <text x="220" y="206.545" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">0.20</text>
+  <rect x="263.2" y="262.273" width="33.6" height="47.727" fill="#c2622d"/>
+  <text x="280" y="254.273" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">0.10</text>
+  <rect x="400" y="100" width="240" height="210" fill="none" stroke="#c9d1d9" stroke-width="1.2"/>
+  <line x1="400" y1="310" x2="640" y2="310" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="400" y1="214.545" x2="640" y2="214.545" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="400" y1="119.091" x2="640" y2="119.091" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="430" y1="310" x2="430" y2="314" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="430" y="327" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.02</text>
+  <line x1="490" y1="310" x2="490" y2="314" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="490" y="327" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.05</text>
+  <line x1="550" y1="310" x2="550" y2="314" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="550" y="327" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.10</text>
+  <line x1="610" y1="310" x2="610" y2="314" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="610" y="327" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.20</text>
+  <line x1="396" y1="310" x2="400" y2="310" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="392" y="313.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0</text>
+  <line x1="396" y1="214.545" x2="400" y2="214.545" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="392" y="218.345" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.5</text>
+  <line x1="396" y1="119.091" x2="400" y2="119.091" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="392" y="122.891" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">1</text>
+  <text x="520" y="348" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">candidate loose-cap rate</text>
+  <text x="520" y="86" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">LIKELIHOOD (scaled)</text>
+  <rect x="413.2" y="303.448" width="33.6" height="6.552" fill="#6b5b95"/>
+  <text x="430" y="295.448" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">0.0343</text>
+  <rect x="473.2" y="226.435" width="33.6" height="83.565" fill="#6b5b95"/>
+  <text x="490" y="218.435" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">0.4377</text>
+  <rect x="533.2" y="119.091" width="33.6" height="190.909" fill="#6b5b95"/>
+  <text x="550" y="111.091" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">1.0000</text>
+  <rect x="593.2" y="266" width="33.6" height="44" fill="#6b5b95"/>
+  <text x="610" y="258" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">0.2305</text>
+  <rect x="730" y="100" width="240" height="210" fill="none" stroke="#c9d1d9" stroke-width="1.2"/>
+  <line x1="730" y1="310" x2="970" y2="310" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="730" y1="205" x2="970" y2="205" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="730" y1="100" x2="970" y2="100" stroke="#eef2f6" stroke-width="1" stroke-linecap="round"/>
+  <line x1="760" y1="310" x2="760" y2="314" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="760" y="327" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.02</text>
+  <line x1="820" y1="310" x2="820" y2="314" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="820" y="327" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.05</text>
+  <line x1="880" y1="310" x2="880" y2="314" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="880" y="327" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.10</text>
+  <line x1="940" y1="310" x2="940" y2="314" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="940" y="327" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.20</text>
+  <line x1="726" y1="310" x2="730" y2="310" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="722" y="313.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0</text>
+  <line x1="726" y1="205" x2="730" y2="205" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="722" y="208.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.3</text>
+  <line x1="726" y1="100" x2="730" y2="100" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="722" y="103.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.6</text>
+  <text x="850" y="348" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">candidate loose-cap rate</text>
+  <text x="850" y="86" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">POSTERIOR</text>
+  <rect x="743.2" y="301.177" width="33.6" height="8.823" fill="#2f6f9f"/>
+  <text x="760" y="293.177" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">0.0252</text>
+  <rect x="803.2" y="159.96" width="33.6" height="150.04" fill="#2f6f9f"/>
+  <text x="820" y="151.96" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">0.4287</text>
+  <rect x="863.2" y="138.613" width="33.6" height="171.387" fill="#2f6f9f"/>
+  <text x="880" y="130.613" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">0.4897</text>
+  <rect x="923.2" y="290.25" width="33.6" height="19.75" fill="#2f6f9f"/>
+  <text x="940" y="282.25" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">0.0564</text>
+  <text x="352" y="210" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5b6672" text-anchor="middle" font-weight="bold">times</text>
+  <text x="682" y="210" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5b6672" text-anchor="middle" font-weight="bold">gives</text>
+  <text x="70" y="378" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">Multiply the two left panels bar by bar, then divide each product by the total 0.4084 so the four</text>
+  <text x="70" y="393" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">heights sum to one. Nothing else happens. The prior pulled the result below the observed one in ten; the</text>
+  <text x="70" y="408" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">data pulled it well above the prior.</text>
+</svg>

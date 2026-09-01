@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="960" height="440" role="img">
+  <title>The posterior mean sits at the weight on the data</title>
+  <desc>Three tracks, one per conjugate model, running from the prior mean to the data summary, with the posterior mean marked at the fraction of the way across that equals the weight the data carry.</desc>
+  <rect x="0" y="0" width="960" height="440" fill="#ffffff"/>
+  <text x="480" y="32" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2933" text-anchor="middle" font-weight="bold">Every conjugate posterior mean is the same compromise</text>
+  <text x="480" y="54" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="middle">Position along each track is the weight the data carry.</text>
+  <text x="320" y="90" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#c2622d" text-anchor="middle" font-weight="bold">prior mean</text>
+  <text x="800" y="90" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#2f6f9f" text-anchor="middle" font-weight="bold">data summary</text>
+  <text x="40" y="146" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">Case B, seed lot</text>
+  <text x="40" y="165" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">weight on the data 0.9091</text>
+  <line x1="320" y1="150" x2="800" y2="150" stroke="#c9d1d9" stroke-width="6" stroke-linecap="butt"/>
+  <line x1="320" y1="150" x2="756.368" y2="150" stroke="#cfe0ee" stroke-width="6" stroke-linecap="butt"/>
+  <circle cx="320" cy="150" r="7" fill="#c2622d"/>
+  <circle cx="800" cy="150" r="7" fill="#2f6f9f"/>
+  <text x="320" y="132" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#c2622d" text-anchor="middle">0.5</text>
+  <text x="800" y="132" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#2f6f9f" text-anchor="middle">0.65</text>
+  <polygon points="756.368,139 767.368,150 756.368,161 745.368,150" fill="#3f7a52"/>
+  <text x="756.368" y="184" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#3f7a52" text-anchor="middle" font-weight="bold">posterior mean 0.6364</text>
+  <text x="40" y="251" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">Case C, help desk</text>
+  <text x="40" y="270" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">weight on the data 0.8000</text>
+  <line x1="320" y1="255" x2="800" y2="255" stroke="#c9d1d9" stroke-width="6" stroke-linecap="butt"/>
+  <line x1="320" y1="255" x2="704" y2="255" stroke="#cfe0ee" stroke-width="6" stroke-linecap="butt"/>
+  <circle cx="320" cy="255" r="7" fill="#c2622d"/>
+  <circle cx="800" cy="255" r="7" fill="#2f6f9f"/>
+  <text x="320" y="237" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#c2622d" text-anchor="middle">1.5</text>
+  <text x="800" y="237" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#2f6f9f" text-anchor="middle">5.875</text>
+  <polygon points="704,244 715,255 704,266 693,255" fill="#3f7a52"/>
+  <text x="704" y="289" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#3f7a52" text-anchor="middle" font-weight="bold">posterior mean 5.0</text>
+  <text x="40" y="356" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">Case D, commute</text>
+  <text x="40" y="375" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="start">weight on the data 0.8621</text>
+  <line x1="320" y1="360" x2="800" y2="360" stroke="#c9d1d9" stroke-width="6" stroke-linecap="butt"/>
+  <line x1="320" y1="360" x2="733.808" y2="360" stroke="#cfe0ee" stroke-width="6" stroke-linecap="butt"/>
+  <circle cx="320" cy="360" r="7" fill="#c2622d"/>
+  <circle cx="800" cy="360" r="7" fill="#2f6f9f"/>
+  <text x="320" y="342" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#c2622d" text-anchor="middle">30</text>
+  <text x="800" y="342" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#2f6f9f" text-anchor="middle">27.5</text>
+  <polygon points="733.808,349 744.808,360 733.808,371 722.808,360" fill="#3f7a52"/>
+  <text x="733.808" y="394" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#3f7a52" text-anchor="middle" font-weight="bold">posterior mean 27.845</text>
+  <text x="40" y="400" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">Read each track left to right: a prior worth little leaves the diamond near the data end. Case D runs on its own scale, where the data summary sits below the prior mean.</text>
+</svg>

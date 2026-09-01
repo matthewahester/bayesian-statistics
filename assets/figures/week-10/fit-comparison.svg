@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" role="img">
+  <title>Observed against fitted water use under both models</title>
+  <desc>Two panels of observed water use against fitted water use, one for the temperature-only model and one for the model that also carries the weekend indicator, with weekend days marked and the residual spread reported under each panel.</desc>
+  <rect x="0" y="0" width="760" height="450" fill="#ffffff"/>
+  <text x="38" y="30" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2933" text-anchor="start" font-weight="bold">What the second predictor bought</text>
+  <text x="38" y="50" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">Each dot is one of the twenty summer days. The diagonal is perfect prediction.</text>
+  <line x1="95" y1="349" x2="340" y2="349" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="95" y1="104" x2="95" y2="349" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="103.75" y1="349" x2="103.75" y2="353" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="103.75" y="366" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">3</text>
+  <line x1="147.5" y1="349" x2="147.5" y2="353" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="147.5" y="366" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">3.5</text>
+  <line x1="191.25" y1="349" x2="191.25" y2="353" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="191.25" y="366" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">4</text>
+  <line x1="235" y1="349" x2="235" y2="353" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="235" y="366" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">4.5</text>
+  <line x1="278.75" y1="349" x2="278.75" y2="353" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="278.75" y="366" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">5</text>
+  <line x1="322.5" y1="349" x2="322.5" y2="353" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="322.5" y="366" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">5.5</text>
+  <line x1="91" y1="340.25" x2="95" y2="340.25" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="87" y="344.05" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">3</text>
+  <line x1="91" y1="296.5" x2="95" y2="296.5" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="87" y="300.3" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">3.5</text>
+  <line x1="91" y1="252.75" x2="95" y2="252.75" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="87" y="256.55" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">4</text>
+  <line x1="91" y1="209" x2="95" y2="209" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="87" y="212.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">4.5</text>
+  <line x1="91" y1="165.25" x2="95" y2="165.25" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="87" y="169.05" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">5</text>
+  <line x1="91" y1="121.5" x2="95" y2="121.5" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="87" y="125.3" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">5.5</text>
+  <text x="217.5" y="387" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">fitted use, million gallons</text>
+  <text x="87" y="92" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="end">observed</text>
+  <text x="217.5" y="90" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="middle" font-weight="bold">Model 1: temperature only</text>
+  <polyline points="95,349 340,104" fill="none" stroke="#c9d1d9" stroke-width="1.4" stroke-linejoin="round"/>
+  <circle cx="112.597" cy="304.375" r="3.8" fill="#2f6f9f"/>
+  <circle cx="131.614" cy="338.5" r="3.8" fill="#c2622d"/>
+  <circle cx="150.631" cy="271.125" r="3.8" fill="#2f6f9f"/>
+  <circle cx="163.309" cy="263.25" r="3.8" fill="#2f6f9f"/>
+  <circle cx="175.987" cy="301.75" r="3.8" fill="#c2622d"/>
+  <circle cx="182.326" cy="243.125" r="3.8" fill="#2f6f9f"/>
+  <circle cx="195.004" cy="248.375" r="3.8" fill="#2f6f9f"/>
+  <circle cx="201.343" cy="278.125" r="3.8" fill="#c2622d"/>
+  <circle cx="207.682" cy="221.25" r="3.8" fill="#2f6f9f"/>
+  <circle cx="214.021" cy="233.5" r="3.8" fill="#2f6f9f"/>
+  <circle cx="220.36" cy="259.75" r="3.8" fill="#c2622d"/>
+  <circle cx="226.699" cy="199.375" r="3.8" fill="#2f6f9f"/>
+  <circle cx="233.038" cy="214.25" r="3.8" fill="#2f6f9f"/>
+  <circle cx="239.377" cy="184.5" r="3.8" fill="#2f6f9f"/>
+  <circle cx="245.716" cy="239.625" r="3.8" fill="#c2622d"/>
+  <circle cx="252.055" cy="177.5" r="3.8" fill="#2f6f9f"/>
+  <circle cx="264.733" cy="157.375" r="3.8" fill="#2f6f9f"/>
+  <circle cx="271.072" cy="211.625" r="3.8" fill="#c2622d"/>
+  <circle cx="283.75" cy="138.125" r="3.8" fill="#2f6f9f"/>
+  <circle cx="296.428" cy="126.75" r="3.8" fill="#2f6f9f"/>
+  <text x="95" y="405" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">residual sd 0.2957</text>
+  <text x="95" y="422" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">79.9 percent of variation explained</text>
+  <line x1="445" y1="349" x2="690" y2="349" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="445" y1="104" x2="445" y2="349" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="453.75" y1="349" x2="453.75" y2="353" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="453.75" y="366" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">3</text>
+  <line x1="497.5" y1="349" x2="497.5" y2="353" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="497.5" y="366" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">3.5</text>
+  <line x1="541.25" y1="349" x2="541.25" y2="353" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="541.25" y="366" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">4</text>
+  <line x1="585" y1="349" x2="585" y2="353" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="585" y="366" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">4.5</text>
+  <line x1="628.75" y1="349" x2="628.75" y2="353" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="628.75" y="366" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">5</text>
+  <line x1="672.5" y1="349" x2="672.5" y2="353" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="672.5" y="366" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">5.5</text>
+  <line x1="441" y1="340.25" x2="445" y2="340.25" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="437" y="344.05" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">3</text>
+  <line x1="441" y1="296.5" x2="445" y2="296.5" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="437" y="300.3" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">3.5</text>
+  <line x1="441" y1="252.75" x2="445" y2="252.75" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="437" y="256.55" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">4</text>
+  <line x1="441" y1="209" x2="445" y2="209" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="437" y="212.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">4.5</text>
+  <line x1="441" y1="165.25" x2="445" y2="165.25" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="437" y="169.05" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">5</text>
+  <line x1="441" y1="121.5" x2="445" y2="121.5" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="437" y="125.3" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">5.5</text>
+  <text x="567.5" y="387" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">fitted use, million gallons</text>
+  <text x="437" y="92" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="end">observed</text>
+  <text x="567.5" y="90" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="middle" font-weight="bold">Model 2: temperature and weekend</text>
+  <polyline points="445,349 690,104" fill="none" stroke="#c9d1d9" stroke-width="1.4" stroke-linejoin="round"/>
+  <circle cx="481.442" cy="304.375" r="3.8" fill="#2f6f9f"/>
+  <circle cx="449.125" cy="338.5" r="3.8" fill="#c2622d"/>
+  <circle cx="518.097" cy="271.125" r="3.8" fill="#2f6f9f"/>
+  <circle cx="530.315" cy="263.25" r="3.8" fill="#2f6f9f"/>
+  <circle cx="491.889" cy="301.75" r="3.8" fill="#c2622d"/>
+  <circle cx="548.643" cy="243.125" r="3.8" fill="#2f6f9f"/>
+  <circle cx="560.861" cy="248.375" r="3.8" fill="#2f6f9f"/>
+  <circle cx="516.325" cy="278.125" r="3.8" fill="#c2622d"/>
+  <circle cx="573.079" cy="221.25" r="3.8" fill="#2f6f9f"/>
+  <circle cx="579.188" cy="233.5" r="3.8" fill="#2f6f9f"/>
+  <circle cx="534.653" cy="259.75" r="3.8" fill="#c2622d"/>
+  <circle cx="591.407" cy="199.375" r="3.8" fill="#2f6f9f"/>
+  <circle cx="597.516" cy="214.25" r="3.8" fill="#2f6f9f"/>
+  <circle cx="603.625" cy="184.5" r="3.8" fill="#2f6f9f"/>
+  <circle cx="559.089" cy="239.625" r="3.8" fill="#c2622d"/>
+  <circle cx="615.843" cy="177.5" r="3.8" fill="#2f6f9f"/>
+  <circle cx="628.062" cy="157.375" r="3.8" fill="#2f6f9f"/>
+  <circle cx="583.526" cy="211.625" r="3.8" fill="#c2622d"/>
+  <circle cx="646.389" cy="138.125" r="3.8" fill="#2f6f9f"/>
+  <circle cx="658.607" cy="126.75" r="3.8" fill="#2f6f9f"/>
+  <text x="445" y="405" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">residual sd 0.1015</text>
+  <text x="445" y="422" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">97.8 percent of variation explained</text>
+  <circle cx="430" cy="66" r="5" fill="#2f6f9f"/>
+  <text x="442" y="70" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="start">weekday</text>
+  <circle cx="540" cy="66" r="5" fill="#c2622d"/>
+  <text x="552" y="70" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="start">weekend</text>
+</svg>

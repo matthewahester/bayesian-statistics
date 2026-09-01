@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img">
+  <title>Twenty hypothetical trays and their confidence intervals</title>
+  <desc>Twenty stacked horizontal intervals, one from each hypothetical tray of forty seeds drawn at a true germination rate of 0.65, with a vertical line at 0.65 and the intervals that miss it drawn in red.</desc>
+  <rect x="0" y="0" width="900" height="600" fill="#ffffff"/>
+  <rect x="130" y="62" width="610" height="386" fill="none" stroke="#c9d1d9" stroke-width="1.2"/>
+  <line x1="130" y1="448" x2="130" y2="452" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="130" y="465" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.3</text>
+  <line x1="217.143" y1="448" x2="217.143" y2="452" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="217.143" y="465" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.4</text>
+  <line x1="304.286" y1="448" x2="304.286" y2="452" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="304.286" y="465" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.5</text>
+  <line x1="391.429" y1="448" x2="391.429" y2="452" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="391.429" y="465" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.6</text>
+  <line x1="478.571" y1="448" x2="478.571" y2="452" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="478.571" y="465" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.7</text>
+  <line x1="565.714" y1="448" x2="565.714" y2="452" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="565.714" y="465" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.8</text>
+  <line x1="652.857" y1="448" x2="652.857" y2="452" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="652.857" y="465" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">0.9</text>
+  <line x1="740" y1="448" x2="740" y2="452" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="740" y="465" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">1</text>
+  <text x="435" y="486" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">germination rate pi</text>
+  <text x="435" y="48" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">If the true rate really were 0.65, what would the recipe do?</text>
+  <line x1="435" y1="62" x2="435" y2="448" stroke="#3f7a52" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="6 4"/>
+  <text x="443" y="79.156" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#3f7a52" text-anchor="start">the true rate, 0.65</text>
+  <line x1="306.19" y1="104.889" x2="563.81" y2="104.889" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="306.19" y1="100.889" x2="306.19" y2="108.889" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="563.81" y1="100.889" x2="563.81" y2="108.889" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="435,101.389 438.5,104.889 435,108.389 431.5,104.889" fill="#1f2933"/>
+  <text x="124" y="108.889" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">26 of 40</text>
+  <line x1="306.19" y1="122.044" x2="563.81" y2="122.044" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="306.19" y1="118.044" x2="306.19" y2="126.044" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="563.81" y1="118.044" x2="563.81" y2="126.044" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="435,118.544 438.5,122.044 435,125.544 431.5,122.044" fill="#1f2933"/>
+  <text x="124" y="126.044" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">26 of 40</text>
+  <line x1="191.211" y1="139.2" x2="460.932" y2="139.2" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="191.211" y1="135.2" x2="191.211" y2="143.2" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="460.932" y1="135.2" x2="460.932" y2="143.2" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="326.071,135.7 329.571,139.2 326.071,142.7 322.571,139.2" fill="#1f2933"/>
+  <text x="124" y="143.2" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">21 of 40</text>
+  <line x1="354.815" y1="156.356" x2="602.328" y2="156.356" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="354.815" y1="152.356" x2="354.815" y2="160.356" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="602.328" y1="152.356" x2="602.328" y2="160.356" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="478.571,152.856 482.071,156.356 478.571,159.856 475.071,156.356" fill="#1f2933"/>
+  <text x="124" y="160.356" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">28 of 40</text>
+  <line x1="191.211" y1="173.511" x2="460.932" y2="173.511" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="191.211" y1="169.511" x2="191.211" y2="177.511" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="460.932" y1="169.511" x2="460.932" y2="177.511" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="326.071,170.011 329.571,173.511 326.071,177.011 322.571,173.511" fill="#1f2933"/>
+  <text x="124" y="177.511" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">21 of 40</text>
+  <line x1="354.815" y1="190.667" x2="602.328" y2="190.667" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="354.815" y1="186.667" x2="354.815" y2="194.667" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="602.328" y1="186.667" x2="602.328" y2="194.667" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="478.571,187.167 482.071,190.667 478.571,194.167 475.071,190.667" fill="#1f2933"/>
+  <text x="124" y="194.667" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">28 of 40</text>
+  <line x1="236.141" y1="207.822" x2="503.144" y2="207.822" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="236.141" y1="203.822" x2="236.141" y2="211.822" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="503.144" y1="203.822" x2="503.144" y2="211.822" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="369.643,204.322 373.143,207.822 369.643,211.322 366.143,207.822" fill="#1f2933"/>
+  <text x="124" y="211.822" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">23 of 40</text>
+  <line x1="236.141" y1="224.978" x2="503.144" y2="224.978" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="236.141" y1="220.978" x2="236.141" y2="228.978" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="503.144" y1="220.978" x2="503.144" y2="228.978" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="369.643,221.478 373.143,224.978 369.643,228.478 366.143,224.978" fill="#1f2933"/>
+  <text x="124" y="228.978" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">23 of 40</text>
+  <line x1="512.856" y1="242.133" x2="705.716" y2="242.133" stroke="#a33a3a" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="512.856" y1="238.133" x2="512.856" y2="246.133" stroke="#a33a3a" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="705.716" y1="238.133" x2="705.716" y2="246.133" stroke="#a33a3a" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="609.286,238.633 612.786,242.133 609.286,245.633 605.786,242.133" fill="#a33a3a"/>
+  <text x="124" y="246.133" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">34 of 40</text>
+  <text x="502.856" y="246.133" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#a33a3a" text-anchor="end">misses</text>
+  <line x1="306.19" y1="259.289" x2="563.81" y2="259.289" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="306.19" y1="255.289" x2="306.19" y2="263.289" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="563.81" y1="255.289" x2="563.81" y2="263.289" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="435,255.789 438.5,259.289 435,262.789 431.5,259.289" fill="#1f2933"/>
+  <text x="124" y="263.289" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">26 of 40</text>
+  <line x1="306.19" y1="276.444" x2="563.81" y2="276.444" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="306.19" y1="272.444" x2="306.19" y2="280.444" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="563.81" y1="272.444" x2="563.81" y2="280.444" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="435,272.944 438.5,276.444 435,279.944 431.5,276.444" fill="#1f2933"/>
+  <text x="124" y="280.444" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">26 of 40</text>
+  <line x1="405.204" y1="293.6" x2="639.082" y2="293.6" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="405.204" y1="289.6" x2="405.204" y2="297.6" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="639.082" y1="289.6" x2="639.082" y2="297.6" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="522.143,290.1 525.643,293.6 522.143,297.1 518.643,293.6" fill="#1f2933"/>
+  <text x="124" y="297.6" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">30 of 40</text>
+  <line x1="236.141" y1="310.756" x2="503.144" y2="310.756" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="236.141" y1="306.756" x2="236.141" y2="314.756" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="503.144" y1="306.756" x2="503.144" y2="314.756" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="369.643,307.256 373.143,310.756 369.643,314.256 366.143,310.756" fill="#1f2933"/>
+  <text x="124" y="314.756" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">23 of 40</text>
+  <line x1="354.815" y1="327.911" x2="602.328" y2="327.911" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="354.815" y1="323.911" x2="354.815" y2="331.911" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="602.328" y1="323.911" x2="602.328" y2="331.911" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="478.571,324.411 482.071,327.911 478.571,331.411 475.071,327.911" fill="#1f2933"/>
+  <text x="124" y="331.911" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">28 of 40</text>
+  <line x1="236.141" y1="345.067" x2="503.144" y2="345.067" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="236.141" y1="341.067" x2="236.141" y2="349.067" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="503.144" y1="341.067" x2="503.144" y2="349.067" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="369.643,341.567 373.143,345.067 369.643,348.567 366.143,345.067" fill="#1f2933"/>
+  <text x="124" y="349.067" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">23 of 40</text>
+  <line x1="282.473" y1="362.222" x2="543.956" y2="362.222" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="282.473" y1="358.222" x2="282.473" y2="366.222" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="543.956" y1="358.222" x2="543.956" y2="366.222" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="413.214,358.722 416.714,362.222 413.214,365.722 409.714,362.222" fill="#1f2933"/>
+  <text x="124" y="366.222" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">25 of 40</text>
+  <line x1="330.297" y1="379.378" x2="583.274" y2="379.378" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="330.297" y1="375.378" x2="330.297" y2="383.378" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="583.274" y1="375.378" x2="583.274" y2="383.378" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="456.786,375.878 460.286,379.378 456.786,382.878 453.286,379.378" fill="#1f2933"/>
+  <text x="124" y="383.378" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">27 of 40</text>
+  <line x1="213.505" y1="396.533" x2="482.21" y2="396.533" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="213.505" y1="392.533" x2="213.505" y2="400.533" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="482.21" y1="392.533" x2="482.21" y2="400.533" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="347.857,393.033 351.357,396.533 347.857,400.033 344.357,396.533" fill="#1f2933"/>
+  <text x="124" y="400.533" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">22 of 40</text>
+  <line x1="330.297" y1="413.689" x2="583.274" y2="413.689" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="330.297" y1="409.689" x2="330.297" y2="417.689" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="583.274" y1="409.689" x2="583.274" y2="417.689" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="456.786,410.189 460.286,413.689 456.786,417.189 453.286,413.689" fill="#1f2933"/>
+  <text x="124" y="417.689" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">27 of 40</text>
+  <line x1="236.141" y1="430.844" x2="503.144" y2="430.844" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="236.141" y1="426.844" x2="236.141" y2="434.844" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="503.144" y1="426.844" x2="503.144" y2="434.844" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="369.643,427.344 373.143,430.844 369.643,434.344 366.143,430.844" fill="#1f2933"/>
+  <text x="124" y="434.844" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#5b6672" text-anchor="end">23 of 40</text>
+  <text x="130" y="516" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">Each row is a different hypothetical tray from the SAME lot. The recipe is fixed; the data move, so the interval moves.</text>
+  <text x="130" y="536" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">In this run of twenty trays, 19 intervals cover 0.65 and 1 miss.</text>
+  <text x="130" y="556" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">Summing over all forty-one possible trays, the exact long-run coverage of this recipe when pi is 0.65 is 0.9525.</text>
+  <text x="130" y="576" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start" font-style="italic">No single row is 95 percent likely to be right. The 95 percent belongs to the whole column of rows.</text>
+</svg>

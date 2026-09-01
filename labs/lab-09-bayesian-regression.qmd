@@ -8,7 +8,7 @@ toc: true
 ---
 
 > **Purpose.** This lab is the hands-on companion to
-> [Week 09 — Bayesian regression I](../notes/week-09-bayesian-regression-i.qmd). There you wrote
+> [Week 09 — Bayesian regression I](../notes/week-09.qmd). There you wrote
 > the model $y_i = \beta_0 + \beta_1 x_i + \varepsilon_i$ and saw that the posterior is a
 > distribution over the coefficients. Here you *produce* a fitted line from synthetic data, read
 > the slope and intercept, and — using simulation — turn the single line into a sense of the
@@ -166,7 +166,7 @@ its interpretation must be your own and must pass the Verify checks.
 
 ## See also
 
-- [Week 09 — Bayesian regression I](../notes/week-09-bayesian-regression-i.qmd)
+- [Week 09 — Bayesian regression I](../notes/week-09.qmd)
 - [R + VS Code + Quarto setup](../resources/r-vscode-quarto-setup.qmd)
 - [Notation glossary](../resources/notation-glossary.qmd)
 

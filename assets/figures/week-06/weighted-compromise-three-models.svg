@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" width="820" height="400" role="img">
+  <title>One weighted-average pattern in three conjugate models</title>
+  <desc>A table comparing the beta-binomial, gamma-Poisson, and normal-normal models, showing each posterior mean as the same weighted average of a prior guess and a data summary.</desc>
+  <rect x="0" y="0" width="820" height="400" fill="#ffffff"/>
+  <text x="410" y="32" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2933" text-anchor="middle" font-weight="bold">The same compromise, three times over</text>
+  <text x="410" y="53" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="middle">posterior mean equals weight on prior times prior guess, plus weight on data times data summary</text>
+  <rect x="43" y="84" width="734" height="34" fill="#eef2f6"/>
+  <text x="52" y="105.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="start" font-weight="bold">Model and case</text>
+  <text x="305" y="105.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="middle" font-weight="bold">Prior guess</text>
+  <text x="423" y="105.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="middle" font-weight="bold">Data summary</text>
+  <text x="567" y="105.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="middle" font-weight="bold">Weights</text>
+  <text x="713" y="105.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="middle" font-weight="bold">Posterior mean</text>
+  <line x1="43" y1="84" x2="777" y2="84" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="52" y="139.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="start">Beta-binomial, seed lot</text>
+  <text x="305" y="139.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="middle">0.5</text>
+  <text x="423" y="139.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="middle">0.65</text>
+  <text x="567" y="139.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="middle">0.091 and 0.909</text>
+  <text x="713" y="139.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="middle">0.6364</text>
+  <line x1="43" y1="118" x2="777" y2="118" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="52" y="173.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="start">Gamma-Poisson, help desk</text>
+  <text x="305" y="173.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="middle">1.5</text>
+  <text x="423" y="173.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="middle">5.875</text>
+  <text x="567" y="173.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="middle">0.20 and 0.80</text>
+  <text x="713" y="173.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="middle">5.0000</text>
+  <line x1="43" y1="152" x2="777" y2="152" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="52" y="207.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="start">Normal-normal, commute</text>
+  <text x="305" y="207.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="middle">30.0</text>
+  <text x="423" y="207.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="middle">27.5</text>
+  <text x="567" y="207.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="middle">0.138 and 0.862</text>
+  <text x="713" y="207.3" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="middle">27.845</text>
+  <line x1="43" y1="186" x2="777" y2="186" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="43" y1="220" x2="777" y2="220" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="249" y1="84" x2="249" y2="220" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="361" y1="84" x2="361" y2="220" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="485" y1="84" x2="485" y2="220" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="649" y1="84" x2="649" y2="220" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="43" y1="84" x2="43" y2="220" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="777" y1="84" x2="777" y2="220" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="46" y="258" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="start">Each weight pair is prior strength and data size divided by their total:</text>
+  <text x="46" y="280" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="start">seeds  4 and 40 out of 44;   calls  2 and 8 out of 10;   commute  0.04 and 0.25 out of 0.29.</text>
+  <text x="46" y="308" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#2f6f9f" text-anchor="start">Middle row: 0.20 times 1.5 plus 0.80 times 5.875 equals 5.0 exactly.</text>
+  <text x="46" y="330" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#2f6f9f" text-anchor="start">Bottom row: 0.138 times 30.0 plus 0.862 times 27.5 equals 27.845.</text>
+  <text x="46" y="360" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">The weights differ; the shape of the sentence does not. That is what makes conjugacy worth</text>
+  <text x="46" y="378" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">learning, and Week 7 is where it runs out.</text>
+</svg>

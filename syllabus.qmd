@@ -93,8 +93,8 @@ authoritative AI policy is in the LMS.
 
 ## Materials
 
-- Primary open text: **[*Bayes Rules!*](https://www.bayesrulesbook.com/)** (Johnson, Ott, Dogucu;
-  CC BY-NC-SA 4.0), used freely online.
+- Primary text: **[*Bayes Rules!*](https://www.bayesrulesbook.com/)** (Johnson, Ott, Dogucu), read
+  freely online. Availability and licence terms are not yet confirmed.
 - Supplemental open/library readings as announced.
 - A computer able to run the course software (personal, lab, or MAC fallback).
 - **Blackboard Ultra** for submissions, the gradebook, announcements, and dates.

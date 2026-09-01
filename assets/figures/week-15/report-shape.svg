@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" width="1000" height="660" role="img">
+  <title>What a Bayesian report states, and what does not belong in it</title>
+  <desc>Two ruled tables. The upper table lists eight sections of a Bayesian report with what each must state. The lower table lists five things that do not belong in one.</desc>
+  <rect x="0" y="0" width="1000" height="660" fill="#ffffff"/>
+  <text x="500" y="34" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2933" text-anchor="middle" font-weight="bold">The shape of a readable Bayesian report</text>
+  <text x="500" y="56" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="middle">Eight statements a reader needs, in the order a reader needs them.</text>
+  <rect x="40" y="88" width="858" height="30" fill="#eef2f6"/>
+  <text x="49" y="107.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="start" font-weight="bold">Section</text>
+  <text x="199" y="107.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="start" font-weight="bold">What it must state</text>
+  <text x="571" y="107.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="start" font-weight="bold">The utility report, in one line</text>
+  <line x1="40" y1="88" x2="898" y2="88" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="49" y="137.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">The question</text>
+  <text x="199" y="137.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">the unknown, in the units of the problem</text>
+  <text x="571" y="137.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">how use responds to temperature</text>
+  <line x1="40" y1="118" x2="898" y2="118" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <rect x="40" y="148" width="858" height="30" fill="#fafbfc"/>
+  <text x="49" y="167.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">The model</text>
+  <text x="199" y="167.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">the likelihood in words and in symbols</text>
+  <text x="571" y="167.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">daily use normal around a line</text>
+  <line x1="40" y1="148" x2="898" y2="148" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="49" y="197.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">The priors</text>
+  <text x="199" y="197.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">the family, the values, and where they came from</text>
+  <text x="571" y="197.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">weakly informative on the slope</text>
+  <line x1="40" y1="178" x2="898" y2="178" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <rect x="40" y="208" width="858" height="30" fill="#fafbfc"/>
+  <text x="49" y="227.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">The computation</text>
+  <text x="199" y="227.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">how the posterior was obtained, and the seed</text>
+  <text x="571" y="227.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">simulation, four chains, fixed seed</text>
+  <line x1="40" y1="208" x2="898" y2="208" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="49" y="257.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">The checks</text>
+  <text x="199" y="257.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">what was checked, and what the check found</text>
+  <text x="571" y="257.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">residual gap 0.5754 by day type</text>
+  <line x1="40" y1="238" x2="898" y2="238" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <rect x="40" y="268" width="858" height="30" fill="#fafbfc"/>
+  <text x="49" y="287.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">The summaries</text>
+  <text x="199" y="287.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">which summaries, and why those ones</text>
+  <text x="571" y="287.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">slope 0.0698, offset minus 0.5788</text>
+  <line x1="40" y1="268" x2="898" y2="268" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="49" y="317.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">The sensitivity</text>
+  <text x="199" y="317.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">which choices were varied, and what moved</text>
+  <text x="571" y="317.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">prior varied; conclusion held</text>
+  <line x1="40" y1="298" x2="898" y2="298" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <rect x="40" y="328" width="858" height="30" fill="#fafbfc"/>
+  <text x="49" y="347.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">The limits</text>
+  <text x="199" y="347.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">what the analysis cannot support</text>
+  <text x="571" y="347.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">association, twenty summer days</text>
+  <line x1="40" y1="328" x2="898" y2="328" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="40" y1="358" x2="898" y2="358" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="190" y1="88" x2="190" y2="358" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="562" y1="88" x2="562" y2="358" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="40" y1="88" x2="40" y2="358" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="898" y1="88" x2="898" y2="358" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="500" y="434" font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2933" text-anchor="middle" font-weight="bold">And the things that do not belong</text>
+  <rect x="40" y="452" width="858" height="30" fill="#eef2f6"/>
+  <text x="49" y="471.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="start" font-weight="bold">What a first report puts in</text>
+  <text x="487" y="471.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="start" font-weight="bold">Why it comes out</text>
+  <line x1="40" y1="452" x2="898" y2="452" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="49" y="501.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">software output pasted without reading</text>
+  <text x="487" y="501.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">a fitted object is not a finding</text>
+  <line x1="40" y1="482" x2="898" y2="482" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <rect x="40" y="512" width="858" height="30" fill="#fafbfc"/>
+  <text x="49" y="531.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">a simulated quantity quoted to four decimal places</text>
+  <text x="487" y="531.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">those digits are Monte Carlo noise</text>
+  <line x1="40" y1="512" x2="898" y2="512" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="49" y="561.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">a credible interval described as a confidence interval</text>
+  <text x="487" y="561.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">the two claim different things</text>
+  <line x1="40" y1="542" x2="898" y2="542" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <rect x="40" y="572" width="858" height="30" fill="#fafbfc"/>
+  <text x="49" y="591.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">a check that could not have failed</text>
+  <text x="487" y="591.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">it looked for nothing</text>
+  <line x1="40" y1="572" x2="898" y2="572" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="49" y="621.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">a threshold left inside a default</text>
+  <text x="487" y="621.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">the value judgment becomes invisible</text>
+  <line x1="40" y1="602" x2="898" y2="602" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="40" y1="632" x2="898" y2="632" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="478" y1="452" x2="478" y2="632" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="40" y1="452" x2="40" y2="632" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="898" y1="452" x2="898" y2="632" stroke="#c9d1d9" stroke-width="1" stroke-linecap="round"/>
+  <text x="40" y="640" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="start">Every row of the upper table is a sentence someone can disagree with. That is the test of a report: it must be possible to be wrong in public.</text>
+</svg>

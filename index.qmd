@@ -66,10 +66,11 @@ available as a fallback. Setup help lives on the [setup page](resources/r-vscode
 ## Source and attribution
 
 The primary open text is **[*Bayes Rules! An Introduction to Applied Bayesian Modeling*](https://www.bayesrulesbook.com/)**
-by Johnson, Ott, and Dogucu (CC BY-NC-SA 4.0). These notes are the course's **own synthesis**: they
-are organized around, and point you to, *Bayes Rules!* and other open readings, but the explanations,
-examples, and practice here are written for this course. Adapted material is attributed under the
-applicable license; nothing from a source is reproduced wholesale.
+by Johnson, Ott, and Dogucu, which is readable online at no cost. Its licence and redistribution
+terms have **not** been confirmed for this site, so nothing here depends on them. These notes are the
+course's **own synthesis**: they are organized around, and point you to, *Bayes Rules!* and other
+readings, but every explanation, example, and practice item here is written for this course. No
+exercise, example, dataset, figure, or passage from a source is reproduced.
 
 ## A note on what is public here
 

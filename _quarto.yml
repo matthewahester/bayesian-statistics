@@ -57,44 +57,44 @@ website:
             text: "Notes overview"
           - section: "Part I — Foundations (Wk 1–2)"
             contents:
-              - href: notes/week-01-thinking-under-uncertainty.qmd
+              - href: notes/week-01.qmd
                 text: "1 — Thinking under uncertainty"
-              - href: notes/week-02-discrete-bayes-diagnostic.qmd
+              - href: notes/week-02.qmd
                 text: "2 — Discrete Bayes & diagnostics"
           - section: "Part II — Building Bayesian models (Wk 3–7)"
             contents:
-              - href: notes/week-03-priors-likelihoods-posteriors.qmd
+              - href: notes/week-03.qmd
                 text: "3 — Prior, likelihood, posterior"
-              - href: notes/week-04-beta-binomial.qmd
+              - href: notes/week-04.qmd
                 text: "4 — The Beta-Binomial model"
-              - href: notes/week-05-prior-sensitivity-summaries.qmd
+              - href: notes/week-05.qmd
                 text: "5 — Prior sensitivity & summaries"
-              - href: notes/week-06-posterior-predictive.qmd
-                text: "6 — Posterior predictive thinking"
-              - href: notes/week-07-simulation-first-computation.qmd
+              - href: notes/week-06.qmd
+                text: "6 — Beyond proportions & prediction"
+              - href: notes/week-07.qmd
                 text: "7 — Simulation-first computation"
           - section: "Part III — Synthesis & midterm (Wk 8)"
             contents:
-              - href: notes/week-08-midterm-synthesis.qmd
+              - href: notes/week-08.qmd
                 text: "8 — Midterm synthesis"
           - section: "Part IV — Regression & model checking (Wk 9–12)"
             contents:
-              - href: notes/week-09-bayesian-regression-i.qmd
+              - href: notes/week-09.qmd
                 text: "9 — Bayesian regression I"
-              - href: notes/week-10-bayesian-regression-ii.qmd
+              - href: notes/week-10.qmd
                 text: "10 — Bayesian regression II"
-              - href: notes/week-11-model-checking-comparison.qmd
+              - href: notes/week-11.qmd
                 text: "11 — Model checking & comparison"
-              - href: notes/week-12-bayesian-classical.qmd
+              - href: notes/week-12.qmd
                 text: "12 — Bayesian & classical in conversation"
           - section: "Part V — Hierarchy, decisions & project (Wk 13–15)"
             contents:
-              - href: notes/week-13-hierarchical-models.qmd
+              - href: notes/week-13.qmd
                 text: "13 — Hierarchical models"
-              - href: notes/week-14-decisions-communication.qmd
+              - href: notes/week-14.qmd
                 text: "14 — Decisions & communication"
-              - href: notes/week-15-project-workshop-synthesis.qmd
-                text: "15 — Project workshop & synthesis"
+              - href: notes/week-15.qmd
+                text: "15 — Course synthesis & reporting"
       - section: "Labs"
         href: labs/index.qmd
         contents:

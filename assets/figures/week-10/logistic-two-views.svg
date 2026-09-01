@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 460" width="790" height="460" role="img">
+  <title>The same logistic model on two scales</title>
+  <desc>Left panel: log-odds against temperature is a straight line of slope 0.26 crossing zero at 83.46 degrees. Right panel: the same model on the probability scale is an S-shaped curve rising from 0.0998 at 75 degrees to 0.9526 at 95 degrees.</desc>
+  <rect x="0" y="0" width="790" height="460" fill="#ffffff"/>
+  <text x="38" y="30" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2933" text-anchor="start" font-weight="bold">One model, two views: log-odds and probability</text>
+  <text x="38" y="50" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">log-odds = 0.40 plus 0.26 times (temp minus 85), and probability = 1 divided by (1 plus e to the minus log-odds).</text>
+  <line x1="84" y1="359" x2="369" y2="359" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="84" y1="104" x2="84" y2="359" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="107.75" y1="359" x2="107.75" y2="363" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="107.75" y="376" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">75</text>
+  <line x1="167.125" y1="359" x2="167.125" y2="363" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="167.125" y="376" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">80</text>
+  <line x1="226.5" y1="359" x2="226.5" y2="363" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="226.5" y="376" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">85</text>
+  <line x1="285.875" y1="359" x2="285.875" y2="363" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="285.875" y="376" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">90</text>
+  <line x1="345.25" y1="359" x2="345.25" y2="363" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="345.25" y="376" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">95</text>
+  <line x1="80" y1="351.5" x2="84" y2="351.5" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="76" y="355.3" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">-3</text>
+  <line x1="80" y1="314" x2="84" y2="314" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="76" y="317.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">-2</text>
+  <line x1="80" y1="276.5" x2="84" y2="276.5" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="76" y="280.3" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">-1</text>
+  <line x1="80" y1="239" x2="84" y2="239" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="76" y="242.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0</text>
+  <line x1="80" y1="201.5" x2="84" y2="201.5" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="76" y="205.3" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">1</text>
+  <line x1="80" y1="164" x2="84" y2="164" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="76" y="167.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">2</text>
+  <line x1="80" y1="126.5" x2="84" y2="126.5" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="76" y="130.3" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">3</text>
+  <text x="226.5" y="397" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">temperature, degrees Fahrenheit</text>
+  <text x="76" y="92" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="end">log-odds</text>
+  <text x="226.5" y="90" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="middle" font-weight="bold">log-odds scale: a straight line</text>
+  <line x1="84" y1="239" x2="369" y2="239" stroke="#5b6672" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <polyline points="84,341 369,107" fill="none" stroke="#6b5b95" stroke-width="2.3" stroke-linejoin="round"/>
+  <circle cx="107.75" cy="321.5" r="4" fill="#6b5b95"/>
+  <circle cx="167.125" cy="272.75" r="4" fill="#6b5b95"/>
+  <circle cx="226.5" cy="224" r="4" fill="#6b5b95"/>
+  <circle cx="285.875" cy="175.25" r="4" fill="#6b5b95"/>
+  <circle cx="345.25" cy="126.5" r="4" fill="#6b5b95"/>
+  <circle cx="208.212" cy="239" r="4.4" fill="#a33a3a"/>
+  <text x="117.75" y="326.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="start">-2.20</text>
+  <text x="236.5" y="240" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="start">0.40</text>
+  <text x="335.25" y="130.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="end">3.00</text>
+  <text x="204.212" y="225" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#a33a3a" text-anchor="end">crosses 0 at 83.46</text>
+  <line x1="464" y1="359" x2="749" y2="359" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="464" y1="104" x2="464" y2="359" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="487.75" y1="359" x2="487.75" y2="363" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="487.75" y="376" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">75</text>
+  <line x1="547.125" y1="359" x2="547.125" y2="363" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="547.125" y="376" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">80</text>
+  <line x1="606.5" y1="359" x2="606.5" y2="363" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="606.5" y="376" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">85</text>
+  <line x1="665.875" y1="359" x2="665.875" y2="363" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="665.875" y="376" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">90</text>
+  <line x1="725.25" y1="359" x2="725.25" y2="363" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="725.25" y="376" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">95</text>
+  <line x1="460" y1="359" x2="464" y2="359" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="456" y="362.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0</text>
+  <line x1="460" y1="298.286" x2="464" y2="298.286" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="456" y="302.086" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.25</text>
+  <line x1="460" y1="237.571" x2="464" y2="237.571" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="456" y="241.371" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.5</text>
+  <line x1="460" y1="176.857" x2="464" y2="176.857" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="456" y="180.657" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.75</text>
+  <line x1="460" y1="116.143" x2="464" y2="116.143" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="456" y="119.943" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">1</text>
+  <text x="606.5" y="397" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">temperature, degrees Fahrenheit</text>
+  <text x="456" y="92" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="end">probability</text>
+  <text x="606.5" y="90" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1f2933" text-anchor="middle" font-weight="bold">probability scale: an S-shaped curve</text>
+  <line x1="464" y1="237.571" x2="749" y2="237.571" stroke="#5b6672" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <polyline points="464,343.991 465.187,343.62 466.375,343.241 467.562,342.854 468.75,342.458 469.938,342.052 471.125,341.638 472.313,341.214 473.5,340.781 474.688,340.338 475.875,339.885 477.062,339.422 478.25,338.949 479.437,338.465 480.625,337.971 481.812,337.466 483,336.95 484.188,336.424 485.375,335.886 486.563,335.336 487.75,334.775 488.937,334.202 490.125,333.617 491.312,333.02 492.5,332.41 493.688,331.789 494.875,331.154 496.063,330.507 497.25,329.846 498.438,329.172 499.625,328.486 500.812,327.785 502,327.071 503.187,326.343 504.375,325.601 505.562,324.845 506.75,324.075 507.938,323.29 509.125,322.491 510.313,321.677 511.5,320.848 512.687,320.005 513.875,319.146 515.062,318.272 516.25,317.383 517.438,316.479 518.625,315.559 519.812,314.624 521,313.673 522.188,312.707 523.375,311.725 524.562,310.727 525.75,309.714 526.938,308.685 528.125,307.639 529.312,306.579 530.5,305.502 531.688,304.41 532.875,303.301 534.063,302.177 535.25,301.038 536.437,299.883 537.625,298.712 538.812,297.526 540,296.325 541.188,295.108 542.375,293.876 543.562,292.63 544.75,291.368 545.938,290.092 547.125,288.802 548.312,287.497 549.5,286.179 550.688,284.846 551.875,283.5 553.062,282.141 554.25,280.768 555.438,279.383 556.625,277.986 557.812,276.576 559,275.154 560.187,273.721 561.375,272.277 562.562,270.822 563.75,269.357 564.938,267.882 566.125,266.397 567.312,264.902 568.5,263.4 569.688,261.888 570.875,260.369 572.062,258.843 573.25,257.309 574.438,255.769 575.625,254.223 576.812,252.671 578,251.115 579.188,249.554 580.375,247.989 581.563,246.42 582.75,244.848 583.938,243.274 585.125,241.698 586.312,240.121 587.5,238.543 588.688,236.964 589.875,235.386 591.062,233.808 592.25,232.232 593.438,230.657 594.625,229.085 595.812,227.516 597,225.95 598.188,224.388 599.375,222.83 600.562,221.277 601.75,219.73 602.938,218.189 604.125,216.654 605.312,215.125 606.5,213.604 607.688,212.091 608.875,210.586 610.062,209.09 611.25,207.603 612.438,206.126 613.625,204.658 614.812,203.2 616,201.754 617.188,200.318 618.375,198.894 619.562,197.481 620.75,196.081 621.938,194.693 623.125,193.318 624.312,191.955 625.5,190.606 626.688,189.27 627.875,187.949 629.063,186.641 630.25,185.347 631.438,184.068 632.625,182.803 633.812,181.553 635,180.318 636.188,179.098 637.375,177.893 638.562,176.703 639.75,175.529 640.938,174.37 642.125,173.227 643.312,172.099 644.5,170.988 645.688,169.892 646.875,168.811 648.062,167.747 649.25,166.698 650.438,165.665 651.625,164.648 652.812,163.647 654,162.661 655.187,161.691 656.375,160.737 657.562,159.798 658.75,158.875 659.938,157.967 661.125,157.074 662.312,156.197 663.5,155.335 664.688,154.488 665.875,153.656 667.062,152.839 668.25,152.036 669.438,151.248 670.625,150.474 671.812,149.715 673,148.97 674.188,148.239 675.375,147.521 676.562,146.818 677.75,146.128 678.938,145.451 680.125,144.788 681.312,144.137 682.5,143.5 683.688,142.875 684.875,142.262 686.062,141.663 687.25,141.075 688.438,140.499 689.625,139.935 690.812,139.383 692,138.842 693.188,138.313 694.375,137.795 695.562,137.287 696.75,136.791 697.938,136.305 699.125,135.829 700.313,135.364 701.5,134.909 702.688,134.464 703.875,134.028 705.062,133.602 706.25,133.185 707.438,132.778 708.625,132.38 709.812,131.99 711,131.609 712.188,131.237 713.375,130.873 714.562,130.517 715.75,130.17 716.938,129.83 718.125,129.498 719.312,129.174 720.5,128.857 721.688,128.547 722.875,128.245 724.062,127.949 725.25,127.661 726.438,127.379 727.625,127.103 728.812,126.834 730,126.572 731.188,126.315 732.375,126.065 733.562,125.82 734.75,125.582 735.938,125.349 737.125,125.121 738.312,124.899 739.5,124.682 740.688,124.471 741.875,124.264 743.062,124.062 744.25,123.866 745.438,123.673 746.625,123.486 747.812,123.303 749,123.125" fill="none" stroke="#3f7a52" stroke-width="2.4" stroke-linejoin="round"/>
+  <circle cx="487.75" cy="334.775" r="4" fill="#3f7a52"/>
+  <circle cx="547.125" cy="288.802" r="4" fill="#3f7a52"/>
+  <circle cx="606.5" cy="213.604" r="4" fill="#3f7a52"/>
+  <circle cx="665.875" cy="153.656" r="4" fill="#3f7a52"/>
+  <circle cx="725.25" cy="127.661" r="4" fill="#3f7a52"/>
+  <circle cx="588.212" cy="237.571" r="4.4" fill="#a33a3a"/>
+  <text x="496.75" y="325.775" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="start">0.0998</text>
+  <text x="615.5" y="229.604" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="start">0.5987</text>
+  <text x="716.25" y="118.661" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f2933" text-anchor="end">0.9526</text>
+  <text x="584.212" y="257.571" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#a33a3a" text-anchor="end">0.5 at 83.46</text>
+  <text x="84" y="436" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#5b6672" text-anchor="start">Equal steps in temperature give equal steps in log-odds, but unequal steps in probability.</text>
+</svg>

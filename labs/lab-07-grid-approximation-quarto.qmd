@@ -7,7 +7,7 @@ source_mode: source-informed
 toc: true
 ---
 
-> **Purpose.** This lab puts [Week 07](../notes/week-07-simulation-first-computation.qmd) into your
+> **Purpose.** This lab puts [Week 07](../notes/week-07.qmd) into your
 > hands: you will approximate the bike-proportion posterior on a grid, draw from it, check the simulated
 > mean against the closed-form Beta posterior, and assemble the whole thing as a seeded, reproducible
 > Quarto report. Because this problem is conjugate, you can *verify* every approximation against a known
@@ -137,7 +137,7 @@ not contain any of those. For grading specifics, the LMS (Blackboard) is authori
 
 ## See also
 
-- [Week 07 — Simulation-first computation](../notes/week-07-simulation-first-computation.qmd)
+- [Week 07 — Simulation-first computation](../notes/week-07.qmd)
 - [R · VS Code · Quarto setup](../resources/r-vscode-quarto-setup.qmd)
 - [Notation glossary](../resources/notation-glossary.qmd)
 - [Syllabus](../syllabus.qmd)

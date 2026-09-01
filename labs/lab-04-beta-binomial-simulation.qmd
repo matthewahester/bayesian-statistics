@@ -10,7 +10,7 @@ toc: true
 > **Purpose.** This lab puts the Week 4 derivation to work. You will simulate the Beta posterior
 > for the bike-to-campus proportion, summarize it with a posterior mean and a 95% credible
 > interval, and confirm the simulation agrees with the closed-form answer. Read it alongside
-> [Week 04 — The Beta-Binomial model](../notes/week-04-beta-binomial.qmd).
+> [Week 04 — The Beta-Binomial model](../notes/week-04.qmd).
 
 ## The idea
 
@@ -192,7 +192,7 @@ suggested code against the closed-form posterior before keeping it.
 
 ## See also
 
-- [Week 04 — The Beta-Binomial model](../notes/week-04-beta-binomial.qmd)
+- [Week 04 — The Beta-Binomial model](../notes/week-04.qmd)
 - [R + VS Code + Quarto setup](../resources/r-vscode-quarto-setup.qmd)
 - [Notation glossary](../resources/notation-glossary.qmd)
 

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 500" width="820" height="500" role="img">
+  <title>An informal posterior predictive check on the busiest hour</title>
+  <desc>The eight observed hourly counts beside the fitted model's distribution for the busiest of eight hours, with the observed value of 13 far out in the upper tail.</desc>
+  <rect x="0" y="0" width="820" height="500" fill="#ffffff"/>
+  <text x="410" y="28" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2933" text-anchor="middle" font-weight="bold">A feature the fitted model did not expect</text>
+  <line x1="66" y1="324" x2="366" y2="324" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="66" y1="84" x2="66" y2="324" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="87.951" y1="324" x2="87.951" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="87.951" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">1</text>
+  <line x1="124.537" y1="324" x2="124.537" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="124.537" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">2</text>
+  <line x1="161.122" y1="324" x2="161.122" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="161.122" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">3</text>
+  <line x1="197.707" y1="324" x2="197.707" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="197.707" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">4</text>
+  <line x1="234.293" y1="324" x2="234.293" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="234.293" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">5</text>
+  <line x1="270.878" y1="324" x2="270.878" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="270.878" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">6</text>
+  <line x1="307.463" y1="324" x2="307.463" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="307.463" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">7</text>
+  <line x1="344.049" y1="324" x2="344.049" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="344.049" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">8</text>
+  <line x1="62" y1="324" x2="66" y2="324" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="58" y="327.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0</text>
+  <line x1="62" y1="264" x2="66" y2="264" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="58" y="267.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">4</text>
+  <line x1="62" y1="204" x2="66" y2="204" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="58" y="207.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">8</text>
+  <line x1="62" y1="144" x2="66" y2="144" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="58" y="147.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">12</text>
+  <line x1="62" y1="84" x2="66" y2="84" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="58" y="87.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">16</text>
+  <text x="216" y="362" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">hour of the shift</text>
+  <text x="58" y="72" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="end">calls</text>
+  <text x="216" y="70" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">What actually happened</text>
+  <rect x="75.878" y="279" width="24.146" height="45" fill="#2f6f9f" fill-opacity="0.7"/>
+  <rect x="112.463" y="264" width="24.146" height="60" fill="#2f6f9f" fill-opacity="0.7"/>
+  <rect x="149.049" y="249" width="24.146" height="75" fill="#2f6f9f" fill-opacity="0.7"/>
+  <rect x="185.634" y="234" width="24.146" height="90" fill="#2f6f9f" fill-opacity="0.7"/>
+  <rect x="222.22" y="249" width="24.146" height="75" fill="#2f6f9f" fill-opacity="0.7"/>
+  <rect x="258.805" y="219" width="24.146" height="105" fill="#2f6f9f" fill-opacity="0.7"/>
+  <rect x="295.39" y="264" width="24.146" height="60" fill="#2f6f9f" fill-opacity="0.7"/>
+  <rect x="331.976" y="129" width="24.146" height="195" fill="#a33a3a" fill-opacity="1"/>
+  <line x1="66" y1="235.875" x2="366" y2="235.875" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <text x="305.634" y="183" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">shift average 5.875</text>
+  <text x="344.049" y="121" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#a33a3a" text-anchor="middle" font-weight="bold">13</text>
+  <text x="66" y="386" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">Eight hourly counts summing to 47.  The busiest hour is 13.</text>
+  <line x1="470" y1="324" x2="770" y2="324" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="470" y1="84" x2="470" y2="324" stroke="#5b6672" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="500" y1="324" x2="500" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="500" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">4</text>
+  <line x1="540" y1="324" x2="540" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="540" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">6</text>
+  <line x1="580" y1="324" x2="580" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="580" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">8</text>
+  <line x1="620" y1="324" x2="620" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="620" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">10</text>
+  <line x1="660" y1="324" x2="660" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="660" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">12</text>
+  <line x1="700" y1="324" x2="700" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="700" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">14</text>
+  <line x1="740" y1="324" x2="740" y2="328" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="740" y="341" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="middle">16</text>
+  <line x1="466" y1="324" x2="470" y2="324" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="462" y="327.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0</text>
+  <line x1="466" y1="224" x2="470" y2="224" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="462" y="227.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.1</text>
+  <line x1="466" y1="124" x2="470" y2="124" stroke="#5b6672" stroke-width="1" stroke-linecap="round"/>
+  <text x="462" y="127.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5b6672" text-anchor="end">0.2</text>
+  <text x="620" y="362" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle">busiest hour among eight replicated hours</text>
+  <text x="462" y="72" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="end">probability</text>
+  <text x="620" y="70" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">What the fitted model expects</text>
+  <rect x="471.8" y="323.592" width="16.4" height="0.408" fill="#2f6f9f" fill-opacity="0.55"/>
+  <rect x="491.8" y="317.524" width="16.4" height="6.476" fill="#2f6f9f" fill-opacity="0.55"/>
+  <rect x="511.8" y="285.544" width="16.4" height="38.456" fill="#2f6f9f" fill-opacity="0.55"/>
+  <rect x="531.8" y="212.381" width="16.4" height="111.619" fill="#2f6f9f" fill-opacity="0.55"/>
+  <rect x="551.8" y="133.942" width="16.4" height="190.058" fill="#2f6f9f" fill-opacity="0.55"/>
+  <rect x="571.8" y="107.296" width="16.4" height="216.704" fill="#2f6f9f" fill-opacity="0.55"/>
+  <rect x="591.8" y="141.286" width="16.4" height="182.714" fill="#2f6f9f" fill-opacity="0.55"/>
+  <rect x="611.8" y="201.176" width="16.4" height="122.824" fill="#2f6f9f" fill-opacity="0.55"/>
+  <rect x="631.8" y="254.339" width="16.4" height="69.661" fill="#2f6f9f" fill-opacity="0.55"/>
+  <rect x="651.8" y="289.247" width="16.4" height="34.753" fill="#2f6f9f" fill-opacity="0.55"/>
+  <rect x="671.8" y="308.289" width="16.4" height="15.711" fill="#a33a3a" fill-opacity="1"/>
+  <rect x="691.8" y="317.431" width="16.4" height="6.569" fill="#a33a3a" fill-opacity="1"/>
+  <rect x="711.8" y="321.424" width="16.4" height="2.576" fill="#a33a3a" fill-opacity="1"/>
+  <rect x="731.8" y="323.043" width="16.4" height="0.957" fill="#a33a3a" fill-opacity="1"/>
+  <rect x="751.8" y="323.661" width="16.4" height="0.339" fill="#a33a3a" fill-opacity="1"/>
+  <line x1="680" y1="324" x2="680" y2="109" stroke="#a33a3a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <text x="685" y="96" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#a33a3a" text-anchor="start" font-weight="bold">observed 13</text>
+  <text x="732" y="194" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#a33a3a" text-anchor="middle">13 or more:</text>
+  <text x="732" y="216" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#a33a3a" text-anchor="middle" font-weight="bold">about 2.6 percent</text>
+  <text x="470" y="386" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start">Replicated shifts rarely have a busiest hour of 13.</text>
+  <text x="66" y="420" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="start">The check does not say the model is wrong. It says one feature of the real shift, the size of its busiest</text>
+  <text x="66" y="440" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="start">hour, sits where the fitted constant-rate model puts little of its predictive mass, which is a reason to ask</text>
+  <text x="66" y="460" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b6672" text-anchor="start">whether the help desk really has one rate all shift long.</text>
+  <text x="66" y="484" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5b6672" text-anchor="start" font-style="italic">A check that passes is likewise evidence, never a certificate.</text>
+</svg>
