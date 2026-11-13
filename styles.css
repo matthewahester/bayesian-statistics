@@ -214,3 +214,148 @@ mjx-container[jax="CHTML"][display="true"] {
     overflow-wrap: break-word;
   }
 }
+
+/* ---------------------------------------------------------------
+   SHARP AND SIMPLE — the course-family look from 2026-11-13.
+
+   One block, the same on every course site. It comes last so that it
+   wins wherever it overlaps a rule above; the rules above are left as
+   they were so the two can be told apart. What it does:
+
+     - one paper tone: a white page, so the sidebar, the figures (which
+       have white grounds), and the page are one surface;
+     - square corners;
+     - one accent, iron: links and both "you are here" marks. The stone
+       greys take over every other colored edge;
+     - a course poster that leaves room for the course title on the
+       first screen;
+     - the navbar and footer on the same edges as the page between them.
+
+   It changes color, edges, and two widths. It does not change the page
+   grid, the type, or any content.
+   --------------------------------------------------------------- */
+
+/* One paper tone, square corners. The pages were tinted (--stone-50)
+   while the sidebar, every figure, and the theme's panels stayed white,
+   so each of those showed as a lighter patch. */
+:root {
+  --radius-card: 0px;
+}
+body {
+  background-color: #ffffff;
+}
+
+/* The sidebar is set off by a hairline. It has no fill of its own now
+   that the page is white. Only where the sidebar is a column: below
+   992px it is a panel that opens over the page. */
+@media (min-width: 992px) {
+  #quarto-sidebar {
+    border-right: 1px solid var(--stone-200);
+  }
+}
+
+/* One "you are here" color, in the sidebar and in "On this page". The
+   theme marks both in its own blues (#2151bf and #2761e3), and the
+   sidebar rule some of these files carry above targets markup that
+   current Quarto no longer writes, so it matched nothing. */
+.sidebar-item .sidebar-link.active,
+.sidebar-item .sidebar-item-text.active {
+  color: var(--iron-accent);
+  font-weight: 600;
+}
+#TOC .nav-link.active {
+  color: var(--iron-accent) !important;
+  border-left-color: var(--iron-accent);
+}
+
+/* Rules and edges in the palette's greys: the hairline under a section
+   heading (the theme's is a cool Bootstrap grey), and the left edge of
+   a code block or a quotation (crystal blue above). */
+h2 {
+  border-bottom-color: var(--stone-200);
+}
+pre,
+blockquote {
+  border-left-color: var(--stone-400);
+}
+div.sourceCode {
+  border-radius: 0;
+}
+code {
+  border-radius: 2px;
+}
+
+/* Links in running text carry an underline. Iron against the slate of
+   body text differs by only 1.7:1, so color alone did not mark a link
+   inside a paragraph, a list, or a table. */
+main p a,
+main li a,
+main td a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  border-bottom: 0;
+}
+main p a:hover,
+main li a:hover,
+main td a:hover {
+  text-decoration-thickness: 2px;
+}
+.quarto-page-breadcrumbs a {
+  text-decoration: none;
+}
+
+/* The course poster. At its full 1100px it filled the first screen:
+   in a 1280 by 720 window it was 939 by 705px and the course title
+   started 833px down. At 560px the title and "Where to start" show
+   without scrolling. Set against the left edge, like the text. */
+.course-hero-img {
+  max-width: 560px;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 0;
+}
+
+/* Callouts in the palette. The theme colors each kind (blue note,
+   green tip, orange warning, red important). Here a callout is a grey
+   panel with a grey edge, and the kinds that warn take the iron edge.
+   The title still says which kind it is, so the color is not carrying
+   the meaning alone. The selectors are written this long because the
+   theme's per-kind rules are `div.callout-note.callout` and the like,
+   and a shorter selector here loses to them. */
+main div.callout:is(.callout-style-default, .callout-style-simple) {
+  border-radius: 0;
+  border: 1px solid var(--stone-200);
+  border-left: 3px solid var(--stone-400);
+}
+main div.callout:is(.callout-important, .callout-warning, .callout-caution) {
+  border-left-color: var(--iron-accent);
+}
+main div.callout.callout-style-default > .callout-header {
+  background-color: var(--stone-100);
+}
+main div.callout .callout-icon::before {
+  filter: grayscale(1) brightness(0.45);
+}
+
+/* The navbar and the footer put their contents on the edges of the
+   page between them. Quarto centers the sidebar, the text, and "On
+   this page" as one block, 1299px at its widest and inset 1.5em from
+   the window below that, while the navbar and footer ran the full
+   width of the window: at 1920px the course name sat 290px to the left
+   of the sidebar under it. The 20px matches the inset of the sidebar's
+   own text. From 992px up only; below that the navbar is its toggle. */
+@media (min-width: 992px) {
+  #quarto-header > nav.navbar,
+  footer.footer {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .navbar > .navbar-container,
+  footer.footer .nav-footer {
+    max-width: 1299px;
+    margin-inline: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
