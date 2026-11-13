@@ -173,3 +173,44 @@ mjx-container[jax="CHTML"][display="true"] {
   overflow-y: hidden;
   max-width: 100%;
 }
+
+/* ---------------------------------------------------------------
+   NARROW SCREENS — let the one wide element scroll or wrap, not the
+   whole page.
+
+   Measured on the live sites at a 375 px viewport (2026-11-12): 97 of
+   the 269 pages across the nine older course sites scrolled sideways,
+   because a wide table, a long run of inline code, or a bare URL set
+   the width of the whole document. Each rule below confines that one
+   element. None of them hides overflow at the document level.
+
+   Scoped below the 992 px layout breakpoint on purpose. The newer
+   sites in the family apply their table rule at every width; measured
+   here at 1280 px, that would narrow 72 of these sites' 317 tables to
+   their content in order to contain one. Above the breakpoint nothing
+   in this block applies, so the desktop page is unchanged.
+   --------------------------------------------------------------- */
+@media (max-width: 991.98px) {
+  /* A wide TABLE scrolls inside its own box. */
+  main table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Long INLINE CODE wraps. In a paragraph the theme already gives it
+     `white-space: pre-wrap`; in a list item it computes to `pre`, which
+     never wraps, so a file path or a log line ran off the page.
+     `pre-wrap` keeps its spaces and lets it break at them, and
+     `break-word` breaks inside a token only when one token is still
+     longer than the line. Code blocks (`pre > code`) are untouched. */
+  main :not(pre) > code {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+  }
+
+  /* A long link text, usually a bare URL, may break inside a word. */
+  main a {
+    overflow-wrap: break-word;
+  }
+}
