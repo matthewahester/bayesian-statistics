@@ -37,7 +37,10 @@ website:
   navbar:
     pinned: true
     background: dark            # black top bar — the family signature
-    logo: assets/icon.png
+    # The 128 px copy of the course mark, written by tools/make_navbar_logo.py
+    # in the hub repo. The 1254 px master beside it is the source, not a web
+    # asset: named here, it sent 2.0 MB with every first page view.
+    logo: assets/icon-128.png
     logo-alt: "Bayesian Statistics — a teal crystal-cluster course mark"
     left:
       - href: index.qmd
