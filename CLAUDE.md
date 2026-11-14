@@ -67,10 +67,19 @@ left behind.
   a web asset: the navbar `logo` is its 128 px copy,
   `assets/icon-128.png`, written by `tools/make_navbar_logo.py` in the
   hub repo.
+- `_quarto.yml` names `assets/icon-128.png` twice: as the navbar `logo` and
+  as the `favicon`.
 - Every committed image needs alt text.
 
 ## Design intent
 
+- The family look is sharp and simple (Matt, 2026-11-13): a white page,
+  square corners, one iron accent, callouts in grey with an iron edge kept
+  for important, warning and caution, and underlined links in running
+  text. It is one block at the end of `styles.css`, headed SHARP AND
+  SIMPLE, and the same block sits in every course site that carries its
+  own stylesheet. Change it in all of them or in none. The hub's
+  `BRAND_STYLE_BRIEF.md` has the rules.
 - Match the matthewhester.com course family: cosmo theme + `styles.css`,
   dark navbar, floating sidebar, right-side TOC. Do not introduce new
   accent colors or a JS/SCSS pipeline.
